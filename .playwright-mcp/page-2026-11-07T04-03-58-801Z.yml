@@ -1,0 +1,988 @@
+- generic [ref=f17e2]:
+  - navigation "Main menu":
+    - link "Skip to main content" [ref=f17e3] [cursor=pointer]:
+      - /url: "#wpbody-content"
+    - link "Skip to toolbar" [ref=f17e4] [cursor=pointer]:
+      - /url: "#wp-toolbar"
+    - list [ref=f17e7]:
+      - listitem [ref=f17e8]:
+        - link "Hostinger" [ref=f17e9] [cursor=pointer]:
+          - /url: admin.php?page=hostinger
+        - list [ref=f17e12]:
+          - listitem [ref=f17e13]:
+            - link "Hub" [ref=f17e14] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-get-onboarding
+          - listitem [ref=f17e15]:
+            - link "Tools" [ref=f17e16] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-tools
+          - listitem [ref=f17e17]:
+            - link "Reach" [ref=f17e18] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-reach
+          - listitem [ref=f17e19]:
+            - link "AI Content Creator" [ref=f17e20] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-ai-assistant
+      - listitem [ref=f17e21]:
+        - link "Dashboard" [ref=f17e22] [cursor=pointer]:
+          - /url: index.php
+          - generic [aria-hidden] [ref=f17e23]: 
+        - list [ref=f17e25]:
+          - listitem [ref=f17e26]:
+            - link "Home" [ref=f17e27] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f17e28]:
+            - link "Updates 9" [ref=f17e29] [cursor=pointer]:
+              - /url: update-core.php
+              - text: Updates
+              - generic [ref=f17e30]: "9"
+      - listitem [ref=f17e31]:
+        - link "Site Kit" [ref=f17e32] [cursor=pointer]:
+          - /url: admin.php?page=googlesitekit-splash
+        - list [ref=f17e35]:
+          - listitem [ref=f17e36]:
+            - link "Dashboard" [ref=f17e37] [cursor=pointer]:
+              - /url: admin.php?page=googlesitekit-splash
+      - listitem [ref=f17e38]:
+        - link "Elementor" [ref=f17e39] [cursor=pointer]:
+          - /url: admin.php?page=elementor-home
+        - list [ref=f17e42]:
+          - listitem [ref=f17e43]:
+            - link "Home" [ref=f17e44] [cursor=pointer]:
+              - /url: admin.php?page=elementor-home
+          - listitem [ref=f17e45]:
+            - link "Editor" [ref=f17e46] [cursor=pointer]:
+              - /url: admin.php?page=elementor
+          - listitem [ref=f17e47]:
+            - link "Theme Builder" [ref=f17e48] [cursor=pointer]:
+              - /url: https://boloupgo.live/wp-admin/admin.php?page=elementor-app&ver=4.3.6&return_to=%2Fwp-admin%2Fupload.php%3Fmode%3Dlist#/site-editor
+          - listitem [ref=f17e49]:
+            - link "Submissions" [ref=f17e50] [cursor=pointer]:
+              - /url: admin.php?page=e-form-submissions
+          - listitem [ref=f17e51]:
+            - link "Elementor MCP" [ref=f17e52] [cursor=pointer]:
+              - /url: admin.php?page=elementor-mcp
+          - listitem [ref=f17e53]:
+            - link "License" [ref=f17e54] [cursor=pointer]:
+              - /url: admin.php?page=elementor-license
+      - listitem [aria-hidden] [ref=f17e55]
+      - listitem [ref=f17e57]:
+        - link "Posts" [ref=f17e58] [cursor=pointer]:
+          - /url: edit.php
+          - generic [aria-hidden] [ref=f17e59]: 
+        - list [ref=f17e61]:
+          - listitem [ref=f17e62]:
+            - link "All Posts" [ref=f17e63] [cursor=pointer]:
+              - /url: edit.php
+          - listitem [ref=f17e64]:
+            - link "Add Post" [ref=f17e65] [cursor=pointer]:
+              - /url: post-new.php
+          - listitem [ref=f17e66]:
+            - link "Categories" [ref=f17e67] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=category
+          - listitem [ref=f17e68]:
+            - link "Tags" [ref=f17e69] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=post_tag
+      - listitem [ref=f17e70]:
+        - link "Media" [ref=f17e71] [cursor=pointer]:
+          - /url: upload.php
+          - generic [aria-hidden] [ref=f17e72]: 
+        - list [ref=f17e74]:
+          - listitem [ref=f17e75]:
+            - link "Library" [ref=f17e76] [cursor=pointer]:
+              - /url: upload.php
+          - listitem [ref=f17e77]:
+            - link "Add Media File" [ref=f17e78] [cursor=pointer]:
+              - /url: media-new.php
+      - listitem [ref=f17e79]:
+        - link "Pages" [ref=f17e80] [cursor=pointer]:
+          - /url: edit.php?post_type=page
+          - generic [aria-hidden] [ref=f17e81]: 
+        - list [ref=f17e83]:
+          - listitem [ref=f17e84]:
+            - link "All Pages" [ref=f17e85] [cursor=pointer]:
+              - /url: edit.php?post_type=page
+          - listitem [ref=f17e86]:
+            - link "Add Page" [ref=f17e87] [cursor=pointer]:
+              - /url: post-new.php?post_type=page
+      - listitem [ref=f17e88]:
+        - link "Comments" [ref=f17e89] [cursor=pointer]:
+          - /url: edit-comments.php
+          - generic [aria-hidden] [ref=f17e90]: 
+      - text:  
+      - listitem [aria-hidden] [ref=f17e92]
+      - listitem [ref=f17e94]:
+        - link "Hello" [ref=f17e95] [cursor=pointer]:
+          - /url: admin.php?page=hello-elementor
+          - generic [aria-hidden] [ref=f17e96]: 
+      - listitem [ref=f17e98]:
+        - link "Appearance" [ref=f17e99] [cursor=pointer]:
+          - /url: themes.php
+          - generic [aria-hidden] [ref=f17e100]: 
+        - list [ref=f17e102]:
+          - listitem [ref=f17e103]:
+            - link "Themes 1" [ref=f17e104] [cursor=pointer]:
+              - /url: themes.php
+              - text: Themes
+              - generic [ref=f17e105]: "1"
+          - listitem [ref=f17e106]:
+            - link "Design" [ref=f17e107] [cursor=pointer]:
+              - /url: site-editor.php
+          - listitem [ref=f17e108]:
+            - link "Customize" [ref=f17e109] [cursor=pointer]:
+              - /url: customize.php?return=%2Fwp-admin%2Fupload.php%3Fmode%3Dlist
+          - listitem [ref=f17e110]:
+            - link "Fonts" [ref=f17e111] [cursor=pointer]:
+              - /url: font-library.php
+          - listitem [ref=f17e112]:
+            - link "Menus" [ref=f17e113] [cursor=pointer]:
+              - /url: nav-menus.php
+          - listitem [ref=f17e114]:
+            - link "Theme File Editor" [ref=f17e115] [cursor=pointer]:
+              - /url: theme-editor.php
+      - listitem [ref=f17e116]:
+        - link "Plugins 7" [ref=f17e117] [cursor=pointer]:
+          - /url: plugins.php
+          - generic [aria-hidden] [ref=f17e118]: 
+          - generic [ref=f17e119]:
+            - text: Plugins
+            - generic [ref=f17e120]: "7"
+        - list [ref=f17e121]:
+          - listitem [ref=f17e122]:
+            - link "Installed Plugins" [ref=f17e123] [cursor=pointer]:
+              - /url: plugins.php
+          - listitem [ref=f17e124]:
+            - link "Add Plugin" [ref=f17e125] [cursor=pointer]:
+              - /url: plugin-install.php
+          - listitem [ref=f17e126]:
+            - link "Plugin File Editor" [ref=f17e127] [cursor=pointer]:
+              - /url: plugin-editor.php
+      - listitem [ref=f17e128]:
+        - link "Users" [ref=f17e129] [cursor=pointer]:
+          - /url: users.php
+          - generic [aria-hidden] [ref=f17e130]: 
+        - list [ref=f17e132]:
+          - listitem [ref=f17e133]:
+            - link "All Users" [ref=f17e134] [cursor=pointer]:
+              - /url: users.php
+          - listitem [ref=f17e135]:
+            - link "Add User" [ref=f17e136] [cursor=pointer]:
+              - /url: user-new.php
+          - listitem [ref=f17e137]:
+            - link "Profile" [ref=f17e138] [cursor=pointer]:
+              - /url: profile.php
+      - listitem [ref=f17e139]:
+        - link "Tools" [ref=f17e140] [cursor=pointer]:
+          - /url: tools.php
+          - generic [aria-hidden] [ref=f17e141]: 
+        - list [ref=f17e143]:
+          - listitem [ref=f17e144]:
+            - link "Available Tools" [ref=f17e145] [cursor=pointer]:
+              - /url: tools.php
+          - listitem [ref=f17e146]:
+            - link "Import" [ref=f17e147] [cursor=pointer]:
+              - /url: import.php
+          - listitem [ref=f17e148]:
+            - link "Export" [ref=f17e149] [cursor=pointer]:
+              - /url: export.php
+          - listitem [ref=f17e150]:
+            - link "Site Health" [ref=f17e151] [cursor=pointer]:
+              - /url: site-health.php
+          - listitem [ref=f17e152]:
+            - link "Export Personal Data" [ref=f17e153] [cursor=pointer]:
+              - /url: export-personal-data.php
+          - listitem [ref=f17e154]:
+            - link "Erase Personal Data" [ref=f17e155] [cursor=pointer]:
+              - /url: erase-personal-data.php
+          - listitem [ref=f17e156]:
+            - link "Scheduled Actions" [ref=f17e157] [cursor=pointer]:
+              - /url: tools.php?page=action-scheduler
+          - listitem [ref=f17e158]:
+            - link "Yoast Redirects" [ref=f17e159] [cursor=pointer]:
+              - /url: tools.php?page=wpseo_redirects_tools
+      - listitem [ref=f17e160]:
+        - link "Settings" [ref=f17e161] [cursor=pointer]:
+          - /url: options-general.php
+          - generic [aria-hidden] [ref=f17e162]: 
+        - list [ref=f17e164]:
+          - listitem [ref=f17e165]:
+            - link "General" [ref=f17e166] [cursor=pointer]:
+              - /url: options-general.php
+          - listitem [ref=f17e167]:
+            - link "Connectors" [ref=f17e168] [cursor=pointer]:
+              - /url: options-connectors.php
+          - listitem [ref=f17e169]:
+            - link "Writing" [ref=f17e170] [cursor=pointer]:
+              - /url: options-writing.php
+          - listitem [ref=f17e171]:
+            - link "Reading" [ref=f17e172] [cursor=pointer]:
+              - /url: options-reading.php
+          - listitem [ref=f17e173]:
+            - link "Discussion" [ref=f17e174] [cursor=pointer]:
+              - /url: options-discussion.php
+          - listitem [ref=f17e175]:
+            - link "Media" [ref=f17e176] [cursor=pointer]:
+              - /url: options-media.php
+          - listitem [ref=f17e177]:
+            - link "Permalinks" [ref=f17e178] [cursor=pointer]:
+              - /url: options-permalink.php
+          - listitem [ref=f17e179]:
+            - link "Privacy" [ref=f17e180] [cursor=pointer]:
+              - /url: options-privacy.php
+      - listitem [aria-hidden] [ref=f17e181]
+      - listitem [ref=f17e183]:
+        - link "Yoast SEO 1 notification" [ref=f17e184] [cursor=pointer]:
+          - /url: admin.php?page=wpseo_dashboard
+          - generic [ref=f17e186]:
+            - text: Yoast SEO
+            - generic [ref=f17e187]:
+              - text: "1"
+              - generic [ref=f17e188]: 1 notification
+        - list [ref=f17e189]:
+          - listitem [ref=f17e190]:
+            - link "General" [ref=f17e191] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_dashboard
+          - listitem [ref=f17e192]:
+            - link "Settings" [ref=f17e193] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_settings
+          - listitem [ref=f17e194]:
+            - link "Integrations" [ref=f17e195] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_integrations
+          - listitem [ref=f17e196]:
+            - link "Tools" [ref=f17e197] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_tools
+          - listitem [ref=f17e198]:
+            - link "Academy" [ref=f17e199] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_academy
+          - listitem [ref=f17e200]:
+            - link "Plans" [ref=f17e201] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_licenses
+          - listitem [ref=f17e202]:
+            - link "Workouts Premium" [ref=f17e203] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_workouts
+              - text: Workouts
+              - generic [ref=f17e204]: Premium
+          - listitem [ref=f17e205]:
+            - link "Redirects Premium" [ref=f17e206] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_redirects
+              - text: Redirects
+              - generic [ref=f17e207]: Premium
+          - listitem [ref=f17e208]:
+            - link "Support" [ref=f17e209] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_support
+          - listitem [ref=f17e210]:
+            - link "Upgrade" [ref=f17e211] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_upgrade_sidebar
+          - listitem [ref=f17e214]:
+            - link "AI Brand Insights" [ref=f17e215] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_brand_insights
+      - listitem [ref=f17e219]:
+        - link "AIOS" [ref=f17e220] [cursor=pointer]:
+          - /url: admin.php?page=aiowpsec
+        - list [ref=f17e223]:
+          - listitem [ref=f17e224]:
+            - link "Dashboard" [ref=f17e225] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec
+          - listitem [ref=f17e226]:
+            - link "Settings" [ref=f17e227] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_settings
+          - listitem [ref=f17e228]:
+            - link "User Security" [ref=f17e229] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_usersec
+          - listitem [ref=f17e230]:
+            - link "Database Security" [ref=f17e231] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_database
+          - listitem [ref=f17e232]:
+            - link "File Security" [ref=f17e233] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_filesystem
+          - listitem [ref=f17e234]:
+            - link "Firewall" [ref=f17e235] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_firewall
+          - listitem [ref=f17e236]:
+            - link "Brute Force" [ref=f17e237] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_brute_force
+          - listitem [ref=f17e238]:
+            - link "Spam Prevention" [ref=f17e239] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_spam
+          - listitem [ref=f17e240]:
+            - link "Scanner" [ref=f17e241] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_filescan
+          - listitem [ref=f17e242]:
+            - link "Tools" [ref=f17e243] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_tools
+          - listitem [ref=f17e244]:
+            - link "Two Factor Auth" [ref=f17e245] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_two_factor_auth_user
+          - listitem [ref=f17e246]:
+            - link "Premium Upgrade" [ref=f17e247] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec&tab=premium-upgrade
+      - listitem [ref=f17e248]:
+        - link "LiteSpeed Cache" [ref=f17e249] [cursor=pointer]:
+          - /url: admin.php?page=litespeed
+          - generic [aria-hidden] [ref=f17e250]: 
+        - list [ref=f17e252]:
+          - listitem [ref=f17e253]:
+            - link "Dashboard" [ref=f17e254] [cursor=pointer]:
+              - /url: admin.php?page=litespeed
+          - listitem [ref=f17e255]:
+            - link "Presets" [ref=f17e256] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-presets
+          - listitem [ref=f17e257]:
+            - link "General" [ref=f17e258] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-general
+          - listitem [ref=f17e259]:
+            - link "Cache" [ref=f17e260] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-cache
+          - listitem [ref=f17e261]:
+            - link "CDN" [ref=f17e262] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-cdn
+          - listitem [ref=f17e263]:
+            - link "Image Optimization" [ref=f17e264] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-img_optm
+          - listitem [ref=f17e265]:
+            - link "Page Optimization" [ref=f17e266] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-page_optm
+          - listitem [ref=f17e267]:
+            - link "Database" [ref=f17e268] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-db_optm
+          - listitem [ref=f17e269]:
+            - link "Crawler" [ref=f17e270] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-crawler
+          - listitem [ref=f17e271]:
+            - link "Toolbox" [ref=f17e272] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-toolbox
+      - listitem [ref=f17e273]:
+        - link "Chaty" [ref=f17e274] [cursor=pointer]:
+          - /url: admin.php?page=chaty-app
+        - list [ref=f17e277]:
+          - listitem [ref=f17e278]:
+            - link "+ Create New Widget" [ref=f17e279] [cursor=pointer]:
+              - /url: admin.php?page=chaty-app&widget=0&step=0
+          - listitem [ref=f17e280]:
+            - link "Chatway Live Chat" [ref=f17e281] [cursor=pointer]:
+              - /url: admin.php?page=chaty-live-chat
+          - listitem [ref=f17e282]:
+            - link "Widget Analytics" [ref=f17e283] [cursor=pointer]:
+              - /url: admin.php?page=widget-analytics
+          - listitem [ref=f17e284]:
+            - link "Recommended Plugins" [ref=f17e285] [cursor=pointer]:
+              - /url: admin.php?page=recommended-chaty-plugins
+          - listitem [ref=f17e286]:
+            - link "Upgrade to Pro" [ref=f17e287] [cursor=pointer]:
+              - /url: admin.php?page=chaty-app-upgrade
+      - listitem [ref=f17e291]:
+        - button "Collapse Main menu" [expanded] [ref=f17e292] [cursor=pointer]:
+          - generic [ref=f17e294]: Collapse Menu
+  - generic [ref=f17e295]:
+    - generic [ref=f17e296]:
+      - navigation "Toolbar":
+        - menu:
+          - group [ref=f17e297]:
+            - menuitem "About WordPress" [ref=f17e298] [cursor=pointer]
+          - group [ref=f17e301]:
+            - menuitem "Boloup Go" [ref=f17e302] [cursor=pointer]
+          - group [ref=f17e303]:
+            - menuitem "9 updates available" [ref=f17e304] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f17e306]: "9"
+          - group [ref=f17e308]:
+            - menuitem "Ctrl+K Open command palette" [ref=f17e309] [cursor=pointer]:
+              - generic [ref=f17e311]:
+                - text: Ctrl+K
+                - generic [ref=f17e312]: Open command palette
+          - group [ref=f17e313]:
+            - menuitem "0 Comments in moderation" [ref=f17e314] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f17e316]: "0"
+          - group [ref=f17e318]:
+            - menuitem "New" [ref=f17e319] [cursor=pointer]
+          - group [ref=f17e322]:
+            - menuitem "" [ref=f17e323] [cursor=pointer]:
+              - generic "LiteSpeed Cache Purge All - LSCache" [ref=f17e324]: 
+          - group [ref=f17e325]:
+            - menuitem "SEO 1 notification" [ref=f17e326] [cursor=pointer]:
+              - generic [ref=f17e327]: SEO
+              - generic [ref=f17e329]:
+                - text: "1"
+                - generic [ref=f17e330]: 1 notification
+            - text: Premium Premium
+          - group [ref=f17e331]:
+            - menuitem "Hostinger" [ref=f17e332]
+          - group [ref=f17e335]:
+            - menuitem "Edit Home Page" [ref=f17e336] [cursor=pointer]
+        - menu [ref=f17e337]:
+          - group [ref=f17e338]:
+            - menuitem "Howdy, webdev" [ref=f17e339] [cursor=pointer]
+    - main [ref=f17e340]:
+      - generic [ref=f17e341]:
+        - generic [ref=f17e342]:
+          - button "Screen Options" [ref=f17e344] [cursor=pointer]
+          - button "Help" [ref=f17e346] [cursor=pointer]
+        - generic [ref=f17e347]:
+          - heading "Media Library" [level=1] [ref=f17e348]
+          - link "Add Media File" [ref=f17e349] [cursor=pointer]:
+            - /url: https://boloupgo.live/wp-admin/media-new.php
+          - generic [ref=f17e352] [cursor=pointer]:
+            - generic [ref=f17e353]: 
+            - text: Generate with Elementor AI
+          - generic [ref=f17e354]:
+            - generic [ref=f17e355]:
+              - heading [level=2] [ref=f17e356]:
+                - text: Your feedback matters, please leave a review
+                - img "🙏" [ref=f17e357]
+              - button "" [ref=f17e358] [cursor=pointer]
+              - paragraph [ref=f17e360]: Hi there, it seems like Chaty is bringing you some value, and that's pretty awesome! Can you please show us some love and rate Chaty on WordPress? It'll only take 2 minutes of your time, and will really help us spread the word
+              - generic [ref=f17e361]: Gal Dubinski, Co-founder
+              - generic [ref=f17e364]:
+                - generic [ref=f17e365]: "Please rate us:"
+                - generic [ref=f17e366]:
+                  - generic [ref=f17e367] [cursor=pointer]
+                  - generic [ref=f17e372] [cursor=pointer]
+                  - generic [ref=f17e377] [cursor=pointer]
+                  - generic [ref=f17e382] [cursor=pointer]
+                  - generic [ref=f17e387] [cursor=pointer]
+            - text:   
+          - region "Elementor notice" [ref=f17e392]:
+            - button "Dismiss this notice." [ref=f17e393] [cursor=pointer]: 
+            - generic [aria-hidden] [ref=f17e396]: 
+            - generic [ref=f17e397]:
+              - heading "Speed up your website with Image Optimization" [level=3] [ref=f17e398]
+              - paragraph [ref=f17e399]: Automatically compress and optimize images, resize larger files, or convert to WebP. Optimize images individually, in bulk, or on upload.
+              - link "Install now" [ref=f17e401] [cursor=pointer]:
+                - /url: https://boloupgo.live/wp-admin/update.php?action=install-plugin&plugin=image-optimization&_wpnonce=4050a0e18c&plg_campaign_name=elementor_image_optimization_campaign&plg_campaign=io-plg&plg_source=io-wp-media-library-install&plg_medium=wp-dash&plg_campaign_nonce=6547fa5fb0
+          - generic [ref=f17e402]:
+            - heading "Filter media items list" [level=2] [ref=f17e403]
+            - generic [ref=f17e404]:
+              - generic [ref=f17e405]:
+                - generic [ref=f17e406]:
+                  - link "List view" [ref=f17e407] [cursor=pointer]:
+                    - /url: /wp-admin/upload.php?mode=list
+                  - link "Grid view" [ref=f17e409] [cursor=pointer]:
+                    - /url: /wp-admin/upload.php?mode=grid
+                - generic [ref=f17e411]: Filter by type
+                - combobox "Filter by type" [ref=f17e412] [cursor=pointer]:
+                  - option "All media items" [selected]
+                  - option "Images"
+                  - option "Unattached"
+                  - option "Mine"
+                - generic [ref=f17e413]:
+                  - generic [ref=f17e414]: Filter by date
+                  - combobox "Filter by date" [ref=f17e415] [cursor=pointer]:
+                    - option "All dates" [selected]
+                    - option "November 2026"
+                  - button "Filter" [ref=f17e416] [cursor=pointer]
+              - paragraph [ref=f17e418]:
+                - generic [ref=f17e419]: Search Media
+                - searchbox "Search Media" [ref=f17e420]
+                - button "Search Media" [ref=f17e421] [cursor=pointer]
+            - generic [ref=f17e422]:
+              - generic [ref=f17e423]:
+                - generic [ref=f17e424]: Select bulk action
+                - combobox "Select bulk action" [ref=f17e425] [cursor=pointer]:
+                  - option "Bulk actions" [selected]
+                  - option "Delete permanently"
+                - button "Apply" [ref=f17e426] [cursor=pointer]
+              - generic [ref=f17e427]: 11 items
+            - heading "Media items list" [level=2] [ref=f17e429]
+            - table [ref=f17e430]:
+              - caption [ref=f17e431]: Table ordered by Date. Descending.
+              - rowgroup [ref=f17e432]:
+                - row [ref=f17e433]:
+                  - cell "Select All" [ref=f17e434]:
+                    - checkbox "Select All" [ref=f17e435] [cursor=pointer]
+                  - columnheader [ref=f17e438]:
+                    - link "File Sort ascending." [ref=f17e439] [cursor=pointer]:
+                      - /url: https://boloupgo.live/wp-admin/upload.php?mode=list&orderby=title&order=asc
+                      - generic [ref=f17e440]: File
+                      - generic [ref=f17e444]: Sort ascending.
+                  - columnheader [ref=f17e445]:
+                    - link "Author Sort ascending." [ref=f17e446] [cursor=pointer]:
+                      - /url: https://boloupgo.live/wp-admin/upload.php?mode=list&orderby=author&order=asc
+                      - generic [ref=f17e447]: Author
+                      - generic [ref=f17e451]: Sort ascending.
+                  - columnheader [ref=f17e452]:
+                    - link "Uploaded to Sort ascending." [ref=f17e453] [cursor=pointer]:
+                      - /url: https://boloupgo.live/wp-admin/upload.php?mode=list&orderby=parent&order=asc
+                      - generic [ref=f17e454]: Uploaded to
+                      - generic [ref=f17e458]: Sort ascending.
+                  - columnheader [ref=f17e459]:
+                    - link "Date" [ref=f17e460] [cursor=pointer]:
+                      - /url: https://boloupgo.live/wp-admin/upload.php?mode=list&orderby=date&order=asc
+                  - columnheader "LiteSpeed Optimization" [ref=f17e465]
+              - rowgroup [ref=f17e466]:
+                - row [ref=f17e467]:
+                  - cell "Select boloup-favicon" [ref=f17e468]:
+                    - checkbox "Select boloup-favicon" [ref=f17e469] [cursor=pointer]
+                  - rowheader "boloup-favicon" [ref=f17e472]:
+                    - strong [ref=f17e473]:
+                      - link "boloup-favicon" [ref=f17e474] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/post.php?post=65&action=edit
+                      - text: — Site Icon
+                    - paragraph [ref=f17e476]:
+                      - generic [ref=f17e477]: "File name:"
+                      - text: boloup-favicon.png
+                    - generic [ref=f17e478]:
+                      - generic [ref=f17e479]:
+                        - link "Edit “boloup-favicon”" [ref=f17e480] [cursor=pointer]:
+                          - /url: https://boloupgo.live/wp-admin/post.php?post=65&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f17e481]:
+                        - button "Delete “boloup-favicon” permanently" [ref=f17e482] [cursor=pointer]: Delete Permanently
+                        - text: "|"
+                      - generic [ref=f17e483]:
+                        - link "View “boloup-favicon”" [ref=f17e484] [cursor=pointer]:
+                          - /url: https://boloupgo.live/boloup-favicon/
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f17e485]:
+                        - button "Copy “boloup-favicon” URL to clipboard" [ref=f17e487] [cursor=pointer]: Copy URL
+                        - text: "|"
+                      - link "Download “boloup-favicon”" [ref=f17e489] [cursor=pointer]:
+                        - /url: http://boloupgo.live/wp-content/uploads/2026/11/boloup-favicon.png
+                        - text: Download file
+                  - cell [ref=f17e490]:
+                    - link "webdev" [ref=f17e491] [cursor=pointer]:
+                      - /url: upload.php?author=2
+                  - cell [ref=f17e492]:
+                    - text: (Unattached)
+                    - button "Attach “boloup-favicon” to existing content" [ref=f17e493] [cursor=pointer]: Attach
+                  - cell "2026/11/06" [ref=f17e494]
+                  - cell [ref=f17e495]:
+                    - paragraph [ref=f17e496]: Orig—
+                    - paragraph [ref=f17e497]: WebP—
+                - row [ref=f17e498]:
+                  - cell "Select boloupgo-hero" [ref=f17e499]:
+                    - checkbox "Select boloupgo-hero" [ref=f17e500] [cursor=pointer]
+                  - rowheader "boloupgo-hero" [ref=f17e503]:
+                    - strong [ref=f17e504]:
+                      - link "boloupgo-hero" [ref=f17e505] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/post.php?post=34&action=edit
+                    - paragraph [ref=f17e507]:
+                      - generic [ref=f17e508]: "File name:"
+                      - text: boloupgo-hero.png
+                    - generic [ref=f17e509]:
+                      - generic [ref=f17e510]:
+                        - link "Edit “boloupgo-hero”" [ref=f17e511] [cursor=pointer]:
+                          - /url: https://boloupgo.live/wp-admin/post.php?post=34&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f17e512]:
+                        - button "Delete “boloupgo-hero” permanently" [ref=f17e513] [cursor=pointer]: Delete Permanently
+                        - text: "|"
+                      - generic [ref=f17e514]:
+                        - link "View “boloupgo-hero”" [ref=f17e515] [cursor=pointer]:
+                          - /url: https://boloupgo.live/boloupgo-hero/
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f17e516]:
+                        - button "Copy “boloupgo-hero” URL to clipboard" [ref=f17e518] [cursor=pointer]: Copy URL
+                        - text: "|"
+                      - link "Download “boloupgo-hero”" [ref=f17e520] [cursor=pointer]:
+                        - /url: http://boloupgo.live/wp-content/uploads/2026/11/boloupgo-hero.png
+                        - text: Download file
+                  - cell [ref=f17e521]:
+                    - link "webdev" [ref=f17e522] [cursor=pointer]:
+                      - /url: upload.php?author=2
+                  - cell [ref=f17e523]:
+                    - text: (Unattached)
+                    - button "Attach “boloupgo-hero” to existing content" [ref=f17e524] [cursor=pointer]: Attach
+                  - cell "2026/11/04" [ref=f17e525]
+                  - cell [ref=f17e526]:
+                    - paragraph [ref=f17e527]: Orig—
+                    - paragraph [ref=f17e528]: WebP—
+                - row [ref=f17e529]:
+                  - cell "Select boloupgo" [ref=f17e530]:
+                    - checkbox "Select boloupgo" [ref=f17e531] [cursor=pointer]
+                  - rowheader "boloupgo" [ref=f17e534]:
+                    - strong [ref=f17e535]:
+                      - link "boloupgo" [ref=f17e536] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/post.php?post=33&action=edit
+                    - paragraph [ref=f17e538]:
+                      - generic [ref=f17e539]: "File name:"
+                      - text: boloupgo.png
+                    - generic [ref=f17e540]:
+                      - generic [ref=f17e541]:
+                        - link "Edit “boloupgo”" [ref=f17e542] [cursor=pointer]:
+                          - /url: https://boloupgo.live/wp-admin/post.php?post=33&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f17e543]:
+                        - button "Delete “boloupgo” permanently" [ref=f17e544] [cursor=pointer]: Delete Permanently
+                        - text: "|"
+                      - generic [ref=f17e545]:
+                        - link "View “boloupgo”" [ref=f17e546] [cursor=pointer]:
+                          - /url: https://boloupgo.live/boloupgo/
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f17e547]:
+                        - button "Copy “boloupgo” URL to clipboard" [ref=f17e549] [cursor=pointer]: Copy URL
+                        - text: "|"
+                      - link "Download “boloupgo”" [ref=f17e551] [cursor=pointer]:
+                        - /url: http://boloupgo.live/wp-content/uploads/2026/11/boloupgo.png
+                        - text: Download file
+                  - cell [ref=f17e552]:
+                    - link "webdev" [ref=f17e553] [cursor=pointer]:
+                      - /url: upload.php?author=2
+                  - cell [ref=f17e554]:
+                    - text: (Unattached)
+                    - button "Attach “boloupgo” to existing content" [ref=f17e555] [cursor=pointer]: Attach
+                  - cell "2026/11/04" [ref=f17e556]
+                  - cell [ref=f17e557]:
+                    - paragraph [ref=f17e558]: Orig—
+                    - paragraph [ref=f17e559]: WebP—
+                - row [ref=f17e560]:
+                  - cell "Select BoloUp-Host-Registration-Guide-Step-4" [ref=f17e561]:
+                    - checkbox "Select BoloUp-Host-Registration-Guide-Step-4" [ref=f17e562] [cursor=pointer]
+                  - rowheader "BoloUp-Host-Registration-Guide-Step-4" [ref=f17e565]:
+                    - strong [ref=f17e566]:
+                      - link "BoloUp-Host-Registration-Guide-Step-4" [ref=f17e567] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/post.php?post=23&action=edit
+                    - paragraph [ref=f17e569]:
+                      - generic [ref=f17e570]: "File name:"
+                      - text: BoloUp-Host-Registration-Guide-Step-4.jpg
+                    - generic [ref=f17e571]:
+                      - generic [ref=f17e572]:
+                        - link "Edit “BoloUp-Host-Registration-Guide-Step-4”" [ref=f17e573] [cursor=pointer]:
+                          - /url: https://boloupgo.live/wp-admin/post.php?post=23&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f17e574]:
+                        - button "Delete “BoloUp-Host-Registration-Guide-Step-4” permanently" [ref=f17e575] [cursor=pointer]: Delete Permanently
+                        - text: "|"
+                      - generic [ref=f17e576]:
+                        - link "View “BoloUp-Host-Registration-Guide-Step-4”" [ref=f17e577] [cursor=pointer]:
+                          - /url: https://boloupgo.live/boloup-host-registration-guide-step-4/
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f17e578]:
+                        - button "Copy “BoloUp-Host-Registration-Guide-Step-4” URL to clipboard" [ref=f17e580] [cursor=pointer]: Copy URL
+                        - text: "|"
+                      - link "Download “BoloUp-Host-Registration-Guide-Step-4”" [ref=f17e582] [cursor=pointer]:
+                        - /url: http://boloupgo.live/wp-content/uploads/2026/11/BoloUp-Host-Registration-Guide-Step-4.jpg
+                        - text: Download file
+                  - cell [ref=f17e583]:
+                    - link "webdev" [ref=f17e584] [cursor=pointer]:
+                      - /url: upload.php?author=2
+                  - cell [ref=f17e585]:
+                    - text: (Unattached)
+                    - button "Attach “BoloUp-Host-Registration-Guide-Step-4” to existing content" [ref=f17e586] [cursor=pointer]: Attach
+                  - cell "2026/11/03" [ref=f17e587]
+                  - cell [ref=f17e588]:
+                    - paragraph [ref=f17e589]: Orig—
+                    - paragraph [ref=f17e590]: WebP—
+                - row [ref=f17e591]:
+                  - cell "Select boloup-host-role" [ref=f17e592]:
+                    - checkbox "Select boloup-host-role" [ref=f17e593] [cursor=pointer]
+                  - rowheader "boloup-host-role" [ref=f17e596]:
+                    - strong [ref=f17e597]:
+                      - link "boloup-host-role" [ref=f17e598] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/post.php?post=24&action=edit
+                    - paragraph [ref=f17e600]:
+                      - generic [ref=f17e601]: "File name:"
+                      - text: boloup-host-role.png
+                    - generic [ref=f17e602]:
+                      - generic [ref=f17e603]:
+                        - link "Edit “boloup-host-role”" [ref=f17e604] [cursor=pointer]:
+                          - /url: https://boloupgo.live/wp-admin/post.php?post=24&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f17e605]:
+                        - button "Delete “boloup-host-role” permanently" [ref=f17e606] [cursor=pointer]: Delete Permanently
+                        - text: "|"
+                      - generic [ref=f17e607]:
+                        - link "View “boloup-host-role”" [ref=f17e608] [cursor=pointer]:
+                          - /url: https://boloupgo.live/boloup-host-role/
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f17e609]:
+                        - button "Copy “boloup-host-role” URL to clipboard" [ref=f17e611] [cursor=pointer]: Copy URL
+                        - text: "|"
+                      - link "Download “boloup-host-role”" [ref=f17e613] [cursor=pointer]:
+                        - /url: http://boloupgo.live/wp-content/uploads/2026/11/boloup-host-role.png
+                        - text: Download file
+                  - cell [ref=f17e614]:
+                    - link "webdev" [ref=f17e615] [cursor=pointer]:
+                      - /url: upload.php?author=2
+                  - cell [ref=f17e616]:
+                    - text: (Unattached)
+                    - button "Attach “boloup-host-role” to existing content" [ref=f17e617] [cursor=pointer]: Attach
+                  - cell "2026/11/03" [ref=f17e618]
+                  - cell [ref=f17e619]:
+                    - paragraph [ref=f17e620]: Orig—
+                    - paragraph [ref=f17e621]: WebP—
+                - row [ref=f17e622]:
+                  - cell "Select BoloUp-Host-Registration-Guide-Step-1" [ref=f17e623]:
+                    - checkbox "Select BoloUp-Host-Registration-Guide-Step-1" [ref=f17e624] [cursor=pointer]
+                  - rowheader "BoloUp-Host-Registration-Guide-Step-1" [ref=f17e627]:
+                    - strong [ref=f17e628]:
+                      - link "BoloUp-Host-Registration-Guide-Step-1" [ref=f17e629] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/post.php?post=20&action=edit
+                    - paragraph [ref=f17e631]:
+                      - generic [ref=f17e632]: "File name:"
+                      - text: BoloUp-Host-Registration-Guide-Step-1.jpg
+                    - generic [ref=f17e633]:
+                      - generic [ref=f17e634]:
+                        - link "Edit “BoloUp-Host-Registration-Guide-Step-1”" [ref=f17e635] [cursor=pointer]:
+                          - /url: https://boloupgo.live/wp-admin/post.php?post=20&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f17e636]:
+                        - button "Delete “BoloUp-Host-Registration-Guide-Step-1” permanently" [ref=f17e637] [cursor=pointer]: Delete Permanently
+                        - text: "|"
+                      - generic [ref=f17e638]:
+                        - link "View “BoloUp-Host-Registration-Guide-Step-1”" [ref=f17e639] [cursor=pointer]:
+                          - /url: https://boloupgo.live/boloup-host-registration-guide-step-1/
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f17e640]:
+                        - button "Copy “BoloUp-Host-Registration-Guide-Step-1” URL to clipboard" [ref=f17e642] [cursor=pointer]: Copy URL
+                        - text: "|"
+                      - link "Download “BoloUp-Host-Registration-Guide-Step-1”" [ref=f17e644] [cursor=pointer]:
+                        - /url: http://boloupgo.live/wp-content/uploads/2026/11/BoloUp-Host-Registration-Guide-Step-1.jpg
+                        - text: Download file
+                  - cell [ref=f17e645]:
+                    - link "webdev" [ref=f17e646] [cursor=pointer]:
+                      - /url: upload.php?author=2
+                  - cell [ref=f17e647]:
+                    - text: (Unattached)
+                    - button "Attach “BoloUp-Host-Registration-Guide-Step-1” to existing content" [ref=f17e648] [cursor=pointer]: Attach
+                  - cell "2026/11/03" [ref=f17e649]
+                  - cell [ref=f17e650]:
+                    - paragraph [ref=f17e651]: Orig—
+                    - paragraph [ref=f17e652]: WebP—
+                - row [ref=f17e653]:
+                  - cell "Select BoloUp-Host-Registration-Guide-Step-2" [ref=f17e654]:
+                    - checkbox "Select BoloUp-Host-Registration-Guide-Step-2" [ref=f17e655] [cursor=pointer]
+                  - rowheader "BoloUp-Host-Registration-Guide-Step-2" [ref=f17e658]:
+                    - strong [ref=f17e659]:
+                      - link "BoloUp-Host-Registration-Guide-Step-2" [ref=f17e660] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/post.php?post=21&action=edit
+                    - paragraph [ref=f17e662]:
+                      - generic [ref=f17e663]: "File name:"
+                      - text: BoloUp-Host-Registration-Guide-Step-2.jpg
+                    - generic [ref=f17e664]:
+                      - generic [ref=f17e665]:
+                        - link "Edit “BoloUp-Host-Registration-Guide-Step-2”" [ref=f17e666] [cursor=pointer]:
+                          - /url: https://boloupgo.live/wp-admin/post.php?post=21&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f17e667]:
+                        - button "Delete “BoloUp-Host-Registration-Guide-Step-2” permanently" [ref=f17e668] [cursor=pointer]: Delete Permanently
+                        - text: "|"
+                      - generic [ref=f17e669]:
+                        - link "View “BoloUp-Host-Registration-Guide-Step-2”" [ref=f17e670] [cursor=pointer]:
+                          - /url: https://boloupgo.live/boloup-host-registration-guide-step-2/
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f17e671]:
+                        - button "Copy “BoloUp-Host-Registration-Guide-Step-2” URL to clipboard" [ref=f17e673] [cursor=pointer]: Copy URL
+                        - text: "|"
+                      - link "Download “BoloUp-Host-Registration-Guide-Step-2”" [ref=f17e675] [cursor=pointer]:
+                        - /url: http://boloupgo.live/wp-content/uploads/2026/11/BoloUp-Host-Registration-Guide-Step-2.jpg
+                        - text: Download file
+                  - cell [ref=f17e676]:
+                    - link "webdev" [ref=f17e677] [cursor=pointer]:
+                      - /url: upload.php?author=2
+                  - cell [ref=f17e678]:
+                    - text: (Unattached)
+                    - button "Attach “BoloUp-Host-Registration-Guide-Step-2” to existing content" [ref=f17e679] [cursor=pointer]: Attach
+                  - cell "2026/11/03" [ref=f17e680]
+                  - cell [ref=f17e681]:
+                    - paragraph [ref=f17e682]: Orig—
+                    - paragraph [ref=f17e683]: WebP—
+                - row [ref=f17e684]:
+                  - cell "Select BoloUp-Host-Registration-Guide-Step-3" [ref=f17e685]:
+                    - checkbox "Select BoloUp-Host-Registration-Guide-Step-3" [ref=f17e686] [cursor=pointer]
+                  - rowheader "BoloUp-Host-Registration-Guide-Step-3" [ref=f17e689]:
+                    - strong [ref=f17e690]:
+                      - link "BoloUp-Host-Registration-Guide-Step-3" [ref=f17e691] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/post.php?post=22&action=edit
+                    - paragraph [ref=f17e693]:
+                      - generic [ref=f17e694]: "File name:"
+                      - text: BoloUp-Host-Registration-Guide-Step-3.jpg
+                    - generic [ref=f17e695]:
+                      - generic [ref=f17e696]:
+                        - link "Edit “BoloUp-Host-Registration-Guide-Step-3”" [ref=f17e697] [cursor=pointer]:
+                          - /url: https://boloupgo.live/wp-admin/post.php?post=22&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f17e698]:
+                        - button "Delete “BoloUp-Host-Registration-Guide-Step-3” permanently" [ref=f17e699] [cursor=pointer]: Delete Permanently
+                        - text: "|"
+                      - generic [ref=f17e700]:
+                        - link "View “BoloUp-Host-Registration-Guide-Step-3”" [ref=f17e701] [cursor=pointer]:
+                          - /url: https://boloupgo.live/boloup-host-registration-guide-step-3/
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f17e702]:
+                        - button "Copy “BoloUp-Host-Registration-Guide-Step-3” URL to clipboard" [ref=f17e704] [cursor=pointer]: Copy URL
+                        - text: "|"
+                      - link "Download “BoloUp-Host-Registration-Guide-Step-3”" [ref=f17e706] [cursor=pointer]:
+                        - /url: http://boloupgo.live/wp-content/uploads/2026/11/BoloUp-Host-Registration-Guide-Step-3.jpg
+                        - text: Download file
+                  - cell [ref=f17e707]:
+                    - link "webdev" [ref=f17e708] [cursor=pointer]:
+                      - /url: upload.php?author=2
+                  - cell [ref=f17e709]:
+                    - text: (Unattached)
+                    - button "Attach “BoloUp-Host-Registration-Guide-Step-3” to existing content" [ref=f17e710] [cursor=pointer]: Attach
+                  - cell "2026/11/03" [ref=f17e711]
+                  - cell [ref=f17e712]:
+                    - paragraph [ref=f17e713]: Orig—
+                    - paragraph [ref=f17e714]: WebP—
+                - row [ref=f17e715]:
+                  - cell "Select boloup-ecosystem" [ref=f17e716]:
+                    - checkbox "Select boloup-ecosystem" [ref=f17e717] [cursor=pointer]
+                  - rowheader "boloup-ecosystem" [ref=f17e720]:
+                    - strong [ref=f17e721]:
+                      - link "boloup-ecosystem" [ref=f17e722] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/post.php?post=19&action=edit
+                    - paragraph [ref=f17e724]:
+                      - generic [ref=f17e725]: "File name:"
+                      - text: boloup-ecosystem.png
+                    - generic [ref=f17e726]:
+                      - generic [ref=f17e727]:
+                        - link "Edit “boloup-ecosystem”" [ref=f17e728] [cursor=pointer]:
+                          - /url: https://boloupgo.live/wp-admin/post.php?post=19&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f17e729]:
+                        - button "Delete “boloup-ecosystem” permanently" [ref=f17e730] [cursor=pointer]: Delete Permanently
+                        - text: "|"
+                      - generic [ref=f17e731]:
+                        - link "View “boloup-ecosystem”" [ref=f17e732] [cursor=pointer]:
+                          - /url: https://boloupgo.live/boloup-ecosystem/
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f17e733]:
+                        - button "Copy “boloup-ecosystem” URL to clipboard" [ref=f17e735] [cursor=pointer]: Copy URL
+                        - text: "|"
+                      - link "Download “boloup-ecosystem”" [ref=f17e737] [cursor=pointer]:
+                        - /url: http://boloupgo.live/wp-content/uploads/2026/11/boloup-ecosystem.png
+                        - text: Download file
+                  - cell [ref=f17e738]:
+                    - link "webdev" [ref=f17e739] [cursor=pointer]:
+                      - /url: upload.php?author=2
+                  - cell [ref=f17e740]:
+                    - text: (Unattached)
+                    - button "Attach “boloup-ecosystem” to existing content" [ref=f17e741] [cursor=pointer]: Attach
+                  - cell "2026/11/03" [ref=f17e742]
+                  - cell [ref=f17e743]:
+                    - paragraph [ref=f17e744]: Orig—
+                    - paragraph [ref=f17e745]: WebP—
+                - row [ref=f17e746]:
+                  - cell "Select bolohero" [ref=f17e747]:
+                    - checkbox "Select bolohero" [ref=f17e748] [cursor=pointer]
+                  - rowheader "bolohero" [ref=f17e751]:
+                    - strong [ref=f17e752]:
+                      - link "bolohero" [ref=f17e753] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/post.php?post=18&action=edit
+                    - paragraph [ref=f17e755]:
+                      - generic [ref=f17e756]: "File name:"
+                      - text: bolohero.png
+                    - generic [ref=f17e757]:
+                      - generic [ref=f17e758]:
+                        - link "Edit “bolohero”" [ref=f17e759] [cursor=pointer]:
+                          - /url: https://boloupgo.live/wp-admin/post.php?post=18&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f17e760]:
+                        - button "Delete “bolohero” permanently" [ref=f17e761] [cursor=pointer]: Delete Permanently
+                        - text: "|"
+                      - generic [ref=f17e762]:
+                        - link "View “bolohero”" [ref=f17e763] [cursor=pointer]:
+                          - /url: https://boloupgo.live/bolohero/
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f17e764]:
+                        - button "Copy “bolohero” URL to clipboard" [ref=f17e766] [cursor=pointer]: Copy URL
+                        - text: "|"
+                      - link "Download “bolohero”" [ref=f17e768] [cursor=pointer]:
+                        - /url: http://boloupgo.live/wp-content/uploads/2026/11/bolohero.png
+                        - text: Download file
+                  - cell [ref=f17e769]:
+                    - link "webdev" [ref=f17e770] [cursor=pointer]:
+                      - /url: upload.php?author=2
+                  - cell [ref=f17e771]:
+                    - text: (Unattached)
+                    - button "Attach “bolohero” to existing content" [ref=f17e772] [cursor=pointer]: Attach
+                  - cell "2026/11/03" [ref=f17e773]
+                  - cell [ref=f17e774]:
+                    - paragraph [ref=f17e775]: Orig—
+                    - paragraph [ref=f17e776]: WebP—
+                - row [ref=f17e777]:
+                  - cell "Select boloup-header-logo" [ref=f17e778]:
+                    - checkbox "Select boloup-header-logo" [ref=f17e779] [cursor=pointer]
+                  - rowheader "boloup-header-logo" [ref=f17e782]:
+                    - strong [ref=f17e783]:
+                      - link "boloup-header-logo" [ref=f17e784] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/post.php?post=17&action=edit
+                    - paragraph [ref=f17e786]:
+                      - generic [ref=f17e787]: "File name:"
+                      - text: boloup-header-logo.png
+                    - generic [ref=f17e788]:
+                      - generic [ref=f17e789]:
+                        - link "Edit “boloup-header-logo”" [ref=f17e790] [cursor=pointer]:
+                          - /url: https://boloupgo.live/wp-admin/post.php?post=17&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f17e791]:
+                        - button "Delete “boloup-header-logo” permanently" [ref=f17e792] [cursor=pointer]: Delete Permanently
+                        - text: "|"
+                      - generic [ref=f17e793]:
+                        - link "View “boloup-header-logo”" [ref=f17e794] [cursor=pointer]:
+                          - /url: https://boloupgo.live/boloup-header-logo/
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f17e795]:
+                        - button "Copy “boloup-header-logo” URL to clipboard" [ref=f17e797] [cursor=pointer]: Copy URL
+                        - text: "|"
+                      - link "Download “boloup-header-logo”" [ref=f17e799] [cursor=pointer]:
+                        - /url: http://boloupgo.live/wp-content/uploads/2026/11/boloup-header-logo.png
+                        - text: Download file
+                  - cell [ref=f17e800]:
+                    - link "webdev" [ref=f17e801] [cursor=pointer]:
+                      - /url: upload.php?author=2
+                  - cell [ref=f17e802]:
+                    - text: (Unattached)
+                    - button "Attach “boloup-header-logo” to existing content" [ref=f17e803] [cursor=pointer]: Attach
+                  - cell "2026/11/03" [ref=f17e804]
+                  - cell [ref=f17e805]:
+                    - paragraph [ref=f17e806]: Orig—
+                    - paragraph [ref=f17e807]: WebP—
+              - rowgroup [ref=f17e808]:
+                - row [ref=f17e809]:
+                  - cell "Select All" [ref=f17e810]:
+                    - checkbox "Select All" [ref=f17e811] [cursor=pointer]
+                  - columnheader [ref=f17e814]:
+                    - link "File Sort ascending." [ref=f17e815] [cursor=pointer]:
+                      - /url: https://boloupgo.live/wp-admin/upload.php?mode=list&orderby=title&order=asc
+                      - generic [ref=f17e816]: File
+                      - generic [ref=f17e820]: Sort ascending.
+                  - columnheader [ref=f17e821]:
+                    - link "Author Sort ascending." [ref=f17e822] [cursor=pointer]:
+                      - /url: https://boloupgo.live/wp-admin/upload.php?mode=list&orderby=author&order=asc
+                      - generic [ref=f17e823]: Author
+                      - generic [ref=f17e827]: Sort ascending.
+                  - columnheader [ref=f17e828]:
+                    - link "Uploaded to Sort ascending." [ref=f17e829] [cursor=pointer]:
+                      - /url: https://boloupgo.live/wp-admin/upload.php?mode=list&orderby=parent&order=asc
+                      - generic [ref=f17e830]: Uploaded to
+                      - generic [ref=f17e834]: Sort ascending.
+                  - columnheader [ref=f17e835]:
+                    - link "Date" [ref=f17e836] [cursor=pointer]:
+                      - /url: https://boloupgo.live/wp-admin/upload.php?mode=list&orderby=date&order=asc
+                  - columnheader "LiteSpeed Optimization" [ref=f17e841]
+            - generic [ref=f17e842]:
+              - generic [ref=f17e843]:
+                - generic [ref=f17e844]: Select bulk action
+                - combobox "Select bulk action" [ref=f17e845] [cursor=pointer]:
+                  - option "Bulk actions" [selected]
+                  - option "Delete permanently"
+                - button "Apply" [ref=f17e846] [cursor=pointer]
+              - generic [ref=f17e847]: 11 items
+  - contentinfo [ref=f17e849]:
+    - paragraph [ref=f17e850]:
+      - generic [ref=f17e851]:
+        - text: Thank you for creating with
+        - link "WordPress" [ref=f17e852] [cursor=pointer]:
+          - /url: https://wordpress.org/
+        - text: .
+    - paragraph [ref=f17e853]: Version 7.1.4

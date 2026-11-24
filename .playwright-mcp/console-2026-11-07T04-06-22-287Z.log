@@ -1,0 +1,7 @@
+[     756ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://boloupgo.live/wp-admin/load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate&ver=7.1.4:4
+[    3771ms] [WARNING] wp.compose.pure is deprecated since version 7.1. Please use Use `memo` or `PureComponent` instead instead. @ https://boloupgo.live/wp-includes/js/dist/deprecated.min.js?ver=fe587bac92b7d0ef760e:2
+[    5789ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://boloupgo.live/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[    6168ms] [LOG] Elementor preview loaded @ https://boloupgo.live/wp-content/plugins/hostinger-reach/frontend/dist/elementor-editor-scroll.js?ver=1792655863:0
+[   29832ms] [ERROR] Request replaced @ https://boloupgo.live/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=4.3.6:2
+[   29866ms] [ERROR] Request replaced @ https://boloupgo.live/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=4.3.6:2
+[   29919ms] Request replaced

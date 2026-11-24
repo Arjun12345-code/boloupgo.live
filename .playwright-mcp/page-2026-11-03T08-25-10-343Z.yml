@@ -1,0 +1,865 @@
+- generic [ref=f4e2]:
+  - navigation "Main menu":
+    - link "Skip to main content" [ref=f4e3] [cursor=pointer]:
+      - /url: "#wpbody-content"
+    - link "Skip to toolbar" [ref=f4e4] [cursor=pointer]:
+      - /url: "#wp-toolbar"
+    - list [ref=f4e7]:
+      - listitem [ref=f4e8]:
+        - link "Hostinger" [ref=f4e9] [cursor=pointer]:
+          - /url: admin.php?page=hostinger
+        - list [ref=f4e12]:
+          - listitem [ref=f4e13]:
+            - link "Hub" [ref=f4e14] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-get-onboarding
+          - listitem [ref=f4e15]:
+            - link "Tools" [ref=f4e16] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-tools
+          - listitem [ref=f4e17]:
+            - link "Reach" [ref=f4e18] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-reach
+          - listitem [ref=f4e19]:
+            - link "AI Content Creator" [ref=f4e20] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-ai-assistant
+      - listitem [ref=f4e21]:
+        - link "Dashboard" [ref=f4e22] [cursor=pointer]:
+          - /url: index.php
+          - generic [aria-hidden] [ref=f4e23]: 
+        - list [ref=f4e25]:
+          - listitem [ref=f4e26]:
+            - link "Home" [ref=f4e27] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f4e28]:
+            - link "Updates 5" [ref=f4e29] [cursor=pointer]:
+              - /url: update-core.php
+              - text: Updates
+              - generic [ref=f4e30]: "5"
+      - listitem [ref=f4e31]:
+        - link "Site Kit" [ref=f4e32] [cursor=pointer]:
+          - /url: admin.php?page=googlesitekit-splash
+        - list [ref=f4e35]:
+          - listitem [ref=f4e36]:
+            - link "Dashboard" [ref=f4e37] [cursor=pointer]:
+              - /url: admin.php?page=googlesitekit-splash
+      - listitem [ref=f4e38]:
+        - link "Elementor" [ref=f4e39] [cursor=pointer]:
+          - /url: admin.php?page=elementor-home
+        - list [ref=f4e42]:
+          - listitem [ref=f4e43]:
+            - link "Home" [ref=f4e44] [cursor=pointer]:
+              - /url: admin.php?page=elementor-home
+          - listitem [ref=f4e45]:
+            - link "Editor" [ref=f4e46] [cursor=pointer]:
+              - /url: admin.php?page=elementor
+          - listitem [ref=f4e47]:
+            - link "Theme Builder" [ref=f4e48] [cursor=pointer]:
+              - /url: https://boloupgo.live/wp-admin/admin.php?page=elementor-app&ver=4.3.5&return_to=/wp-admin/plugins.php#/site-editor
+          - listitem [ref=f4e49]:
+            - link "Submissions" [ref=f4e50] [cursor=pointer]:
+              - /url: admin.php?page=e-form-submissions
+          - listitem [ref=f4e51]:
+            - link "Elementor MCP" [ref=f4e52] [cursor=pointer]:
+              - /url: admin.php?page=elementor-mcp
+          - listitem [ref=f4e53]:
+            - link "License" [ref=f4e54] [cursor=pointer]:
+              - /url: admin.php?page=elementor-license
+      - listitem [aria-hidden] [ref=f4e55]
+      - listitem [ref=f4e57]:
+        - link "Posts" [ref=f4e58] [cursor=pointer]:
+          - /url: edit.php
+          - generic [aria-hidden] [ref=f4e59]: 
+        - list [ref=f4e61]:
+          - listitem [ref=f4e62]:
+            - link "All Posts" [ref=f4e63] [cursor=pointer]:
+              - /url: edit.php
+          - listitem [ref=f4e64]:
+            - link "Add Post" [ref=f4e65] [cursor=pointer]:
+              - /url: post-new.php
+          - listitem [ref=f4e66]:
+            - link "Categories" [ref=f4e67] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=category
+          - listitem [ref=f4e68]:
+            - link "Tags" [ref=f4e69] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=post_tag
+      - listitem [ref=f4e70]:
+        - link "Media" [ref=f4e71] [cursor=pointer]:
+          - /url: upload.php
+          - generic [aria-hidden] [ref=f4e72]: 
+        - list [ref=f4e74]:
+          - listitem [ref=f4e75]:
+            - link "Library" [ref=f4e76] [cursor=pointer]:
+              - /url: upload.php
+          - listitem [ref=f4e77]:
+            - link "Add Media File" [ref=f4e78] [cursor=pointer]:
+              - /url: media-new.php
+      - listitem [ref=f4e79]:
+        - link "Pages" [ref=f4e80] [cursor=pointer]:
+          - /url: edit.php?post_type=page
+          - generic [aria-hidden] [ref=f4e81]: 
+        - list [ref=f4e83]:
+          - listitem [ref=f4e84]:
+            - link "All Pages" [ref=f4e85] [cursor=pointer]:
+              - /url: edit.php?post_type=page
+          - listitem [ref=f4e86]:
+            - link "Add Page" [ref=f4e87] [cursor=pointer]:
+              - /url: post-new.php?post_type=page
+      - listitem [ref=f4e88]:
+        - link "Comments" [ref=f4e89] [cursor=pointer]:
+          - /url: edit-comments.php
+          - generic [aria-hidden] [ref=f4e90]: 
+      - text:  
+      - listitem [aria-hidden] [ref=f4e92]
+      - listitem [ref=f4e94]:
+        - link "Hello" [ref=f4e95] [cursor=pointer]:
+          - /url: admin.php?page=hello-elementor
+          - generic [aria-hidden] [ref=f4e96]: 
+      - listitem [ref=f4e98]:
+        - link "Appearance" [ref=f4e99] [cursor=pointer]:
+          - /url: themes.php
+          - generic [aria-hidden] [ref=f4e100]: 
+        - list [ref=f4e102]:
+          - listitem [ref=f4e103]:
+            - link "Themes" [ref=f4e104] [cursor=pointer]:
+              - /url: themes.php
+          - listitem [ref=f4e105]:
+            - link "Design" [ref=f4e106] [cursor=pointer]:
+              - /url: site-editor.php
+          - listitem [ref=f4e107]:
+            - link "Customize" [ref=f4e108] [cursor=pointer]:
+              - /url: customize.php?return=%2Fwp-admin%2Fplugins.php
+          - listitem [ref=f4e109]:
+            - link "Fonts" [ref=f4e110] [cursor=pointer]:
+              - /url: font-library.php
+          - listitem [ref=f4e111]:
+            - link "Menus" [ref=f4e112] [cursor=pointer]:
+              - /url: nav-menus.php
+          - listitem [ref=f4e113]:
+            - link "Theme File Editor" [ref=f4e114] [cursor=pointer]:
+              - /url: theme-editor.php
+      - listitem [ref=f4e115]:
+        - link "Plugins 4" [ref=f4e116] [cursor=pointer]:
+          - /url: plugins.php
+          - generic [aria-hidden] [ref=f4e117]: 
+          - generic [ref=f4e118]:
+            - text: Plugins
+            - generic [ref=f4e119]: "4"
+        - list [ref=f4e120]:
+          - listitem [ref=f4e121]:
+            - link "Installed Plugins" [ref=f4e122] [cursor=pointer]:
+              - /url: plugins.php
+          - listitem [ref=f4e123]:
+            - link "Add Plugin" [ref=f4e124] [cursor=pointer]:
+              - /url: plugin-install.php
+          - listitem [ref=f4e125]:
+            - link "Plugin File Editor" [ref=f4e126] [cursor=pointer]:
+              - /url: plugin-editor.php
+      - listitem [ref=f4e127]:
+        - link "Users" [ref=f4e128] [cursor=pointer]:
+          - /url: users.php
+          - generic [aria-hidden] [ref=f4e129]: 
+        - list [ref=f4e131]:
+          - listitem [ref=f4e132]:
+            - link "All Users" [ref=f4e133] [cursor=pointer]:
+              - /url: users.php
+          - listitem [ref=f4e134]:
+            - link "Add User" [ref=f4e135] [cursor=pointer]:
+              - /url: user-new.php
+          - listitem [ref=f4e136]:
+            - link "Profile" [ref=f4e137] [cursor=pointer]:
+              - /url: profile.php
+      - listitem [ref=f4e138]:
+        - link "Tools" [ref=f4e139] [cursor=pointer]:
+          - /url: tools.php
+          - generic [aria-hidden] [ref=f4e140]: 
+        - list [ref=f4e142]:
+          - listitem [ref=f4e143]:
+            - link "Available Tools" [ref=f4e144] [cursor=pointer]:
+              - /url: tools.php
+          - listitem [ref=f4e145]:
+            - link "Import" [ref=f4e146] [cursor=pointer]:
+              - /url: import.php
+          - listitem [ref=f4e147]:
+            - link "Export" [ref=f4e148] [cursor=pointer]:
+              - /url: export.php
+          - listitem [ref=f4e149]:
+            - link "Site Health" [ref=f4e150] [cursor=pointer]:
+              - /url: site-health.php
+          - listitem [ref=f4e151]:
+            - link "Export Personal Data" [ref=f4e152] [cursor=pointer]:
+              - /url: export-personal-data.php
+          - listitem [ref=f4e153]:
+            - link "Erase Personal Data" [ref=f4e154] [cursor=pointer]:
+              - /url: erase-personal-data.php
+          - listitem [ref=f4e155]:
+            - link "Scheduled Actions" [ref=f4e156] [cursor=pointer]:
+              - /url: tools.php?page=action-scheduler
+          - listitem [ref=f4e157]:
+            - link "Yoast Redirects" [ref=f4e158] [cursor=pointer]:
+              - /url: tools.php?page=wpseo_redirects_tools
+      - listitem [ref=f4e159]:
+        - link "Settings" [ref=f4e160] [cursor=pointer]:
+          - /url: options-general.php
+          - generic [aria-hidden] [ref=f4e161]: 
+        - list [ref=f4e163]:
+          - listitem [ref=f4e164]:
+            - link "General" [ref=f4e165] [cursor=pointer]:
+              - /url: options-general.php
+          - listitem [ref=f4e166]:
+            - link "Connectors" [ref=f4e167] [cursor=pointer]:
+              - /url: options-connectors.php
+          - listitem [ref=f4e168]:
+            - link "Writing" [ref=f4e169] [cursor=pointer]:
+              - /url: options-writing.php
+          - listitem [ref=f4e170]:
+            - link "Reading" [ref=f4e171] [cursor=pointer]:
+              - /url: options-reading.php
+          - listitem [ref=f4e172]:
+            - link "Discussion" [ref=f4e173] [cursor=pointer]:
+              - /url: options-discussion.php
+          - listitem [ref=f4e174]:
+            - link "Media" [ref=f4e175] [cursor=pointer]:
+              - /url: options-media.php
+          - listitem [ref=f4e176]:
+            - link "Permalinks" [ref=f4e177] [cursor=pointer]:
+              - /url: options-permalink.php
+          - listitem [ref=f4e178]:
+            - link "Privacy" [ref=f4e179] [cursor=pointer]:
+              - /url: options-privacy.php
+      - listitem [aria-hidden] [ref=f4e180]
+      - listitem [ref=f4e182]:
+        - link "Yoast SEO 1 notification" [ref=f4e183] [cursor=pointer]:
+          - /url: admin.php?page=wpseo_dashboard
+          - generic [ref=f4e185]:
+            - text: Yoast SEO
+            - generic [ref=f4e186]:
+              - text: "1"
+              - generic [ref=f4e187]: 1 notification
+        - list [ref=f4e188]:
+          - listitem [ref=f4e189]:
+            - link "General" [ref=f4e190] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_dashboard
+          - listitem [ref=f4e191]:
+            - link "Settings" [ref=f4e192] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_settings
+          - listitem [ref=f4e193]:
+            - link "Integrations" [ref=f4e194] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_integrations
+          - listitem [ref=f4e195]:
+            - link "Tools" [ref=f4e196] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_tools
+          - listitem [ref=f4e197]:
+            - link "Academy" [ref=f4e198] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_academy
+          - listitem [ref=f4e199]:
+            - link "Plans" [ref=f4e200] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_licenses
+          - listitem [ref=f4e201]:
+            - link "Workouts Premium" [ref=f4e202] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_workouts
+              - text: Workouts
+              - generic [ref=f4e203]: Premium
+          - listitem [ref=f4e204]:
+            - link "Redirects Premium" [ref=f4e205] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_redirects
+              - text: Redirects
+              - generic [ref=f4e206]: Premium
+          - listitem [ref=f4e207]:
+            - link "Support" [ref=f4e208] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_support
+          - listitem [ref=f4e209]:
+            - link "Upgrade" [ref=f4e210] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_upgrade_sidebar
+          - listitem [ref=f4e213]:
+            - link "AI Brand Insights" [ref=f4e214] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_brand_insights
+      - listitem [ref=f4e218]:
+        - link "AIOS" [ref=f4e219] [cursor=pointer]:
+          - /url: admin.php?page=aiowpsec
+        - list [ref=f4e222]:
+          - listitem [ref=f4e223]:
+            - link "Dashboard" [ref=f4e224] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec
+          - listitem [ref=f4e225]:
+            - link "Settings" [ref=f4e226] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_settings
+          - listitem [ref=f4e227]:
+            - link "User Security" [ref=f4e228] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_usersec
+          - listitem [ref=f4e229]:
+            - link "Database Security" [ref=f4e230] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_database
+          - listitem [ref=f4e231]:
+            - link "File Security" [ref=f4e232] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_filesystem
+          - listitem [ref=f4e233]:
+            - link "Firewall" [ref=f4e234] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_firewall
+          - listitem [ref=f4e235]:
+            - link "Brute Force" [ref=f4e236] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_brute_force
+          - listitem [ref=f4e237]:
+            - link "Spam Prevention" [ref=f4e238] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_spam
+          - listitem [ref=f4e239]:
+            - link "Scanner" [ref=f4e240] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_filescan
+          - listitem [ref=f4e241]:
+            - link "Tools" [ref=f4e242] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_tools
+          - listitem [ref=f4e243]:
+            - link "Two Factor Auth" [ref=f4e244] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_two_factor_auth_user
+          - listitem [ref=f4e245]:
+            - link "Premium Upgrade" [ref=f4e246] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec&tab=premium-upgrade
+      - listitem [ref=f4e247]:
+        - link "LiteSpeed Cache" [ref=f4e248] [cursor=pointer]:
+          - /url: admin.php?page=litespeed
+          - generic [aria-hidden] [ref=f4e249]: 
+        - list [ref=f4e251]:
+          - listitem [ref=f4e252]:
+            - link "Dashboard" [ref=f4e253] [cursor=pointer]:
+              - /url: admin.php?page=litespeed
+          - listitem [ref=f4e254]:
+            - link "Presets" [ref=f4e255] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-presets
+          - listitem [ref=f4e256]:
+            - link "General" [ref=f4e257] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-general
+          - listitem [ref=f4e258]:
+            - link "Cache" [ref=f4e259] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-cache
+          - listitem [ref=f4e260]:
+            - link "CDN" [ref=f4e261] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-cdn
+          - listitem [ref=f4e262]:
+            - link "Image Optimization" [ref=f4e263] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-img_optm
+          - listitem [ref=f4e264]:
+            - link "Page Optimization" [ref=f4e265] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-page_optm
+          - listitem [ref=f4e266]:
+            - link "Database" [ref=f4e267] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-db_optm
+          - listitem [ref=f4e268]:
+            - link "Crawler" [ref=f4e269] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-crawler
+          - listitem [ref=f4e270]:
+            - link "Toolbox" [ref=f4e271] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-toolbox
+      - listitem [ref=f4e272]:
+        - link "Chaty" [ref=f4e273] [cursor=pointer]:
+          - /url: admin.php?page=chaty-app
+        - list [ref=f4e276]:
+          - listitem [ref=f4e277]:
+            - link "+ Create New Widget" [ref=f4e278] [cursor=pointer]:
+              - /url: admin.php?page=chaty-app&widget=0&step=0
+          - listitem [ref=f4e279]:
+            - link "Chatway Live Chat" [ref=f4e280] [cursor=pointer]:
+              - /url: admin.php?page=chaty-live-chat
+          - listitem [ref=f4e281]:
+            - link "Widget Analytics" [ref=f4e282] [cursor=pointer]:
+              - /url: admin.php?page=widget-analytics
+          - listitem [ref=f4e283]:
+            - link "Recommended Plugins" [ref=f4e284] [cursor=pointer]:
+              - /url: admin.php?page=recommended-chaty-plugins
+          - listitem [ref=f4e285]:
+            - link "Upgrade to Pro" [ref=f4e286] [cursor=pointer]:
+              - /url: admin.php?page=chaty-app-upgrade
+      - listitem [ref=f4e290]:
+        - button "Collapse Main menu" [expanded] [ref=f4e291] [cursor=pointer]:
+          - generic [ref=f4e293]: Collapse Menu
+  - generic [ref=f4e294]:
+    - generic [ref=f4e295]:
+      - navigation "Toolbar":
+        - menu:
+          - group [ref=f4e296]:
+            - menuitem "About WordPress" [ref=f4e297] [cursor=pointer]
+          - group [ref=f4e300]:
+            - menuitem "Boloup Go" [ref=f4e301] [cursor=pointer]
+          - group [ref=f4e302]:
+            - menuitem "5 updates available" [ref=f4e303] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f4e305]: "5"
+          - group [ref=f4e307]:
+            - menuitem "Ctrl+K Open command palette" [ref=f4e308] [cursor=pointer]:
+              - generic [ref=f4e310]:
+                - text: Ctrl+K
+                - generic [ref=f4e311]: Open command palette
+          - group [ref=f4e312]:
+            - menuitem "0 Comments in moderation" [ref=f4e313] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f4e315]: "0"
+          - group [ref=f4e317]:
+            - menuitem "New" [ref=f4e318] [cursor=pointer]
+          - group [ref=f4e321]:
+            - menuitem "" [ref=f4e322] [cursor=pointer]:
+              - generic "LiteSpeed Cache Purge All - LSCache" [ref=f4e323]: 
+          - group [ref=f4e324]:
+            - menuitem "SEO 1 notification" [ref=f4e325] [cursor=pointer]:
+              - generic [ref=f4e326]: SEO
+              - generic [ref=f4e328]:
+                - text: "1"
+                - generic [ref=f4e329]: 1 notification
+            - text: Premium Premium
+          - group [ref=f4e330]:
+            - menuitem "Hostinger" [ref=f4e331]
+        - menu [ref=f4e334]:
+          - group [ref=f4e335]:
+            - menuitem "Howdy, webdev" [ref=f4e336] [cursor=pointer]
+    - main [ref=f4e337]:
+      - generic [ref=f4e338]:
+        - generic [ref=f4e339]:
+          - button "Screen Options" [ref=f4e341] [cursor=pointer]
+          - button "Help" [ref=f4e343] [cursor=pointer]
+        - generic [ref=f4e344]:
+          - heading "Plugins" [level=1] [ref=f4e345]
+          - link "Add Plugin" [ref=f4e346] [cursor=pointer]:
+            - /url: https://boloupgo.live/wp-admin/plugin-install.php
+          - heading "Filter plugins list" [level=2] [ref=f4e347]
+          - list [ref=f4e348]:
+            - listitem [ref=f4e349]:
+              - link "All (13)" [ref=f4e350] [cursor=pointer]:
+                - /url: plugins.php?plugin_status=all
+              - text: "|"
+            - listitem [ref=f4e351]:
+              - link "Active (11)" [ref=f4e352] [cursor=pointer]:
+                - /url: plugins.php?plugin_status=active
+              - text: "|"
+            - listitem [ref=f4e353]:
+              - link "Inactive (2)" [ref=f4e354] [cursor=pointer]:
+                - /url: plugins.php?plugin_status=inactive
+              - text: "|"
+            - listitem [ref=f4e355]:
+              - link "Update Available (4)" [ref=f4e356] [cursor=pointer]:
+                - /url: plugins.php?plugin_status=upgrade
+              - text: "|"
+            - listitem [ref=f4e357]:
+              - link "Must-Use (2)" [ref=f4e358] [cursor=pointer]:
+                - /url: plugins.php?plugin_status=mustuse
+              - text: "|"
+            - listitem [ref=f4e359]:
+              - link "Drop-in (1)" [ref=f4e360] [cursor=pointer]:
+                - /url: plugins.php?plugin_status=dropins
+          - paragraph [ref=f4e361]:
+            - generic [ref=f4e362]: Search installed plugins
+            - searchbox "Search installed plugins" [ref=f4e363]
+          - generic [ref=f4e364]:
+            - generic [ref=f4e365]:
+              - generic [ref=f4e366]:
+                - generic [ref=f4e367]: Select bulk action
+                - combobox "Select bulk action" [ref=f4e368] [cursor=pointer]:
+                  - option "Bulk actions" [selected]
+                  - option "Activate"
+                  - option "Deactivate"
+                  - option "Update"
+                  - option "Delete"
+                - button "Apply" [ref=f4e369] [cursor=pointer]
+              - generic [ref=f4e370]: 13 items
+            - heading "Plugins list" [level=2] [ref=f4e372]
+            - table [ref=f4e373]:
+              - rowgroup [ref=f4e374]:
+                - row [ref=f4e375]:
+                  - cell "Select All" [ref=f4e376]:
+                    - checkbox "Select All" [ref=f4e377] [cursor=pointer]
+                  - columnheader "Plugin" [ref=f4e380]
+                  - columnheader "Description" [ref=f4e381]
+              - rowgroup [ref=f4e382]:
+                - row [ref=f4e383]:
+                  - cell [ref=f4e384]:
+                    - checkbox "Select All-In-One Security (AIOS) – Security and Firewall" [ref=f4e387] [cursor=pointer]
+                  - rowheader "All-In-One Security (AIOS) – Security and Firewall" [ref=f4e388]:
+                    - strong [ref=f4e389]: All-In-One Security (AIOS) – Security and Firewall
+                    - generic [ref=f4e390]:
+                      - generic [ref=f4e391]:
+                        - link "Settings" [ref=f4e392] [cursor=pointer]:
+                          - /url: admin.php?page=aiowpsec_settings
+                        - text: "|"
+                      - link "Deactivate All-In-One Security (AIOS) – Security and Firewall" [ref=f4e394] [cursor=pointer]:
+                        - /url: plugins.php?action=deactivate&plugin=all-in-one-wp-security-and-firewall%2Fwp-security.php&plugin_status=all&paged=1&s&_wpnonce=41d9e67ac1
+                        - text: Deactivate
+                  - cell [ref=f4e395]:
+                    - paragraph [ref=f4e397]: Trusted by over 1 million sites, AIOS secures WordPress with a firewall, login protection, two-factor authentication and more.
+                    - generic [ref=f4e398]:
+                      - text: Version 5.5.1 | By
+                      - link "TeamUpdraft, DavidAnderson" [ref=f4e399] [cursor=pointer]:
+                        - /url: https://teamupdraft.com/all-in-one-security/?utm_source=aios-plugin&utm_medium=referral&utm_campaign=paac&utm_content=plugin-author-info&utm_creative_format=text
+                      - text: "|"
+                      - link "More information about All-In-One Security (AIOS) – Security and Firewall" [ref=f4e400] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/plugin-install.php?tab=plugin-information&plugin=all-in-one-wp-security-and-firewall&TB_iframe=true&width=600&height=550
+                        - text: View details
+                - row [ref=f4e401]:
+                  - cell [ref=f4e402]:
+                    - checkbox "Select Chaty" [ref=f4e405] [cursor=pointer]
+                  - rowheader "Chaty" [ref=f4e406]:
+                    - strong [ref=f4e407]: Chaty
+                    - generic [ref=f4e408]:
+                      - generic [ref=f4e409]:
+                        - link "Deactivate Chaty" [ref=f4e410] [cursor=pointer]:
+                          - /url: plugins.php?action=deactivate&plugin=chaty%2Fcht-icons.php&plugin_status=all&paged=1&s&_wpnonce=f21be2c1ce
+                          - text: Deactivate
+                        - text: "|"
+                      - generic [ref=f4e411]:
+                        - link "Need help?" [ref=f4e412] [cursor=pointer]:
+                          - /url: https://premio.io/help/chaty/
+                        - text: "|"
+                      - link "Upgrade" [ref=f4e414] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/admin.php?page=chaty-app-upgrade
+                  - cell [ref=f4e415]:
+                    - paragraph [ref=f4e417]: Chat with your website visitors via their favorite channels. Show a chat icon on the bottom of your site and communicate with your website visitors.
+                    - generic [ref=f4e418]:
+                      - text: Version 3.6.3 | By
+                      - link "Premio" [ref=f4e419] [cursor=pointer]:
+                        - /url: https://premio.io/downloads/chaty/
+                      - text: "|"
+                      - link "More information about Chaty" [ref=f4e420] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/plugin-install.php?tab=plugin-information&plugin=chaty&TB_iframe=true&width=600&height=550
+                        - text: View details
+                - row [ref=f4e421]:
+                  - cell [ref=f4e422]:
+                    - checkbox "Select Elementor" [disabled] [ref=f4e425]
+                  - rowheader "Elementor" [ref=f4e426]:
+                    - strong [ref=f4e427]: Elementor
+                    - generic [ref=f4e428]:
+                      - generic [ref=f4e429]:
+                        - link "Settings" [ref=f4e430] [cursor=pointer]:
+                          - /url: https://boloupgo.live/wp-admin/admin.php?page=elementor
+                        - text: "|"
+                      - generic [ref=f4e431]:
+                        - text: Deactivate
+                        - generic [ref=f4e432]: You cannot deactivate this plugin as other plugins depend on it.
+                  - cell [ref=f4e433]:
+                    - paragraph [ref=f4e435]: "The Elementor Website Builder has it all: drag and drop page builder, Atomic Editor, pixel perfect design, global and reusable style systems, mobile responsive editing, and more. Get started now!"
+                    - generic [ref=f4e436]:
+                      - text: Version 4.3.5 | By
+                      - link "Elementor.com" [ref=f4e437] [cursor=pointer]:
+                        - /url: https://elementor.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash
+                      - text: "|"
+                      - link "More information about Elementor" [ref=f4e438] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/plugin-install.php?tab=plugin-information&plugin=elementor&TB_iframe=true&width=600&height=550
+                        - text: View details
+                      - text: "|"
+                      - link "View Elementor Documentation" [ref=f4e439] [cursor=pointer]:
+                        - /url: https://go.elementor.com/docs-admin-plugins/
+                        - text: Docs & FAQs
+                      - text: "|"
+                      - link "View Elementor Video Tutorials" [ref=f4e440] [cursor=pointer]:
+                        - /url: https://go.elementor.com/yt-admin-plugins/
+                        - text: Video Tutorials
+                    - generic [ref=f4e441]:
+                      - paragraph [ref=f4e442]:
+                        - strong [ref=f4e443]: "Required by:"
+                        - text: Elementor Pro
+                      - paragraph [ref=f4e444]: "Note: This plugin cannot be deactivated or deleted until the plugins that require it are deactivated or deleted."
+                - row [ref=f4e445]:
+                  - cell [ref=f4e446]:
+                    - paragraph [ref=f4e448]:
+                      - text: There is a new version of Elementor available.
+                      - link "View Elementor version 4.3.6 details" [ref=f4e449] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/plugin-install.php?tab=plugin-information&plugin=elementor&section=changelog&TB_iframe=true&width=600&height=800
+                        - text: View version 4.3.6 details
+                      - text: or
+                      - link "Update Elementor now" [ref=f4e450] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/update.php?action=upgrade-plugin&plugin=elementor%2Felementor.php&_wpnonce=e1855761de
+                        - text: update now
+                      - text: .
+                - row [ref=f4e451]:
+                  - cell [ref=f4e452]:
+                    - checkbox "Select Elementor Pro" [ref=f4e455] [cursor=pointer]
+                  - rowheader "Elementor Pro" [ref=f4e456]:
+                    - strong [ref=f4e457]: Elementor Pro
+                    - link "Deactivate Elementor Pro" [ref=f4e460] [cursor=pointer]:
+                      - /url: plugins.php?action=deactivate&plugin=elementor-pro%2Felementor-pro.php&plugin_status=all&paged=1&s&_wpnonce=22616747e5
+                      - text: Deactivate
+                  - cell [ref=f4e461]:
+                    - paragraph [ref=f4e463]: Elevate your designs and unlock the full power of the Atomic Editor. Gain access to dozens of Pro widgets, Website Templates, Theme Builder, Pop Ups, Forms, reusable Components, and WooCommerce building capabilities.
+                    - generic [ref=f4e464]:
+                      - text: Version 4.3.2 | By
+                      - link "Elementor.com" [ref=f4e465] [cursor=pointer]:
+                        - /url: https://go.elementor.com/wp-dash-wp-plugins-author-uri/
+                      - text: "|"
+                      - link "Visit plugin site for Elementor Pro" [ref=f4e466] [cursor=pointer]:
+                        - /url: https://go.elementor.com/wp-dash-wp-plugins-author-uri/
+                        - text: Visit plugin site
+                      - text: "|"
+                      - link "Changelog" [ref=f4e467] [cursor=pointer]:
+                        - /url: https://go.elementor.com/pro-changelog/
+                    - paragraph [ref=f4e469]:
+                      - strong [ref=f4e470]: "Requires:"
+                      - link "More information about Elementor Website Builder – more than just a page builder" [ref=f4e471] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/plugin-install.php?tab=plugin-information&plugin=elementor&TB_iframe=true&width=600&height=550
+                        - text: Elementor Website Builder – more than just a page builder
+                - row [ref=f4e472]:
+                  - cell [ref=f4e473]:
+                    - checkbox "Select Hostinger AI" [ref=f4e476] [cursor=pointer]
+                  - rowheader "Hostinger AI" [ref=f4e477]:
+                    - strong [ref=f4e478]: Hostinger AI
+                    - link "Deactivate Hostinger AI" [ref=f4e481] [cursor=pointer]:
+                      - /url: plugins.php?action=deactivate&plugin=hostinger-ai-assistant%2Fhostinger-ai-assistant.php&plugin_status=all&paged=1&s&_wpnonce=af375731ed
+                      - text: Deactivate
+                  - cell [ref=f4e482]:
+                    - paragraph [ref=f4e484]: Hostinger AI plugin for WordPress.
+                    - generic [ref=f4e485]:
+                      - text: Version 3.1.5 | By
+                      - link "Hostinger" [ref=f4e486] [cursor=pointer]:
+                        - /url: https://hostinger.com
+                      - text: "|"
+                      - link "More information about Hostinger AI" [ref=f4e487] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/plugin-install.php?tab=plugin-information&plugin=hostinger-ai-assistant&TB_iframe=true&width=600&height=550
+                        - text: View details
+                      - text: "|"
+                      - link "Check for updates" [ref=f4e488] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/plugins.php?puc_check_for_updates=1&puc_slug=hostinger-ai-assistant&_wpnonce=ea3236c1c4
+                - row [ref=f4e489]:
+                  - cell [ref=f4e490]:
+                    - paragraph [ref=f4e492]:
+                      - text: There is a new version of Hostinger AI available.
+                      - link "View Hostinger AI version 3.1.7 details" [ref=f4e493] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/plugin-install.php?tab=plugin-information&plugin=hostinger-ai-assistant&section=changelog&TB_iframe=true&width=600&height=800
+                        - text: View version 3.1.7 details
+                      - text: or
+                      - link "Update Hostinger AI now" [ref=f4e494] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/update.php?action=upgrade-plugin&plugin=hostinger-ai-assistant%2Fhostinger-ai-assistant.php&_wpnonce=824e94c056
+                        - text: update now
+                      - text: .
+                - row [ref=f4e495]:
+                  - cell [ref=f4e496]:
+                    - checkbox "Select Hostinger Hub" [ref=f4e499] [cursor=pointer]
+                  - rowheader "Hostinger Hub" [ref=f4e500]:
+                    - strong [ref=f4e501]: Hostinger Hub
+                    - link "Deactivate Hostinger Hub" [ref=f4e504] [cursor=pointer]:
+                      - /url: plugins.php?action=deactivate&plugin=hostinger-easy-onboarding%2Fhostinger-easy-onboarding.php&plugin_status=all&paged=1&s&_wpnonce=8dc1fc6944
+                      - text: Deactivate
+                  - cell [ref=f4e505]:
+                    - paragraph [ref=f4e507]: Hostinger Hub WordPress plugin. Formerly known as Hostinger Easy Onboarding.
+                    - generic [ref=f4e508]:
+                      - text: Version 3.0.5 | By
+                      - link "Hostinger" [ref=f4e509] [cursor=pointer]:
+                        - /url: https://www.hostinger.com
+                      - text: "|"
+                      - link "More information about Hostinger Hub" [ref=f4e510] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/plugin-install.php?tab=plugin-information&plugin=hostinger-easy-onboarding&TB_iframe=true&width=600&height=550
+                        - text: View details
+                      - text: "|"
+                      - link "Check for updates" [ref=f4e511] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/plugins.php?puc_check_for_updates=1&puc_slug=hostinger-easy-onboarding&_wpnonce=ea3236c1c4
+                - row [ref=f4e512]:
+                  - cell [ref=f4e513]:
+                    - checkbox "Select Hostinger Preview Domain" [ref=f4e516] [cursor=pointer]
+                  - rowheader "Hostinger Preview Domain" [ref=f4e517]:
+                    - strong [ref=f4e518]: Hostinger Preview Domain
+                    - generic [ref=f4e519]:
+                      - generic [ref=f4e520]:
+                        - link "Activate Hostinger Preview Domain" [ref=f4e521] [cursor=pointer]:
+                          - /url: plugins.php?action=activate&plugin=hostinger-preview-domain-qAMKfvAZrWcw2zOY%2Fhostinger-preview-domain.php&plugin_status=all&paged=1&s&_wpnonce=baa6e3bf5d
+                          - text: Activate
+                        - text: "|"
+                      - link "Delete Hostinger Preview Domain" [ref=f4e523] [cursor=pointer]:
+                        - /url: plugins.php?action=delete-selected&checked%5B0%5D=hostinger-preview-domain-qAMKfvAZrWcw2zOY%2Fhostinger-preview-domain.php&plugin_status=all&paged=1&s&_wpnonce=05735e1a9d
+                        - text: Delete
+                  - cell [ref=f4e524]:
+                    - paragraph [ref=f4e526]: Enable access to the website through a temporary domain while the main domain is not yet configured.
+                    - generic [ref=f4e527]:
+                      - text: Version 1.4.0 | By
+                      - link "Hostinger" [ref=f4e528] [cursor=pointer]:
+                        - /url: https://www.hostinger.com
+                      - text: "|"
+                      - link "Visit plugin site for Hostinger Preview Domain" [ref=f4e529] [cursor=pointer]:
+                        - /url: https://www.hostinger.com
+                        - text: Visit plugin site
+                - row [ref=f4e530]:
+                  - cell [ref=f4e531]:
+                    - checkbox "Select Hostinger Reach" [ref=f4e534] [cursor=pointer]
+                  - rowheader "Hostinger Reach" [ref=f4e535]:
+                    - strong [ref=f4e536]: Hostinger Reach
+                    - link "Deactivate Hostinger Reach" [ref=f4e539] [cursor=pointer]:
+                      - /url: plugins.php?action=deactivate&plugin=hostinger-reach%2Fhostinger-reach.php&plugin_status=all&paged=1&s&_wpnonce=332ac20ae2
+                      - text: Deactivate
+                  - cell [ref=f4e540]:
+                    - paragraph [ref=f4e542]: Integrate your WordPress site with Hostinger Reach.
+                    - generic [ref=f4e543]:
+                      - text: Version 1.8.7 | By
+                      - link "Hostinger" [ref=f4e544] [cursor=pointer]:
+                        - /url: https://www.hostinger.com/email-marketing
+                      - text: "|"
+                      - link "More information about Hostinger Reach" [ref=f4e545] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/plugin-install.php?tab=plugin-information&plugin=hostinger-reach&TB_iframe=true&width=600&height=550
+                        - text: View details
+                - row [ref=f4e546]:
+                  - cell [ref=f4e547]:
+                    - checkbox "Select Hostinger Smart Auto Updates" [ref=f4e550] [cursor=pointer]
+                  - rowheader "Hostinger Smart Auto Updates" [ref=f4e551]:
+                    - strong [ref=f4e552]: Hostinger Smart Auto Updates
+                    - generic [ref=f4e553]:
+                      - generic [ref=f4e554]:
+                        - link "Activate Hostinger Smart Auto Updates" [ref=f4e555] [cursor=pointer]:
+                          - /url: plugins.php?action=activate&plugin=hostinger-auto-updates-plugin-DdntWqF48DmNoV4J%2Fhostinger-auto-updates.php&plugin_status=all&paged=1&s&_wpnonce=9f92fcdcd3
+                          - text: Activate
+                        - text: "|"
+                      - link "Delete Hostinger Smart Auto Updates" [ref=f4e557] [cursor=pointer]:
+                        - /url: plugins.php?action=delete-selected&checked%5B0%5D=hostinger-auto-updates-plugin-DdntWqF48DmNoV4J%2Fhostinger-auto-updates.php&plugin_status=all&paged=1&s&_wpnonce=05735e1a9d
+                        - text: Delete
+                  - cell [ref=f4e558]:
+                    - paragraph [ref=f4e560]: Faster and more secure updates for your themes, plugins, and core files. Managed entirely by Hostinger.
+                    - generic [ref=f4e561]:
+                      - text: Version 1.0.9 | By
+                      - link "Hostinger" [ref=f4e562] [cursor=pointer]:
+                        - /url: https://www.hostinger.com
+                      - text: "|"
+                      - link "Visit plugin site for Hostinger Smart Auto Updates" [ref=f4e563] [cursor=pointer]:
+                        - /url: https://www.hostinger.com
+                        - text: Visit plugin site
+                - row [ref=f4e564]:
+                  - cell [ref=f4e565]:
+                    - checkbox "Select Hostinger Tools" [ref=f4e568] [cursor=pointer]
+                  - rowheader "Hostinger Tools" [ref=f4e569]:
+                    - strong [ref=f4e570]: Hostinger Tools
+                    - link "Deactivate Hostinger Tools" [ref=f4e573] [cursor=pointer]:
+                      - /url: plugins.php?action=deactivate&plugin=hostinger%2Fhostinger.php&plugin_status=all&paged=1&s&_wpnonce=9fa8bebb9b
+                      - text: Deactivate
+                  - cell [ref=f4e574]:
+                    - paragraph [ref=f4e576]: Hostinger WordPress plugin.
+                    - generic [ref=f4e577]:
+                      - text: Version 3.0.80 | By
+                      - link "Hostinger" [ref=f4e578] [cursor=pointer]:
+                        - /url: https://www.hostinger.com
+                      - text: "|"
+                      - link "More information about Hostinger Tools" [ref=f4e579] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/plugin-install.php?tab=plugin-information&plugin=hostinger&TB_iframe=true&width=600&height=550
+                        - text: View details
+                - row [ref=f4e580]:
+                  - cell [ref=f4e581]:
+                    - checkbox "Select LiteSpeed Cache" [ref=f4e584] [cursor=pointer]
+                  - rowheader "LiteSpeed Cache" [ref=f4e585]:
+                    - strong [ref=f4e586]: LiteSpeed Cache
+                    - generic [ref=f4e587]:
+                      - generic [ref=f4e588]:
+                        - link "Deactivate LiteSpeed Cache" [ref=f4e589] [cursor=pointer]:
+                          - /url: plugins.php?action=deactivate&plugin=litespeed-cache%2Flitespeed-cache.php&plugin_status=all&paged=1&s&_wpnonce=36c7220cee
+                          - text: Deactivate
+                        - text: "|"
+                      - link "Settings" [ref=f4e591] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/admin.php?page=litespeed-cache
+                  - cell [ref=f4e592]:
+                    - paragraph [ref=f4e594]: High-performance page caching and site optimization from LiteSpeed
+                    - generic [ref=f4e595]:
+                      - text: Version 7.9.2 | By
+                      - link "LiteSpeed Technologies" [ref=f4e596] [cursor=pointer]:
+                        - /url: https://www.litespeedtech.com
+                      - text: "|"
+                      - link "More information about LiteSpeed Cache" [ref=f4e597] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/plugin-install.php?tab=plugin-information&plugin=litespeed-cache&TB_iframe=true&width=600&height=550
+                        - text: View details
+                - row [ref=f4e598]:
+                  - cell [ref=f4e599]:
+                    - checkbox "Select Site Kit by Google" [ref=f4e602] [cursor=pointer]
+                  - rowheader "Site Kit by Google" [ref=f4e603]:
+                    - strong [ref=f4e604]: Site Kit by Google
+                    - generic [ref=f4e605]:
+                      - generic [ref=f4e606]:
+                        - link "Start setup" [ref=f4e607] [cursor=pointer]:
+                          - /url: https://boloupgo.live/wp-admin/admin.php?page=googlesitekit-dashboard
+                        - text: "|"
+                      - link "Deactivate Site Kit by Google" [ref=f4e609] [cursor=pointer]:
+                        - /url: plugins.php?action=deactivate&plugin=google-site-kit%2Fgoogle-site-kit.php&plugin_status=all&paged=1&s&_wpnonce=f361282e3f
+                        - text: Deactivate
+                  - cell [ref=f4e610]:
+                    - paragraph [ref=f4e612]: Site Kit is a one-stop solution for WordPress users to use everything Google has to offer to make them successful on the web.
+                    - generic [ref=f4e613]:
+                      - text: Version 1.190.0 | By
+                      - link "Google" [ref=f4e614] [cursor=pointer]:
+                        - /url: https://opensource.google.com
+                      - text: "|"
+                      - link "More information about Site Kit by Google" [ref=f4e615] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/plugin-install.php?tab=plugin-information&plugin=google-site-kit&TB_iframe=true&width=600&height=550
+                        - text: View details
+                      - text: "|"
+                      - link "Rate Site Kit" [ref=f4e616] [cursor=pointer]:
+                        - /url: https://wordpress.org/support/plugin/google-site-kit/reviews/#new-post
+                      - text: "|"
+                      - link "Support" [ref=f4e617] [cursor=pointer]:
+                        - /url: https://wordpress.org/support/plugin/google-site-kit/#new-post
+                - row [ref=f4e618]:
+                  - cell [ref=f4e619]:
+                    - paragraph [ref=f4e621]:
+                      - text: There is a new version of Site Kit by Google available.
+                      - link "View Site Kit by Google version 1.191.0 details" [ref=f4e622] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/plugin-install.php?tab=plugin-information&plugin=google-site-kit&section=changelog&TB_iframe=true&width=600&height=800
+                        - text: View version 1.191.0 details
+                      - text: or
+                      - link "Update Site Kit by Google now" [ref=f4e623] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/update.php?action=upgrade-plugin&plugin=google-site-kit%2Fgoogle-site-kit.php&_wpnonce=0ce180a03a
+                        - text: update now
+                      - text: .
+                - row [ref=f4e624]:
+                  - cell [ref=f4e625]:
+                    - checkbox "Select Yoast SEO" [ref=f4e628] [cursor=pointer]
+                  - rowheader "Yoast SEO" [ref=f4e629]:
+                    - strong [ref=f4e630]: Yoast SEO
+                    - generic [ref=f4e631]:
+                      - generic [ref=f4e632]:
+                        - link "Get Premium" [ref=f4e633] [cursor=pointer]:
+                          - /url: https://yoa.st/1yb?php_version=8.3&platform=wordpress&platform_version=7.1.4&software=free&software_version=28.7&days_active=12&user_language=en_US
+                        - text: "|"
+                      - generic [ref=f4e634]:
+                        - link "Finish your first-time configuration" [ref=f4e635] [cursor=pointer]:
+                          - /url: https://boloupgo.live/wp-admin/admin.php?page=wpseo_dashboard#/first-time-configuration
+                        - text: "|"
+                      - generic [ref=f4e636]:
+                        - link "FAQ" [ref=f4e637] [cursor=pointer]:
+                          - /url: https://yoa.st/1yc?php_version=8.3&platform=wordpress&platform_version=7.1.4&software=free&software_version=28.7&days_active=12&user_language=en_US
+                        - text: "|"
+                      - generic [ref=f4e638]:
+                        - link "Settings" [ref=f4e639] [cursor=pointer]:
+                          - /url: https://boloupgo.live/wp-admin/admin.php?page=wpseo_dashboard
+                        - text: "|"
+                      - link "Deactivate Yoast SEO" [ref=f4e641] [cursor=pointer]:
+                        - /url: plugins.php?action=deactivate&plugin=wordpress-seo%2Fwp-seo.php&plugin_status=all&paged=1&s&_wpnonce=e8fc445cbd
+                        - text: Deactivate
+                  - cell [ref=f4e642]:
+                    - paragraph [ref=f4e644]: The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.
+                    - generic [ref=f4e645]:
+                      - text: Version 28.7 | By
+                      - link "Team Yoast" [ref=f4e646] [cursor=pointer]:
+                        - /url: https://yoa.st/1uk
+                      - text: "|"
+                      - link "More information about Yoast SEO" [ref=f4e647] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/plugin-install.php?tab=plugin-information&plugin=wordpress-seo&TB_iframe=true&width=600&height=550
+                        - text: View details
+                - row [ref=f4e648]:
+                  - cell [ref=f4e649]:
+                    - paragraph [ref=f4e651]:
+                      - text: There is a new version of Yoast SEO available.
+                      - link "View Yoast SEO version 28.8 details" [ref=f4e652] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/plugin-install.php?tab=plugin-information&plugin=wordpress-seo&section=changelog&TB_iframe=true&width=600&height=800
+                        - text: View version 28.8 details
+                      - text: or
+                      - link "Update Yoast SEO now" [ref=f4e653] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/update.php?action=upgrade-plugin&plugin=wordpress-seo%2Fwp-seo.php&_wpnonce=f6027eb707
+                        - text: update now
+                      - text: .
+              - rowgroup [ref=f4e654]:
+                - row [ref=f4e655]:
+                  - cell "Select All" [ref=f4e656]:
+                    - checkbox "Select All" [ref=f4e657] [cursor=pointer]
+                  - columnheader "Plugin" [ref=f4e660]
+                  - columnheader "Description" [ref=f4e661]
+            - generic [ref=f4e662]:
+              - generic [ref=f4e663]:
+                - generic [ref=f4e664]: Select bulk action
+                - combobox "Select bulk action" [ref=f4e665] [cursor=pointer]:
+                  - option "Bulk actions" [selected]
+                  - option "Activate"
+                  - option "Deactivate"
+                  - option "Update"
+                  - option "Delete"
+                - button "Apply" [ref=f4e666] [cursor=pointer]
+              - generic [ref=f4e667]: 13 items
+  - contentinfo [ref=f4e669]:
+    - paragraph [ref=f4e670]:
+      - generic [ref=f4e671]:
+        - text: Thank you for creating with
+        - link "WordPress" [ref=f4e672] [cursor=pointer]:
+          - /url: https://wordpress.org/
+        - text: .
+    - paragraph [ref=f4e673]: Version 7.1.4
+  - button "Agent" [ref=f4e677] [cursor=pointer]
+  - text: 

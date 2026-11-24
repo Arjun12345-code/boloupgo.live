@@ -1,0 +1,316 @@
+- generic [active] [ref=f10e1]:
+  - generic [ref=f10e2]:
+    - navigation "Toolbar":
+      - menu:
+        - group [ref=f10e3]:
+          - menuitem "About WordPress" [ref=f10e4] [cursor=pointer]
+        - group [ref=f10e7]:
+          - menuitem "Boloup Go" [ref=f10e8] [cursor=pointer]
+        - group [ref=f10e9]:
+          - menuitem "Customize" [ref=f10e10] [cursor=pointer]
+        - group [ref=f10e11]:
+          - menuitem "7 updates available" [ref=f10e12] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f10e14]: "7"
+        - group [ref=f10e16]:
+          - menuitem "0 Comments in moderation" [ref=f10e17] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f10e19]: "0"
+        - group [ref=f10e21]:
+          - menuitem "New" [ref=f10e22] [cursor=pointer]
+        - group [ref=f10e25]:
+          - menuitem "Edit Page" [ref=f10e26] [cursor=pointer]
+        - listitem [ref=f10e27]:
+          - link " Edit with Elementor" [ref=f10e28] [cursor=pointer]:
+            - /url: https://boloupgo.live/wp-admin/post.php?post=7&action=elementor
+        - group [ref=f10e29]:
+          - menuitem "" [ref=f10e30] [cursor=pointer]
+        - group [ref=f10e32]:
+          - menuitem "SEO" [ref=f10e33] [cursor=pointer]:
+            - generic [ref=f10e37]: Focus keyphrase not set
+        - group [ref=f10e38]:
+          - menuitem " Notes" [ref=f10e39] [cursor=pointer]
+        - group [ref=f10e40]:
+          - menuitem "Hostinger" [ref=f10e41]
+      - menu [ref=f10e44]:
+        - group [ref=f10e45]:
+          - menuitem "Howdy, webdev" [ref=f10e46] [cursor=pointer]
+        - group [ref=f10e47]:
+          - menuitem "Search" [ref=f10e48]:
+            - generic [ref=f10e49]:
+              - textbox "Search" [ref=f10e50] [cursor=pointer]
+              - generic [ref=f10e51]: Search
+  - link "Skip to content" [ref=f10e52] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=f10e53]:
+    - banner [ref=f10e57]:
+      - generic [ref=f10e58]:
+        - link "BoloUp Go Official" [ref=f10e59] [cursor=pointer]:
+          - /url: "#hero"
+          - img "BoloUp Go Official Logo" [ref=f10e60]
+        - navigation "Main Navigation" [ref=f10e61]:
+          - link "Home" [ref=f10e62] [cursor=pointer]:
+            - /url: "#hero"
+          - link "About" [ref=f10e63] [cursor=pointer]:
+            - /url: "#what-is-boloup"
+          - link "Comparison" [ref=f10e64] [cursor=pointer]:
+            - /url: "#comparison"
+          - link "Benefits" [ref=f10e65] [cursor=pointer]:
+            - /url: "#benefits"
+          - link "How to Register" [ref=f10e66] [cursor=pointer]:
+            - /url: "#registration"
+          - link "FAQ" [ref=f10e67] [cursor=pointer]:
+            - /url: "#faqs"
+        - generic [ref=f10e68]:
+          - link "Download App" [ref=f10e69] [cursor=pointer]:
+            - /url: https://share.bololinks.com/home/scode/47282
+          - link "Become a Host" [ref=f10e70] [cursor=pointer]:
+            - /url: "#registration"
+  - generic [ref=f10e73]:
+    - banner [ref=f10e74]:
+      - generic [ref=f10e75]:
+        - link "BoloUp Go Official" [ref=f10e76] [cursor=pointer]:
+          - /url: "#hero"
+          - img "BoloUp Go Official Logo" [ref=f10e77]
+        - navigation "Main Navigation" [ref=f10e78]:
+          - link "Home" [ref=f10e79] [cursor=pointer]:
+            - /url: "#hero"
+          - link "About" [ref=f10e80] [cursor=pointer]:
+            - /url: "#what-is-boloup"
+          - link "Comparison" [ref=f10e81] [cursor=pointer]:
+            - /url: "#comparison"
+          - link "Benefits" [ref=f10e82] [cursor=pointer]:
+            - /url: "#benefits"
+          - link "How to Register" [ref=f10e83] [cursor=pointer]:
+            - /url: "#registration"
+          - link "FAQ" [ref=f10e84] [cursor=pointer]:
+            - /url: "#faqs"
+        - generic [ref=f10e85]:
+          - link "Download App" [ref=f10e86] [cursor=pointer]:
+            - /url: https://share.bololinks.com/home/scode/47282
+          - link "Become a Host" [ref=f10e87] [cursor=pointer]:
+            - /url: "#registration"
+    - main [ref=f10e88]:
+      - generic [ref=f10e91]:
+        - generic [ref=f10e92]:
+          - generic [ref=f10e93]: BoloUp Go Official Host Program
+          - heading "Start Your Live Journey & Become a Star as a BoloUp Go Host" [level=1] [ref=f10e94]
+          - paragraph [ref=f10e95]: Turn every live session into a space people want to join. You can share what makes you interesting, make real-time conversations, grow your audience, and receive gifts from viewers who enjoy your content.
+          - generic [ref=f10e96]:
+            - link "Become a BoloUp Host" [ref=f10e97] [cursor=pointer]:
+              - /url: "#registration"
+            - link "Download App" [ref=f10e98] [cursor=pointer]:
+              - /url: https://share.bololinks.com/home/scode/47282
+        - img "Start Your Live Journey & Become a Star as a BoloUp Go Host" [ref=f10e102]
+      - generic [ref=f10e105]:
+        - generic [ref=f10e106]:
+          - generic [ref=f10e107]: Platform Overview
+          - heading "What Does It Mean to Be a BoloUp Go Host?" [level=2] [ref=f10e108]
+          - generic [ref=f10e109]:
+            - paragraph [ref=f10e110]: BoloUp is a social entertainment platform where people connect through live video, voice rooms, chat, and virtual interactions.
+            - paragraph [ref=f10e111]: A BoloUp host takes an active role by going live and engaging directly with viewers, and earning gifts in the end. Hosts can talk, entertain, share their interests, and create a space where people want to stay and interact.
+            - paragraph [ref=f10e113]: For you who want additional guidance, you can also become part of an agency during the registration process.
+        - generic [ref=f10e115]:
+          - img "BoloUp Social Entertainment Ecosystem" [ref=f10e117]
+          - generic [ref=f10e118]:
+            - generic [ref=f10e119]: Live Video
+            - generic [ref=f10e123]: Voice Rooms
+            - generic [ref=f10e127]: Real-Time Chat
+            - generic [ref=f10e130]: Virtual Gifts
+      - generic [ref=f10e135]:
+        - generic [ref=f10e136]:
+          - generic [ref=f10e137]: Platform Comparison
+          - heading "How the BoloUp Go Host Experience Compares" [level=2] [ref=f10e138]
+        - table "How the BoloUp Go Host Experience Compares Table" [ref=f10e141]:
+          - rowgroup [ref=f10e142]:
+            - row [ref=f10e143]:
+              - columnheader "Feature" [ref=f10e144]
+              - columnheader "BoloUp Host Recommended" [ref=f10e145]:
+                - generic [ref=f10e146]:
+                  - generic [ref=f10e147]: BoloUp Host
+                  - generic [ref=f10e148]: Recommended
+              - columnheader "Regular Livestreaming Apps" [ref=f10e149]
+          - rowgroup [ref=f10e150]:
+            - row [ref=f10e151]:
+              - cell "Host Registration" [ref=f10e152]
+              - cell "Uses a dedicated Become Host process with agency registration and account verification." [ref=f10e153]:
+                - generic [ref=f10e154]:
+                  - generic [aria-hidden] [ref=f10e155]: ✓
+                  - generic [ref=f10e156]: Uses a dedicated Become Host process with agency registration and account verification.
+              - cell "Anonymous guest or host with little benefits" [ref=f10e157]:
+                - generic [ref=f10e158]:
+                  - generic [aria-hidden] [ref=f10e159]: –
+                  - generic [ref=f10e160]: Anonymous guest or host with little benefits
+            - row [ref=f10e161]:
+              - cell "Agency Connection" [ref=f10e162]
+              - cell "Hosts can join an agency as part of the current host onboarding process." [ref=f10e163]:
+                - generic [ref=f10e164]:
+                  - generic [aria-hidden] [ref=f10e165]: ✓
+                  - generic [ref=f10e166]: Hosts can join an agency as part of the current host onboarding process.
+              - cell "No agency program available" [ref=f10e167]:
+                - generic [ref=f10e168]:
+                  - generic [aria-hidden] [ref=f10e169]: –
+                  - generic [ref=f10e170]: No agency program available
+            - row [ref=f10e171]:
+              - cell "Live Interaction" [ref=f10e172]
+              - cell "Connect with viewers through live broadcasts, conversations, chat, and virtual gifts." [ref=f10e173]:
+                - generic [ref=f10e174]:
+                  - generic [aria-hidden] [ref=f10e175]: ✓
+                  - generic [ref=f10e176]: Connect with viewers through live broadcasts, conversations, chat, and virtual gifts.
+              - cell "Similar livestream or live interaction features" [ref=f10e177]:
+                - generic [ref=f10e178]:
+                  - generic [aria-hidden] [ref=f10e179]: –
+                  - generic [ref=f10e180]: Similar livestream or live interaction features
+            - row [ref=f10e181]:
+              - cell "Host Support" [ref=f10e182]
+              - cell "Hosts can work with an agency" [ref=f10e183]:
+                - generic [ref=f10e184]:
+                  - generic [aria-hidden] [ref=f10e185]: ✓
+                  - generic [ref=f10e186]: Hosts can work with an agency
+              - cell "Little to no dedicated agency support" [ref=f10e187]:
+                - generic [ref=f10e188]:
+                  - generic [aria-hidden] [ref=f10e189]: –
+                  - generic [ref=f10e190]: Little to no dedicated agency support
+      - generic [ref=f10e192]:
+        - generic [ref=f10e193]:
+          - generic [ref=f10e194]: Exclusive Host Perks
+          - heading "Why Become a BoloUp Go Host?" [level=2] [ref=f10e195]
+        - generic [ref=f10e196]:
+          - article [ref=f10e197]:
+            - generic [aria-hidden]: "01"
+            - heading "Connect with Your Audience Live" [level=3] [ref=f10e204]
+            - paragraph [ref=f10e205]: Turn everyday conversations, talents, and interests into interactive live sessions where you can engage directly with viewers.
+          - article [ref=f10e206]:
+            - generic [aria-hidden]: "02"
+            - heading "Receive Gifts" [level=3] [ref=f10e213]
+            - paragraph [ref=f10e214]: Viewers can send gifts during live sessions to show their support and appreciation for the content you create.
+          - article [ref=f10e215]:
+            - generic [aria-hidden]: "03"
+            - heading "Grow with Agency Support" [level=3] [ref=f10e221]
+            - paragraph [ref=f10e222]: Joining an agency gives hosts another source of guidance and income while learning how to grow your presence on BoloUp.
+        - link "Learn More About Agency [boloupgoagency.com]" [ref=f10e224] [cursor=pointer]:
+          - /url: http://boloupgoagency.com
+      - generic [ref=f10e226]:
+        - generic [ref=f10e227]:
+          - generic [ref=f10e228]: Onboarding Guide
+          - heading "How to Register as a BoloUp Go Host" [level=2] [ref=f10e229]
+        - generic [ref=f10e231]:
+          - article [ref=f10e232]:
+            - generic [ref=f10e233]:
+              - generic [ref=f10e234]:
+                - generic [ref=f10e235]: "1"
+                - heading "Step 1 – Download and Create Your Account" [level=3] [ref=f10e236]
+              - paragraph [ref=f10e237]: Download BoloUp and register using one of the available sign-up methods.
+            - img "Download BoloUp and Create Your Account" [ref=f10e239]
+          - article [ref=f10e240]:
+            - generic [ref=f10e241]:
+              - generic [ref=f10e242]:
+                - generic [ref=f10e243]: "2"
+                - heading "Step 2 – Open Become Host" [level=3] [ref=f10e244]
+              - paragraph [ref=f10e245]: Go to your profile, find Become Host, and tap Join to start the host registration process.
+            - img "Open Become Host" [ref=f10e247]
+          - article [ref=f10e248]:
+            - generic [ref=f10e249]:
+              - generic [ref=f10e250]:
+                - generic [ref=f10e251]: "3"
+                - heading "Step 3 – Enter Your Agency ID" [level=3] [ref=f10e252]
+              - paragraph [ref=f10e253]: Open the Join Agency form and enter the Agency ID (2527626) provided by the agency you want to join. Check the agency details before submitting.
+              - generic [ref=f10e254]:
+                - generic [ref=f10e255]: Official BoloUp Agency ID
+                - generic [ref=f10e256]:
+                  - generic [ref=f10e257]: "2527626"
+                  - button "Copy Agency ID 2527626" [ref=f10e258] [cursor=pointer]:
+                    - generic [ref=f10e262]: Copy Agency ID
+            - img "Enter Your Agency ID 2527626" [ref=f10e264]
+          - article [ref=f10e265]:
+            - generic [ref=f10e266]:
+              - generic [ref=f10e267]:
+                - generic [ref=f10e268]: "4"
+                - heading "Step 4 – Complete Face Verification" [level=3] [ref=f10e269]
+              - paragraph [ref=f10e270]: Go to the Authentication Center and follow the on-screen instructions to complete your face verification.
+            - img "Complete Face Verification in Authentication Center" [ref=f10e272]
+          - article [ref=f10e273]:
+            - generic [ref=f10e274]:
+              - generic [ref=f10e275]:
+                - generic [ref=f10e276]: "5"
+                - heading "Step 5 – Complete Your Host Application" [level=3] [ref=f10e277]
+              - paragraph [ref=f10e278]: After your registration and verification have been reviewed and approved, your account can begin operating as a BoloUp host.
+            - img "Complete Your Host Application and Operate as a BoloUp Host" [ref=f10e280]
+      - generic [ref=f10e282]:
+        - generic [ref=f10e283]:
+          - generic [ref=f10e284]: Common Inquiries
+          - heading "Frequently Asked Questions" [level=2] [ref=f10e285]
+        - generic [ref=f10e286]:
+          - article [ref=f10e287]:
+            - button "1 What does a BoloUp host do?" [expanded] [ref=f10e288] [cursor=pointer]:
+              - generic [ref=f10e289]:
+                - generic [ref=f10e290]: "1"
+                - generic [ref=f10e291]: What does a BoloUp host do?
+              - generic [aria-hidden] [ref=f10e292]: +
+            - paragraph [ref=f10e295]: A BoloUp host goes live and interacts with viewers in real time. Hosts can create conversations, entertain their audience, share interests, and receive virtual gifts during live sessions.
+          - article [ref=f10e296]:
+            - button "2 Do I need an agency to register as a BoloUp host?" [ref=f10e297] [cursor=pointer]:
+              - generic [ref=f10e298]:
+                - generic [ref=f10e299]: "2"
+                - generic [ref=f10e300]: Do I need an agency to register as a BoloUp host?
+              - generic [aria-hidden] [ref=f10e301]: +
+            - paragraph [ref=f10e303]: We recommend you to join an agency. During the host registration process there’s a Join Agency step where you enter an Agency ID before completing verification.
+          - article [ref=f10e304]:
+            - button "3 How can a BoloUp host earn?" [ref=f10e305] [cursor=pointer]:
+              - generic [ref=f10e306]:
+                - generic [ref=f10e307]: "3"
+                - generic [ref=f10e308]: How can a BoloUp host earn?
+              - generic [aria-hidden] [ref=f10e309]: +
+            - paragraph [ref=f10e311]: Hosts can receive gifts from viewers during their live sessions. Eligibility, rewards, and other earning conditions follow the current BoloUp and agency program rules.
+      - generic [ref=f10e315]:
+        - heading "Ready to Become a BoloUp Go Host? Only one stream at a time." [level=2] [ref=f10e316]
+        - link "Join BoloUp as a Host" [ref=f10e318] [cursor=pointer]:
+          - /url: "#registration"
+    - contentinfo [ref=f10e319]:
+      - generic [ref=f10e320]:
+        - generic [ref=f10e321]:
+          - generic [ref=f10e322]:
+            - link "BoloUp Go Home" [ref=f10e323] [cursor=pointer]:
+              - /url: "#hero"
+              - img "BoloUp Go Official Logo" [ref=f10e324]
+            - paragraph [ref=f10e325]: BoloUp is a social entertainment platform where people connect through live video, voice rooms, chat, and virtual interactions. Go live, connect with viewers, and earn gifts.
+          - generic [ref=f10e326]:
+            - heading "Navigation" [level=3] [ref=f10e327]
+            - list [ref=f10e328]:
+              - listitem [ref=f10e329]:
+                - link "Home" [ref=f10e330] [cursor=pointer]:
+                  - /url: "#hero"
+              - listitem [ref=f10e331]:
+                - link "About BoloUp" [ref=f10e332] [cursor=pointer]:
+                  - /url: "#what-is-boloup"
+              - listitem [ref=f10e333]:
+                - link "Host Comparison" [ref=f10e334] [cursor=pointer]:
+                  - /url: "#comparison"
+              - listitem [ref=f10e335]:
+                - link "Host Benefits" [ref=f10e336] [cursor=pointer]:
+                  - /url: "#benefits"
+          - generic [ref=f10e337]:
+            - heading "Host Program" [level=3] [ref=f10e338]
+            - list [ref=f10e339]:
+              - listitem [ref=f10e340]:
+                - link "How to Register" [ref=f10e341] [cursor=pointer]:
+                  - /url: "#registration"
+              - listitem [ref=f10e342]:
+                - link "Frequently Asked Questions" [ref=f10e343] [cursor=pointer]:
+                  - /url: "#faqs"
+              - listitem [ref=f10e344]:
+                - link "Agency Portal" [ref=f10e345] [cursor=pointer]:
+                  - /url: https://boloupgoagency.com
+          - generic [ref=f10e346]:
+            - heading "BoloUp App" [level=3] [ref=f10e347]
+            - list [ref=f10e348]:
+              - listitem [ref=f10e349]:
+                - link "Download BoloUp App" [ref=f10e350] [cursor=pointer]:
+                  - /url: https://share.bololinks.com/home/scode/47282
+              - listitem [ref=f10e351]:
+                - link "Join with Agency ID 2527626" [ref=f10e352] [cursor=pointer]:
+                  - /url: "#registration"
+        - generic [ref=f10e353]:
+          - generic [ref=f10e354]: © 2026 BoloUp Go (boloupgo.live). All rights reserved.
+          - generic [ref=f10e355]: Live, Get Gifts, Grow & Earn with BoloUp Go
+  - contentinfo [ref=f10e356]:
+    - paragraph [ref=f10e359]: All rights reserved
+  - generic [ref=f10e360]: desktop

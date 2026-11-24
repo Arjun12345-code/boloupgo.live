@@ -1,0 +1,6 @@
+[     637ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://boloupgo.live/wp-admin/load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate&ver=7.1.4:4
+[    1245ms] [WARNING] wp.compose.pure is deprecated since version 7.1. Please use Use `memo` or `PureComponent` instead instead. @ https://boloupgo.live/wp-includes/js/dist/deprecated.min.js?ver=fe587bac92b7d0ef760e:2
+[    1863ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://boloupgo.live/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[    2218ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://boloupgo.live/style.css:0
+[    2450ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://boloupgo.live/wp-json/hostinger-ai-assistant/v1/website:0
+[    2520ms] [LOG] Elementor preview loaded @ https://boloupgo.live/wp-content/plugins/hostinger-reach/frontend/dist/elementor-editor-scroll.js?ver=1792655863:0

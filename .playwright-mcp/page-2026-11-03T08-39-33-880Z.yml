@@ -1,0 +1,41 @@
+- generic [active] [ref=f28e1]:
+  - generic [ref=f28e2]:
+    - text:              Premium Premium 
+    - generic:
+      - generic [ref=f28e3]:
+        - navigation "Toolbar":
+          - menu:
+            - group [ref=f28e4]:
+              - menuitem "About WordPress" [ref=f28e5] [cursor=pointer]
+            - group [ref=f28e8]:
+              - menuitem "Boloup Go" [ref=f28e9] [cursor=pointer]
+            - group [ref=f28e10]:
+              - menuitem "5 updates available" [ref=f28e11] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f28e13]: "5"
+            - group [ref=f28e15]:
+              - menuitem "Ctrl+K Open command palette" [ref=f28e16] [cursor=pointer]:
+                - generic [ref=f28e18]:
+                  - text: Ctrl+K
+                  - generic [ref=f28e19]: Open command palette
+            - group [ref=f28e20]:
+              - menuitem "0 Comments in moderation" [ref=f28e21] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f28e23]: "0"
+            - group [ref=f28e25]:
+              - menuitem "New" [ref=f28e26] [cursor=pointer]
+            - group [ref=f28e29]:
+              - menuitem "View Page" [ref=f28e30] [cursor=pointer]
+            - group [ref=f28e31]:
+              - menuitem "" [ref=f28e32] [cursor=pointer]:
+                - generic "LiteSpeed Cache Purge All - LSCache" [ref=f28e33]: 
+            - group [ref=f28e34]:
+              - menuitem "Hostinger" [ref=f28e35]
+          - menu [ref=f28e38]:
+            - group [ref=f28e39]:
+              - menuitem "Howdy, webdev" [ref=f28e40] [cursor=pointer]
+      - main:
+        - generic:
+          - generic:
+            - heading "Edit Page" [level=1] [ref=f28e41]
+            - text: 
+    - button "Agent" [ref=f28e46] [cursor=pointer]
+  - generic: "%%title%% %%page%% %%sep%% %%sitename%%"

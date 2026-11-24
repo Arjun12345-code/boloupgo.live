@@ -1,0 +1,650 @@
+- generic [ref=f16e1]:
+  - generic [ref=f16e2]: Loading
+  - heading "Edit \"BoloUp Go Host – Live, Get Gifts, Grow & Earn\" with Elementor" [level=1] [ref=f16e11]
+  - banner [ref=f16e13]:
+    - generic [ref=f16e15]:
+      - generic [ref=f16e16]:
+        - button "Elementor Logo" [ref=f16e18] [cursor=pointer]:
+          - img "Elementor Logo" [ref=f16e19]
+        - generic [ref=f16e26]:
+          - button "Add Element" [pressed] [ref=f16e28] [cursor=pointer]
+          - button "Angie" [ref=f16e32] [cursor=pointer]
+          - button "History" [ref=f16e37] [cursor=pointer]
+          - button "Design System" [ref=f16e41] [cursor=pointer]
+          - button "Post Settings" [ref=f16e45] [cursor=pointer]
+      - generic [ref=f16e51]:
+        - separator [ref=f16e52]
+        - button "BoloUp Go Host - Live, Get Gifts, Grow & Earn" [ref=f16e53] [cursor=pointer]
+        - separator [ref=f16e59]
+        - tablist "Switch Device" [ref=f16e62]:
+          - tab "Desktop" [selected] [ref=f16e63] [cursor=pointer]
+          - tab "Tablet Portrait (up to 1024px)" [ref=f16e66] [cursor=pointer]
+          - tab "Mobile Portrait (up to 767px)" [ref=f16e69] [cursor=pointer]
+        - separator [ref=f16e73]
+      - generic [ref=f16e74]:
+        - generic [ref=f16e75]:
+          - button "What's New" [ref=f16e77] [cursor=pointer]:
+            - generic [ref=f16e78]: "8"
+          - button "Finder" [ref=f16e83] [cursor=pointer]
+          - button "Structure" [pressed] [ref=f16e87] [cursor=pointer]
+          - button "Preview Changes" [ref=f16e91] [cursor=pointer]
+        - group [ref=f16e94]:
+          - button "Publish" [disabled]
+          - button "Save Options" [ref=f16e96] [cursor=pointer]
+  - generic [ref=f16e99]:
+    - complementary [ref=f16e100]:
+      - generic [ref=f16e101]:
+        - text: 
+        - generic [ref=f16e103]:
+          - text: 
+          - heading "Elements" [level=2] [ref=f16e104]
+          - text:  
+        - main [ref=f16e105]:
+          - generic [ref=f16e106]:
+            - generic [ref=f16e107]:
+              - button "Widgets" [ref=f16e108] [cursor=pointer]
+              - button "Components" [ref=f16e109] [cursor=pointer]
+              - button "Globals" [ref=f16e110] [cursor=pointer]
+              - button "Yoast SEO" [ref=f16e111] [cursor=pointer]
+            - search [ref=f16e113]:
+              - generic [ref=f16e114]: "Search Widget:"
+              - searchbox "Search Widget:" [active] [ref=f16e115]
+              - generic [aria-hidden] [ref=f16e116]: 
+            - generic [ref=f16e119]:
+              - text: 
+              - generic [ref=f16e120]:
+                - button "Atomic Elements New" [ref=f16e121] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f16e123]: 
+                  - generic [ref=f16e124]: Atomic Elements
+                  - generic "New" [ref=f16e125]:
+                    - generic [aria-hidden] [ref=f16e126]: 
+                - generic [ref=f16e127]:
+                  - button " Div block" [ref=f16e129]:
+                    - generic [ref=f16e130]: 
+                    - generic [aria-hidden] [ref=f16e132]: 
+                    - generic [ref=f16e133]: Div block
+                  - button " Flexbox" [ref=f16e136]:
+                    - generic [ref=f16e137]: 
+                    - generic [aria-hidden] [ref=f16e139]: 
+                    - generic [ref=f16e140]: Flexbox
+                  - button " Grid" [ref=f16e143]:
+                    - generic [ref=f16e144]: 
+                    - generic [aria-hidden] [ref=f16e146]: 
+                    - generic [ref=f16e147]: Grid
+                  - button " Tabs" [ref=f16e150]:
+                    - generic [ref=f16e151]: 
+                    - generic [aria-hidden] [ref=f16e153]: 
+                    - generic [ref=f16e154]: Tabs
+                  - button "New Accordion" [ref=f16e157]:
+                    - generic "New"
+                    - generic [aria-hidden] [ref=f16e159]: 
+                    - generic [ref=f16e160]: Accordion
+                  - button " Loop" [ref=f16e163]:
+                    - generic [ref=f16e164]: 
+                    - generic [aria-hidden] [ref=f16e166]: 
+                    - generic [ref=f16e167]: Loop
+                  - button " Heading" [ref=f16e170]:
+                    - generic [ref=f16e171]: 
+                    - generic [aria-hidden] [ref=f16e173]: 
+                    - generic [ref=f16e174]: Heading
+                  - button " Image" [ref=f16e177]:
+                    - generic [ref=f16e178]: 
+                    - generic [aria-hidden] [ref=f16e180]: 
+                    - generic [ref=f16e181]: Image
+                  - button " Paragraph" [ref=f16e184]:
+                    - generic [ref=f16e185]: 
+                    - generic [aria-hidden] [ref=f16e187]: 
+                    - generic [ref=f16e188]: Paragraph
+                  - button " SVG" [ref=f16e191]:
+                    - generic [ref=f16e192]: 
+                    - generic [aria-hidden] [ref=f16e194]: 
+                    - generic [ref=f16e195]: SVG
+                  - button " Button" [ref=f16e198]:
+                    - generic [ref=f16e199]: 
+                    - generic [aria-hidden] [ref=f16e201]: 
+                    - generic [ref=f16e202]: Button
+                  - button " YouTube" [ref=f16e205]:
+                    - generic [ref=f16e206]: 
+                    - generic [aria-hidden] [ref=f16e208]: 
+                    - generic [ref=f16e209]: YouTube
+                  - button " Divider" [ref=f16e212]:
+                    - generic [ref=f16e213]: 
+                    - generic [aria-hidden] [ref=f16e215]: 
+                    - generic [ref=f16e216]: Divider
+                  - button " Video" [ref=f16e219]:
+                    - generic [ref=f16e220]: 
+                    - generic [aria-hidden] [ref=f16e222]: 
+                    - generic [ref=f16e223]: Video
+                  - button "New Background Video" [ref=f16e226]:
+                    - generic "New"
+                    - generic [aria-hidden] [ref=f16e228]: 
+                    - generic [ref=f16e229]: Background Video
+              - generic [ref=f16e231]:
+                - button "Atomic Form" [ref=f16e232] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f16e234]: 
+                - generic [ref=f16e236]:
+                  - button " Atomic form" [ref=f16e238]:
+                    - generic [ref=f16e239]: 
+                    - generic [aria-hidden] [ref=f16e241]: 
+                    - generic [ref=f16e242]: Atomic form
+                  - button " Input" [ref=f16e245]:
+                    - generic [ref=f16e246]: 
+                    - generic [aria-hidden] [ref=f16e248]: 
+                    - generic [ref=f16e249]: Input
+                  - button " Label" [ref=f16e252]:
+                    - generic [ref=f16e253]: 
+                    - generic [aria-hidden] [ref=f16e255]: 
+                    - generic [ref=f16e256]: Label
+                  - button " Text area" [ref=f16e259]:
+                    - generic [ref=f16e260]: 
+                    - generic [aria-hidden] [ref=f16e262]: 
+                    - generic [ref=f16e263]: Text area
+                  - button " Submit button" [ref=f16e266]:
+                    - generic [ref=f16e267]: 
+                    - generic [aria-hidden] [ref=f16e269]: 
+                    - generic [ref=f16e270]: Submit button
+                  - button " Checkbox" [ref=f16e273]:
+                    - generic [ref=f16e274]: 
+                    - generic [aria-hidden] [ref=f16e276]: 
+                    - generic [ref=f16e277]: Checkbox
+                  - button " Radio button" [ref=f16e280]:
+                    - generic [ref=f16e281]: 
+                    - generic [aria-hidden] [ref=f16e283]: 
+                    - generic [ref=f16e284]: Radio button
+                  - button " Date picker" [ref=f16e287]:
+                    - generic [ref=f16e288]: 
+                    - generic [aria-hidden] [ref=f16e290]: 
+                    - generic [ref=f16e291]: Date picker
+                  - button " Time picker" [ref=f16e294]:
+                    - generic [ref=f16e295]: 
+                    - generic [aria-hidden] [ref=f16e297]: 
+                    - generic [ref=f16e298]: Time picker
+                  - button " Select" [ref=f16e301]:
+                    - generic [ref=f16e302]: 
+                    - generic [aria-hidden] [ref=f16e304]: 
+                    - generic [ref=f16e305]: Select
+                  - button " File Upload" [ref=f16e308]:
+                    - generic [ref=f16e309]: 
+                    - generic [aria-hidden] [ref=f16e311]: 
+                    - generic [ref=f16e312]: File Upload
+              - generic [ref=f16e314]:
+                - button "Custom Widget Try for free" [ref=f16e315] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f16e317]: 
+                  - generic [ref=f16e318]: Custom Widget
+                  - button "Try for free" [ref=f16e319]
+                - paragraph [ref=f16e322]: Create custom widgets by describing what you need.
+              - generic [ref=f16e323]:
+                - button "Layout" [ref=f16e324] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f16e326]: 
+                - generic [ref=f16e328]:
+                  - button "Container" [ref=f16e330]:
+                    - generic [aria-hidden] [ref=f16e332]: 
+                  - button "Grid" [ref=f16e336]:
+                    - generic [aria-hidden] [ref=f16e338]: 
+              - generic [ref=f16e341]:
+                - button "Basic" [ref=f16e342] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f16e344]: 
+                - generic [ref=f16e346]:
+                  - button "Heading" [ref=f16e348]:
+                    - generic [aria-hidden] [ref=f16e350]: 
+                  - button "Image" [ref=f16e354]:
+                    - generic [aria-hidden] [ref=f16e356]: 
+                  - button "Text Editor" [ref=f16e360]:
+                    - generic [aria-hidden] [ref=f16e362]: 
+                  - button "Video" [ref=f16e366]:
+                    - generic [aria-hidden] [ref=f16e368]: 
+                  - button "Button" [ref=f16e372]:
+                    - generic [aria-hidden] [ref=f16e374]: 
+                  - button "Divider" [ref=f16e378]:
+                    - generic [aria-hidden] [ref=f16e380]: 
+                  - button "Spacer" [ref=f16e384]:
+                    - generic [aria-hidden] [ref=f16e386]: 
+                  - button "Google Maps" [ref=f16e390]:
+                    - generic [aria-hidden] [ref=f16e392]: 
+                  - button "Icon" [ref=f16e396]:
+                    - generic [aria-hidden] [ref=f16e398]: 
+                  - button "Hostinger Reach" [ref=f16e402]:
+                    - generic [aria-hidden] [ref=f16e404]: 
+              - generic [ref=f16e407]:
+                - button "Pro" [ref=f16e408] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f16e410]: 
+                - generic [ref=f16e412]:
+                  - button "Loop Grid" [ref=f16e414]:
+                    - generic [aria-hidden] [ref=f16e416]: 
+                  - button "Loop Carousel" [ref=f16e420]:
+                    - generic [aria-hidden] [ref=f16e422]: 
+                  - button "Off-Canvas" [ref=f16e426]:
+                    - generic [aria-hidden] [ref=f16e428]: 
+                  - button "Posts" [ref=f16e432]:
+                    - generic [aria-hidden] [ref=f16e434]: 
+                  - button "Portfolio" [ref=f16e438]:
+                    - generic [aria-hidden] [ref=f16e440]: 
+                  - button "Gallery" [ref=f16e444]:
+                    - generic [aria-hidden] [ref=f16e446]: 
+                  - button "Form" [ref=f16e450]:
+                    - generic [aria-hidden] [ref=f16e452]: 
+                  - button "Login" [ref=f16e456]:
+                    - generic [aria-hidden] [ref=f16e458]: 
+                  - button "Slides" [ref=f16e462]:
+                    - generic [aria-hidden] [ref=f16e464]: 
+                  - button "WordPress Menu" [ref=f16e468]:
+                    - generic [aria-hidden] [ref=f16e470]: 
+                  - button "Animated Headline" [ref=f16e474]:
+                    - generic [aria-hidden] [ref=f16e476]: 
+                  - button "Hotspot" [ref=f16e480]:
+                    - generic [aria-hidden] [ref=f16e482]: 
+                  - button "Price List" [ref=f16e486]:
+                    - generic [aria-hidden] [ref=f16e488]: 
+                  - button "Price Table" [ref=f16e492]:
+                    - generic [aria-hidden] [ref=f16e494]: 
+                  - button "Flip Box" [ref=f16e498]:
+                    - generic [aria-hidden] [ref=f16e500]: 
+                  - button "Call to Action" [ref=f16e504]:
+                    - generic [aria-hidden] [ref=f16e506]: 
+                  - button "Media Carousel" [ref=f16e510]:
+                    - generic [aria-hidden] [ref=f16e512]: 
+                  - button "Testimonial Carousel" [ref=f16e516]:
+                    - generic [aria-hidden] [ref=f16e518]: 
+                  - button "Reviews" [ref=f16e522]:
+                    - generic [aria-hidden] [ref=f16e524]: 
+                  - button "Table of Contents" [ref=f16e528]:
+                    - generic [aria-hidden] [ref=f16e530]: 
+                  - button "Countdown" [ref=f16e534]:
+                    - generic [aria-hidden] [ref=f16e536]: 
+                  - button "Share Buttons" [ref=f16e540]:
+                    - generic [aria-hidden] [ref=f16e542]: 
+                  - button "Blockquote" [ref=f16e546]:
+                    - generic [aria-hidden] [ref=f16e548]: 
+                  - button "Facebook Embed" [ref=f16e552]:
+                    - generic [aria-hidden] [ref=f16e554]: 
+                  - button "Facebook Page" [ref=f16e558]:
+                    - generic [aria-hidden] [ref=f16e560]: 
+                  - button "Template" [ref=f16e564]:
+                    - generic [aria-hidden] [ref=f16e566]: 
+                  - button "Lottie" [ref=f16e570]:
+                    - generic [aria-hidden] [ref=f16e572]: 
+                  - button "Code Highlight" [ref=f16e576]:
+                    - generic [aria-hidden] [ref=f16e578]: 
+                  - button "Video Playlist" [ref=f16e582]:
+                    - generic [aria-hidden] [ref=f16e584]: 
+                  - button "PayPal Button" [ref=f16e588]:
+                    - generic [aria-hidden] [ref=f16e590]: 
+                  - button "Stripe Button" [ref=f16e594]:
+                    - generic [aria-hidden] [ref=f16e596]: 
+                  - button "Progress Tracker" [ref=f16e600]:
+                    - generic [aria-hidden] [ref=f16e602]: 
+                  - button "Menu" [ref=f16e606]:
+                    - generic [aria-hidden] [ref=f16e608]: 
+                  - button "Carousel" [ref=f16e612]:
+                    - generic [aria-hidden] [ref=f16e614]: 
+                  - button "Taxonomy Filter" [ref=f16e618]:
+                    - generic [aria-hidden] [ref=f16e620]: 
+                  - button "Search" [ref=f16e624]:
+                    - generic [aria-hidden] [ref=f16e626]: 
+              - text: 
+              - generic [ref=f16e629]:
+                - button "General" [ref=f16e630] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f16e632]: 
+                - generic [ref=f16e634]:
+                  - button "Tabs" [ref=f16e636]:
+                    - generic [aria-hidden] [ref=f16e638]: 
+                  - button "Accordion" [ref=f16e642]:
+                    - generic [aria-hidden] [ref=f16e644]: 
+                  - button "Image Box" [ref=f16e648]:
+                    - generic [aria-hidden] [ref=f16e650]: 
+                  - button "Icon Box" [ref=f16e654]:
+                    - generic [aria-hidden] [ref=f16e656]: 
+                  - button "Image Carousel" [ref=f16e660]:
+                    - generic [aria-hidden] [ref=f16e662]: 
+                  - button "Basic Gallery" [ref=f16e666]:
+                    - generic [aria-hidden] [ref=f16e668]: 
+                  - button "Icon List" [ref=f16e672]:
+                    - generic [aria-hidden] [ref=f16e674]: 
+                  - button "Counter" [ref=f16e678]:
+                    - generic [aria-hidden] [ref=f16e680]: 
+                  - button "Progress Bar" [ref=f16e684]:
+                    - generic [aria-hidden] [ref=f16e686]: 
+                  - button "Testimonial" [ref=f16e690]:
+                    - generic [aria-hidden] [ref=f16e692]: 
+                  - button "Social Icons" [ref=f16e696]:
+                    - generic [aria-hidden] [ref=f16e698]: 
+                  - button "Alert" [ref=f16e702]:
+                    - generic [aria-hidden] [ref=f16e704]: 
+                  - button "SoundCloud" [ref=f16e708]:
+                    - generic [aria-hidden] [ref=f16e710]: 
+                  - button "Shortcode" [ref=f16e714]:
+                    - generic [aria-hidden] [ref=f16e716]: 
+                  - button "HTML" [ref=f16e720]:
+                    - generic [aria-hidden] [ref=f16e722]: 
+                  - button "Menu Anchor" [ref=f16e726]:
+                    - generic [aria-hidden] [ref=f16e728]: 
+                  - button "Sidebar" [ref=f16e732]:
+                    - generic [aria-hidden] [ref=f16e734]: 
+                  - button "Read More" [ref=f16e738]:
+                    - generic [aria-hidden] [ref=f16e740]: 
+                  - button "Rating" [ref=f16e744]:
+                    - generic [aria-hidden] [ref=f16e746]: 
+                  - button "Text Path" [ref=f16e750]:
+                    - generic [aria-hidden] [ref=f16e752]: 
+              - generic [ref=f16e755]:
+                - button "Link In Bio" [ref=f16e756] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f16e758]: 
+                - generic [ref=f16e760]:
+                  - button "Minimalist" [ref=f16e762]:
+                    - generic [aria-hidden] [ref=f16e764]: 
+                  - button "Classic" [ref=f16e768]:
+                    - generic [aria-hidden] [ref=f16e770]: 
+                  - button "Showcase" [ref=f16e774]:
+                    - generic [aria-hidden] [ref=f16e776]: 
+                  - button "Links" [ref=f16e780]:
+                    - generic [aria-hidden] [ref=f16e782]: 
+                  - button "Services" [ref=f16e786]:
+                    - generic [aria-hidden] [ref=f16e788]: 
+                  - button "Portfolio Bio" [ref=f16e792]:
+                    - generic [aria-hidden] [ref=f16e794]: 
+                  - button "Business Card" [ref=f16e798]:
+                    - generic [aria-hidden] [ref=f16e800]: 
+              - generic [ref=f16e803]:
+                - button "Site" [ref=f16e804] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f16e806]: 
+                - text:       
+              - generic [ref=f16e808]:
+                - button "Single" [ref=f16e809] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f16e811]: 
+                - text:         
+              - text: 
+        - generic "Hide Panel (Ctrl + P)" [ref=f16e817]:
+          - generic [aria-hidden] [ref=f16e818] [cursor=pointer]: 
+    - main "Preview" [ref=f16e821]:
+      - generic [ref=f16e822]:
+        - generic [aria-hidden] [ref=f16e824]: 
+        - iframe [ref=f16e825]:
+          - generic [ref=f17e1]:
+            - link "Skip to content" [ref=f17e2] [cursor=pointer]:
+              - /url: "#content"
+            - text: 
+            - generic [ref=f17e3]:
+              - generic [ref=f17e5]:
+                - generic:   
+                - generic [ref=f17e6]:
+                  - generic: 
+                  - banner [ref=f17e7]:
+                    - generic [ref=f17e8]:
+                      - link "BoloUp Go Official" [ref=f17e9] [cursor=pointer]:
+                        - /url: "#hero"
+                        - img "BoloUp Go Official Logo" [ref=f17e10]
+                      - navigation "Main Navigation" [ref=f17e11]:
+                        - link "Home" [ref=f17e12] [cursor=pointer]:
+                          - /url: "#hero"
+                        - link "About" [ref=f17e13] [cursor=pointer]:
+                          - /url: "#what-is-boloup"
+                        - link "Comparison" [ref=f17e14] [cursor=pointer]:
+                          - /url: "#comparison"
+                        - link "Benefits" [ref=f17e15] [cursor=pointer]:
+                          - /url: "#benefits"
+                        - link "How to Register" [ref=f17e16] [cursor=pointer]:
+                          - /url: "#registration"
+                        - link "FAQ" [ref=f17e17] [cursor=pointer]:
+                          - /url: "#faqs"
+                      - generic [ref=f17e18]:
+                        - link "Download App" [ref=f17e19] [cursor=pointer]:
+                          - /url: https://share.bololinks.com/home/scode/47282
+                        - link "Become a Host" [ref=f17e20] [cursor=pointer]:
+                          - /url: "#registration"
+                  - main [ref=f17e21]:
+                    - generic [ref=f17e24]:
+                      - generic [ref=f17e25]:
+                        - generic [ref=f17e26]: BoloUp Go Official Host Program
+                        - heading "Start Your Live Journey & Become a Star as a BoloUp Go Host" [level=1] [ref=f17e27]
+                        - paragraph [ref=f17e28]: Turn every live session into a space people want to join. You can share what makes you interesting, make real-time conversations, grow your audience, and receive gifts from viewers who enjoy your content.
+                        - generic [ref=f17e29]:
+                          - link "Become a BoloUp Host" [ref=f17e30] [cursor=pointer]:
+                            - /url: "#registration"
+                          - link "Download App" [ref=f17e31] [cursor=pointer]:
+                            - /url: https://share.bololinks.com/home/scode/47282
+                      - img "Start Your Live Journey & Become a Star as a BoloUp Go Host" [ref=f17e35]
+                    - generic [ref=f17e38]:
+                      - generic [ref=f17e39]:
+                        - generic [ref=f17e40]: Platform Overview
+                        - heading "What Does It Mean to Be a BoloUp Go Host?" [level=2] [ref=f17e41]
+                        - generic [ref=f17e42]:
+                          - paragraph [ref=f17e43]: BoloUp is a social entertainment platform where people connect through live video, voice rooms, chat, and virtual interactions.
+                          - paragraph [ref=f17e44]: A BoloUp host takes an active role by going live and engaging directly with viewers, and earning gifts in the end. Hosts can talk, entertain, share their interests, and create a space where people want to stay and interact.
+                          - paragraph [ref=f17e46]: For you who want additional guidance, you can also become part of an agency during the registration process.
+                      - generic [ref=f17e48]:
+                        - img "BoloUp Social Entertainment Ecosystem" [ref=f17e50]
+                        - generic [ref=f17e51]:
+                          - generic [ref=f17e52]: Live Video
+                          - generic [ref=f17e56]: Voice Rooms
+                          - generic [ref=f17e60]: Real-Time Chat
+                          - generic [ref=f17e63]: Virtual Gifts
+                    - generic [ref=f17e68]:
+                      - generic [ref=f17e69]:
+                        - generic [ref=f17e70]: Platform Comparison
+                        - heading "How the BoloUp Go Host Experience Compares" [level=2] [ref=f17e71]
+                      - table "How the BoloUp Go Host Experience Compares Table" [ref=f17e74]:
+                        - rowgroup [ref=f17e75]:
+                          - row [ref=f17e76]:
+                            - columnheader "Feature" [ref=f17e77]
+                            - columnheader "BoloUp Host Recommended" [ref=f17e78]:
+                              - generic [ref=f17e79]:
+                                - generic [ref=f17e80]: BoloUp Host
+                                - generic [ref=f17e81]: Recommended
+                            - columnheader "Regular Livestreaming Apps" [ref=f17e82]
+                        - rowgroup [ref=f17e83]:
+                          - row [ref=f17e84]:
+                            - cell "Host Registration" [ref=f17e85]
+                            - cell "Uses a dedicated Become Host process with agency registration and account verification." [ref=f17e86]:
+                              - generic [ref=f17e87]:
+                                - generic [aria-hidden] [ref=f17e88]: ✓
+                                - generic [ref=f17e89]: Uses a dedicated Become Host process with agency registration and account verification.
+                            - cell "Anonymous guest or host with little benefits" [ref=f17e90]:
+                              - generic [ref=f17e91]:
+                                - generic [aria-hidden] [ref=f17e92]: –
+                                - generic [ref=f17e93]: Anonymous guest or host with little benefits
+                          - row [ref=f17e94]:
+                            - cell "Agency Connection" [ref=f17e95]
+                            - cell "Hosts can join an agency as part of the current host onboarding process." [ref=f17e96]:
+                              - generic [ref=f17e97]:
+                                - generic [aria-hidden] [ref=f17e98]: ✓
+                                - generic [ref=f17e99]: Hosts can join an agency as part of the current host onboarding process.
+                            - cell "No agency program available" [ref=f17e100]:
+                              - generic [ref=f17e101]:
+                                - generic [aria-hidden] [ref=f17e102]: –
+                                - generic [ref=f17e103]: No agency program available
+                          - row [ref=f17e104]:
+                            - cell "Live Interaction" [ref=f17e105]
+                            - cell "Connect with viewers through live broadcasts, conversations, chat, and virtual gifts." [ref=f17e106]:
+                              - generic [ref=f17e107]:
+                                - generic [aria-hidden] [ref=f17e108]: ✓
+                                - generic [ref=f17e109]: Connect with viewers through live broadcasts, conversations, chat, and virtual gifts.
+                            - cell "Similar livestream or live interaction features" [ref=f17e110]:
+                              - generic [ref=f17e111]:
+                                - generic [aria-hidden] [ref=f17e112]: –
+                                - generic [ref=f17e113]: Similar livestream or live interaction features
+                          - row [ref=f17e114]:
+                            - cell "Host Support" [ref=f17e115]
+                            - cell "Hosts can work with an agency" [ref=f17e116]:
+                              - generic [ref=f17e117]:
+                                - generic [aria-hidden] [ref=f17e118]: ✓
+                                - generic [ref=f17e119]: Hosts can work with an agency
+                            - cell "Little to no dedicated agency support" [ref=f17e120]:
+                              - generic [ref=f17e121]:
+                                - generic [aria-hidden] [ref=f17e122]: –
+                                - generic [ref=f17e123]: Little to no dedicated agency support
+                    - generic [ref=f17e125]:
+                      - generic [ref=f17e126]:
+                        - generic [ref=f17e127]: Exclusive Host Perks
+                        - heading "Why Become a BoloUp Go Host?" [level=2] [ref=f17e128]
+                      - generic [ref=f17e129]:
+                        - article [ref=f17e130]:
+                          - generic [aria-hidden]: "01"
+                          - heading "Connect with Your Audience Live" [level=3] [ref=f17e137]
+                          - paragraph [ref=f17e138]: Turn everyday conversations, talents, and interests into interactive live sessions where you can engage directly with viewers.
+                        - article [ref=f17e139]:
+                          - generic [aria-hidden]: "02"
+                          - heading "Receive Gifts" [level=3] [ref=f17e146]
+                          - paragraph [ref=f17e147]: Viewers can send gifts during live sessions to show their support and appreciation for the content you create.
+                        - article [ref=f17e148]:
+                          - generic [aria-hidden]: "03"
+                          - heading "Grow with Agency Support" [level=3] [ref=f17e154]
+                          - paragraph [ref=f17e155]: Joining an agency gives hosts another source of guidance and income while learning how to grow your presence on BoloUp.
+                      - link "Learn More About Agency [boloupgoagency.com]" [ref=f17e157] [cursor=pointer]:
+                        - /url: http://boloupgoagency.com
+                    - generic [ref=f17e159]:
+                      - generic [ref=f17e160]:
+                        - generic [ref=f17e161]: Onboarding Guide
+                        - heading "How to Register as a BoloUp Go Host" [level=2] [ref=f17e162]
+                      - generic [ref=f17e164]:
+                        - article [ref=f17e165]:
+                          - generic [ref=f17e166]:
+                            - generic [ref=f17e167]:
+                              - generic [ref=f17e168]: "1"
+                              - heading "Step 1 – Download and Create Your Account" [level=3] [ref=f17e169]
+                            - paragraph [ref=f17e170]: Download BoloUp and register using one of the available sign-up methods.
+                          - img "Download BoloUp and Create Your Account" [ref=f17e172]
+                        - article [ref=f17e173]:
+                          - generic [ref=f17e174]:
+                            - generic [ref=f17e175]:
+                              - generic [ref=f17e176]: "2"
+                              - heading "Step 2 – Open Become Host" [level=3] [ref=f17e177]
+                            - paragraph [ref=f17e178]: Go to your profile, find Become Host, and tap Join to start the host registration process.
+                          - img "Open Become Host" [ref=f17e180]
+                        - article [ref=f17e181]:
+                          - generic [ref=f17e182]:
+                            - generic [ref=f17e183]:
+                              - generic [ref=f17e184]: "3"
+                              - heading "Step 3 – Enter Your Agency ID" [level=3] [ref=f17e185]
+                            - paragraph [ref=f17e186]: Open the Join Agency form and enter the Agency ID (2527626) provided by the agency you want to join. Check the agency details before submitting.
+                            - generic [ref=f17e187]:
+                              - generic [ref=f17e188]: Official BoloUp Agency ID
+                              - generic [ref=f17e189]:
+                                - generic [ref=f17e190]: "2527626"
+                                - button "Copy Agency ID 2527626" [ref=f17e191] [cursor=pointer]:
+                                  - generic [ref=f17e195]: Copy Agency ID
+                          - img "Enter Your Agency ID 2527626" [ref=f17e197]
+                        - article [ref=f17e198]:
+                          - generic [ref=f17e199]:
+                            - generic [ref=f17e200]:
+                              - generic [ref=f17e201]: "4"
+                              - heading "Step 4 – Complete Face Verification" [level=3] [ref=f17e202]
+                            - paragraph [ref=f17e203]: Go to the Authentication Center and follow the on-screen instructions to complete your face verification.
+                          - img "Complete Face Verification in Authentication Center" [ref=f17e205]
+                        - article [ref=f17e206]:
+                          - generic [ref=f17e207]:
+                            - generic [ref=f17e208]:
+                              - generic [ref=f17e209]: "5"
+                              - heading "Step 5 – Complete Your Host Application" [level=3] [ref=f17e210]
+                            - paragraph [ref=f17e211]: After your registration and verification have been reviewed and approved, your account can begin operating as a BoloUp host.
+                          - img "Complete Your Host Application and Operate as a BoloUp Host" [ref=f17e213]
+                    - generic [ref=f17e215]:
+                      - generic [ref=f17e216]:
+                        - generic [ref=f17e217]: Common Inquiries
+                        - heading "Frequently Asked Questions" [level=2] [ref=f17e218]
+                      - generic [ref=f17e219]:
+                        - article [ref=f17e220]:
+                          - button "1 What does a BoloUp host do?" [expanded] [ref=f17e221] [cursor=pointer]:
+                            - generic [ref=f17e222]:
+                              - generic [ref=f17e223]: "1"
+                              - generic [ref=f17e224]: What does a BoloUp host do?
+                            - generic [aria-hidden] [ref=f17e225]: +
+                          - paragraph [ref=f17e228]: A BoloUp host goes live and interacts with viewers in real time. Hosts can create conversations, entertain their audience, share interests, and receive virtual gifts during live sessions.
+                        - article [ref=f17e229]:
+                          - button "2 Do I need an agency to register as a BoloUp host?" [ref=f17e230] [cursor=pointer]:
+                            - generic [ref=f17e231]:
+                              - generic [ref=f17e232]: "2"
+                              - generic [ref=f17e233]: Do I need an agency to register as a BoloUp host?
+                            - generic [aria-hidden] [ref=f17e234]: +
+                          - paragraph [ref=f17e236]: We recommend you to join an agency. During the host registration process there’s a Join Agency step where you enter an Agency ID before completing verification.
+                        - article [ref=f17e237]:
+                          - button "3 How can a BoloUp host earn?" [ref=f17e238] [cursor=pointer]:
+                            - generic [ref=f17e239]:
+                              - generic [ref=f17e240]: "3"
+                              - generic [ref=f17e241]: How can a BoloUp host earn?
+                            - generic [aria-hidden] [ref=f17e242]: +
+                          - paragraph [ref=f17e244]: Hosts can receive gifts from viewers during their live sessions. Eligibility, rewards, and other earning conditions follow the current BoloUp and agency program rules.
+                    - generic [ref=f17e248]:
+                      - heading "Ready to Become a BoloUp Go Host? Only one stream at a time." [level=2] [ref=f17e249]
+                      - link "Join BoloUp as a Host" [ref=f17e251] [cursor=pointer]:
+                        - /url: "#registration"
+                  - contentinfo [ref=f17e252]:
+                    - generic [ref=f17e253]:
+                      - generic [ref=f17e254]:
+                        - generic [ref=f17e255]:
+                          - link "BoloUp Go Home" [ref=f17e256] [cursor=pointer]:
+                            - /url: "#hero"
+                            - img "BoloUp Go Official Logo" [ref=f17e257]
+                          - paragraph [ref=f17e258]: BoloUp is a social entertainment platform where people connect through live video, voice rooms, chat, and virtual interactions. Go live, connect with viewers, and earn gifts.
+                        - generic [ref=f17e259]:
+                          - heading "Navigation" [level=3] [ref=f17e260]
+                          - list [ref=f17e261]:
+                            - listitem [ref=f17e262]:
+                              - link "Home" [ref=f17e263] [cursor=pointer]:
+                                - /url: "#hero"
+                            - listitem [ref=f17e264]:
+                              - link "About BoloUp" [ref=f17e265] [cursor=pointer]:
+                                - /url: "#what-is-boloup"
+                            - listitem [ref=f17e266]:
+                              - link "Host Comparison" [ref=f17e267] [cursor=pointer]:
+                                - /url: "#comparison"
+                            - listitem [ref=f17e268]:
+                              - link "Host Benefits" [ref=f17e269] [cursor=pointer]:
+                                - /url: "#benefits"
+                        - generic [ref=f17e270]:
+                          - heading "Host Program" [level=3] [ref=f17e271]
+                          - list [ref=f17e272]:
+                            - listitem [ref=f17e273]:
+                              - link "How to Register" [ref=f17e274] [cursor=pointer]:
+                                - /url: "#registration"
+                            - listitem [ref=f17e275]:
+                              - link "Frequently Asked Questions" [ref=f17e276] [cursor=pointer]:
+                                - /url: "#faqs"
+                            - listitem [ref=f17e277]:
+                              - link "Agency Portal" [ref=f17e278] [cursor=pointer]:
+                                - /url: https://boloupgoagency.com
+                        - generic [ref=f17e279]:
+                          - heading "BoloUp App" [level=3] [ref=f17e280]
+                          - list [ref=f17e281]:
+                            - listitem [ref=f17e282]:
+                              - link "Download BoloUp App" [ref=f17e283] [cursor=pointer]:
+                                - /url: https://share.bololinks.com/home/scode/47282
+                            - listitem [ref=f17e284]:
+                              - link "Join with Agency ID 2527626" [ref=f17e285] [cursor=pointer]:
+                                - /url: "#registration"
+                      - generic [ref=f17e286]:
+                        - generic [ref=f17e287]: © 2026 BoloUp Go (boloupgo.live). All rights reserved.
+                        - generic [ref=f17e288]: Live, Get Gifts, Grow & Earn with BoloUp Go
+              - region "Add new layout element" [ref=f17e292]:
+                - generic [ref=f17e293]:
+                  - text:  
+                  - generic [ref=f17e294]:
+                    - button "Add New Container" [ref=f17e295] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=f17e296]: 
+                    - button "Add Template" [ref=f17e297] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=f17e298]: 
+                    - button "Build with AI" [ref=f17e299] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=f17e307]: 
+                    - generic [ref=f17e308]: Drag widget here
+            - generic [ref=f17e309]: desktop
+    - complementary [ref=f16e826]:
+      - generic [ref=f16e827]:
+        - generic [ref=f16e828]:
+          - button "Expand all elements" [ref=f16e829] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f16e830]: 
+          - heading "Structure" [level=2] [ref=f16e831]
+          - button "Close structure" [ref=f16e832] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f16e833]: 
+        - generic [ref=f16e837]:
+          - generic [ref=f16e838] [cursor=pointer]:
+            - generic [ref=f16e839]:
+              - generic [aria-hidden] [ref=f16e840]: 
+              - generic [ref=f16e841]: Show/hide inner elements
+            - generic [aria-hidden] [ref=f16e843]: 
+            - generic [ref=f16e844]: Container
+            - text: 
+          - text:  
+        - generic [ref=f16e847]:
+          - generic [aria-hidden] [ref=f16e848]: 
+          - generic [ref=f16e849]: Resize structure
+  - button "Agent" [ref=f16e861] [cursor=pointer]
+  - text: 

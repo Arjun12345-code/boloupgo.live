@@ -1,0 +1,619 @@
+- generic [ref=f5e2]:
+  - navigation "Main menu":
+    - link "Skip to main content" [ref=f5e3] [cursor=pointer]:
+      - /url: "#wpbody-content"
+    - link "Skip to toolbar" [ref=f5e4] [cursor=pointer]:
+      - /url: "#wp-toolbar"
+    - list [ref=f5e7]:
+      - listitem [ref=f5e8]:
+        - link "Hostinger" [ref=f5e9] [cursor=pointer]:
+          - /url: admin.php?page=hostinger
+        - list [ref=f5e12]:
+          - listitem [ref=f5e13]:
+            - link "Hub" [ref=f5e14] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-get-onboarding
+          - listitem [ref=f5e15]:
+            - link "Tools" [ref=f5e16] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-tools
+          - listitem [ref=f5e17]:
+            - link "Reach" [ref=f5e18] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-reach
+          - listitem [ref=f5e19]:
+            - link "AI Content Creator" [ref=f5e20] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-ai-assistant
+      - listitem [ref=f5e21]:
+        - link "Dashboard" [ref=f5e22] [cursor=pointer]:
+          - /url: index.php
+          - generic [aria-hidden] [ref=f5e23]: 
+        - list [ref=f5e25]:
+          - listitem [ref=f5e26]:
+            - link "Home" [ref=f5e27] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f5e28]:
+            - link "Updates 7" [ref=f5e29] [cursor=pointer]:
+              - /url: update-core.php
+              - text: Updates
+              - generic [ref=f5e30]: "7"
+      - listitem [ref=f5e31]:
+        - link "Site Kit" [ref=f5e32] [cursor=pointer]:
+          - /url: admin.php?page=googlesitekit-splash
+        - list [ref=f5e35]:
+          - listitem [ref=f5e36]:
+            - link "Dashboard" [ref=f5e37] [cursor=pointer]:
+              - /url: admin.php?page=googlesitekit-splash
+      - listitem [ref=f5e38]:
+        - link "Elementor" [ref=f5e39] [cursor=pointer]:
+          - /url: admin.php?page=elementor-home
+        - list [ref=f5e42]:
+          - listitem [ref=f5e43]:
+            - link "Home" [ref=f5e44] [cursor=pointer]:
+              - /url: admin.php?page=elementor-home
+          - listitem [ref=f5e45]:
+            - link "Editor" [ref=f5e46] [cursor=pointer]:
+              - /url: admin.php?page=elementor
+          - listitem [ref=f5e47]:
+            - link "Theme Builder" [ref=f5e48] [cursor=pointer]:
+              - /url: https://boloupgo.live/wp-admin/admin.php?page=elementor-app&ver=4.3.5&return_to=/wp-admin/edit.php?post_type=elementor_snippet#/site-editor
+          - listitem [ref=f5e49]:
+            - link "Submissions" [ref=f5e50] [cursor=pointer]:
+              - /url: admin.php?page=e-form-submissions
+          - listitem [ref=f5e51]:
+            - link "Elementor MCP" [ref=f5e52] [cursor=pointer]:
+              - /url: admin.php?page=elementor-mcp
+          - listitem [ref=f5e53]:
+            - link "License" [ref=f5e54] [cursor=pointer]:
+              - /url: admin.php?page=elementor-license
+      - listitem [aria-hidden] [ref=f5e55]
+      - listitem [ref=f5e57]:
+        - link "Posts" [ref=f5e58] [cursor=pointer]:
+          - /url: edit.php
+          - generic [aria-hidden] [ref=f5e59]: 
+        - list [ref=f5e61]:
+          - listitem [ref=f5e62]:
+            - link "All Posts" [ref=f5e63] [cursor=pointer]:
+              - /url: edit.php
+          - listitem [ref=f5e64]:
+            - link "Add Post" [ref=f5e65] [cursor=pointer]:
+              - /url: post-new.php
+          - listitem [ref=f5e66]:
+            - link "Categories" [ref=f5e67] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=category
+          - listitem [ref=f5e68]:
+            - link "Tags" [ref=f5e69] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=post_tag
+      - listitem [ref=f5e70]:
+        - link "Media" [ref=f5e71] [cursor=pointer]:
+          - /url: upload.php
+          - generic [aria-hidden] [ref=f5e72]: 
+        - list [ref=f5e74]:
+          - listitem [ref=f5e75]:
+            - link "Library" [ref=f5e76] [cursor=pointer]:
+              - /url: upload.php
+          - listitem [ref=f5e77]:
+            - link "Add Media File" [ref=f5e78] [cursor=pointer]:
+              - /url: media-new.php
+      - listitem [ref=f5e79]:
+        - link "Pages" [ref=f5e80] [cursor=pointer]:
+          - /url: edit.php?post_type=page
+          - generic [aria-hidden] [ref=f5e81]: 
+        - list [ref=f5e83]:
+          - listitem [ref=f5e84]:
+            - link "All Pages" [ref=f5e85] [cursor=pointer]:
+              - /url: edit.php?post_type=page
+          - listitem [ref=f5e86]:
+            - link "Add Page" [ref=f5e87] [cursor=pointer]:
+              - /url: post-new.php?post_type=page
+      - listitem [ref=f5e88]:
+        - link "Comments" [ref=f5e89] [cursor=pointer]:
+          - /url: edit-comments.php
+          - generic [aria-hidden] [ref=f5e90]: 
+      - text:  
+      - listitem [aria-hidden] [ref=f5e92]
+      - listitem [ref=f5e94]:
+        - link "Hello" [ref=f5e95] [cursor=pointer]:
+          - /url: admin.php?page=hello-elementor
+          - generic [aria-hidden] [ref=f5e96]: 
+      - listitem [ref=f5e98]:
+        - link "Appearance" [ref=f5e99] [cursor=pointer]:
+          - /url: themes.php
+          - generic [aria-hidden] [ref=f5e100]: 
+        - list [ref=f5e102]:
+          - listitem [ref=f5e103]:
+            - link "Themes 1" [ref=f5e104] [cursor=pointer]:
+              - /url: themes.php
+              - text: Themes
+              - generic [ref=f5e105]: "1"
+          - listitem [ref=f5e106]:
+            - link "Design" [ref=f5e107] [cursor=pointer]:
+              - /url: site-editor.php
+          - listitem [ref=f5e108]:
+            - link "Customize" [ref=f5e109] [cursor=pointer]:
+              - /url: customize.php?return=%2Fwp-admin%2Fedit.php%3Fpost_type%3Delementor_snippet
+          - listitem [ref=f5e110]:
+            - link "Fonts" [ref=f5e111] [cursor=pointer]:
+              - /url: font-library.php
+          - listitem [ref=f5e112]:
+            - link "Menus" [ref=f5e113] [cursor=pointer]:
+              - /url: nav-menus.php
+          - listitem [ref=f5e114]:
+            - link "Theme File Editor" [ref=f5e115] [cursor=pointer]:
+              - /url: theme-editor.php
+      - listitem [ref=f5e116]:
+        - link "Plugins 5" [ref=f5e117] [cursor=pointer]:
+          - /url: plugins.php
+          - generic [aria-hidden] [ref=f5e118]: 
+          - generic [ref=f5e119]:
+            - text: Plugins
+            - generic [ref=f5e120]: "5"
+        - list [ref=f5e121]:
+          - listitem [ref=f5e122]:
+            - link "Installed Plugins" [ref=f5e123] [cursor=pointer]:
+              - /url: plugins.php
+          - listitem [ref=f5e124]:
+            - link "Add Plugin" [ref=f5e125] [cursor=pointer]:
+              - /url: plugin-install.php
+          - listitem [ref=f5e126]:
+            - link "Plugin File Editor" [ref=f5e127] [cursor=pointer]:
+              - /url: plugin-editor.php
+      - listitem [ref=f5e128]:
+        - link "Users" [ref=f5e129] [cursor=pointer]:
+          - /url: users.php
+          - generic [aria-hidden] [ref=f5e130]: 
+        - list [ref=f5e132]:
+          - listitem [ref=f5e133]:
+            - link "All Users" [ref=f5e134] [cursor=pointer]:
+              - /url: users.php
+          - listitem [ref=f5e135]:
+            - link "Add User" [ref=f5e136] [cursor=pointer]:
+              - /url: user-new.php
+          - listitem [ref=f5e137]:
+            - link "Profile" [ref=f5e138] [cursor=pointer]:
+              - /url: profile.php
+      - listitem [ref=f5e139]:
+        - link "Tools" [ref=f5e140] [cursor=pointer]:
+          - /url: tools.php
+          - generic [aria-hidden] [ref=f5e141]: 
+        - list [ref=f5e143]:
+          - listitem [ref=f5e144]:
+            - link "Available Tools" [ref=f5e145] [cursor=pointer]:
+              - /url: tools.php
+          - listitem [ref=f5e146]:
+            - link "Import" [ref=f5e147] [cursor=pointer]:
+              - /url: import.php
+          - listitem [ref=f5e148]:
+            - link "Export" [ref=f5e149] [cursor=pointer]:
+              - /url: export.php
+          - listitem [ref=f5e150]:
+            - link "Site Health" [ref=f5e151] [cursor=pointer]:
+              - /url: site-health.php
+          - listitem [ref=f5e152]:
+            - link "Export Personal Data" [ref=f5e153] [cursor=pointer]:
+              - /url: export-personal-data.php
+          - listitem [ref=f5e154]:
+            - link "Erase Personal Data" [ref=f5e155] [cursor=pointer]:
+              - /url: erase-personal-data.php
+          - listitem [ref=f5e156]:
+            - link "Scheduled Actions" [ref=f5e157] [cursor=pointer]:
+              - /url: tools.php?page=action-scheduler
+          - listitem [ref=f5e158]:
+            - link "Yoast Redirects" [ref=f5e159] [cursor=pointer]:
+              - /url: tools.php?page=wpseo_redirects_tools
+      - listitem [ref=f5e160]:
+        - link "Settings" [ref=f5e161] [cursor=pointer]:
+          - /url: options-general.php
+          - generic [aria-hidden] [ref=f5e162]: 
+        - list [ref=f5e164]:
+          - listitem [ref=f5e165]:
+            - link "General" [ref=f5e166] [cursor=pointer]:
+              - /url: options-general.php
+          - listitem [ref=f5e167]:
+            - link "Connectors" [ref=f5e168] [cursor=pointer]:
+              - /url: options-connectors.php
+          - listitem [ref=f5e169]:
+            - link "Writing" [ref=f5e170] [cursor=pointer]:
+              - /url: options-writing.php
+          - listitem [ref=f5e171]:
+            - link "Reading" [ref=f5e172] [cursor=pointer]:
+              - /url: options-reading.php
+          - listitem [ref=f5e173]:
+            - link "Discussion" [ref=f5e174] [cursor=pointer]:
+              - /url: options-discussion.php
+          - listitem [ref=f5e175]:
+            - link "Media" [ref=f5e176] [cursor=pointer]:
+              - /url: options-media.php
+          - listitem [ref=f5e177]:
+            - link "Permalinks" [ref=f5e178] [cursor=pointer]:
+              - /url: options-permalink.php
+          - listitem [ref=f5e179]:
+            - link "Privacy" [ref=f5e180] [cursor=pointer]:
+              - /url: options-privacy.php
+      - listitem [aria-hidden] [ref=f5e181]
+      - listitem [ref=f5e183]:
+        - link "Yoast SEO 1 notification" [ref=f5e184] [cursor=pointer]:
+          - /url: admin.php?page=wpseo_dashboard
+          - generic [ref=f5e186]:
+            - text: Yoast SEO
+            - generic [ref=f5e187]:
+              - text: "1"
+              - generic [ref=f5e188]: 1 notification
+        - list [ref=f5e189]:
+          - listitem [ref=f5e190]:
+            - link "General" [ref=f5e191] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_dashboard
+          - listitem [ref=f5e192]:
+            - link "Settings" [ref=f5e193] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_settings
+          - listitem [ref=f5e194]:
+            - link "Integrations" [ref=f5e195] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_integrations
+          - listitem [ref=f5e196]:
+            - link "Tools" [ref=f5e197] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_tools
+          - listitem [ref=f5e198]:
+            - link "Academy" [ref=f5e199] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_academy
+          - listitem [ref=f5e200]:
+            - link "Plans" [ref=f5e201] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_licenses
+          - listitem [ref=f5e202]:
+            - link "Workouts Premium" [ref=f5e203] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_workouts
+              - text: Workouts
+              - generic [ref=f5e204]: Premium
+          - listitem [ref=f5e205]:
+            - link "Redirects Premium" [ref=f5e206] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_redirects
+              - text: Redirects
+              - generic [ref=f5e207]: Premium
+          - listitem [ref=f5e208]:
+            - link "Support" [ref=f5e209] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_support
+          - listitem [ref=f5e210]:
+            - link "Upgrade" [ref=f5e211] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_upgrade_sidebar
+          - listitem [ref=f5e214]:
+            - link "AI Brand Insights" [ref=f5e215] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_brand_insights
+      - listitem [ref=f5e219]:
+        - link "AIOS" [ref=f5e220] [cursor=pointer]:
+          - /url: admin.php?page=aiowpsec
+        - list [ref=f5e223]:
+          - listitem [ref=f5e224]:
+            - link "Dashboard" [ref=f5e225] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec
+          - listitem [ref=f5e226]:
+            - link "Settings" [ref=f5e227] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_settings
+          - listitem [ref=f5e228]:
+            - link "User Security" [ref=f5e229] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_usersec
+          - listitem [ref=f5e230]:
+            - link "Database Security" [ref=f5e231] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_database
+          - listitem [ref=f5e232]:
+            - link "File Security" [ref=f5e233] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_filesystem
+          - listitem [ref=f5e234]:
+            - link "Firewall" [ref=f5e235] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_firewall
+          - listitem [ref=f5e236]:
+            - link "Brute Force" [ref=f5e237] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_brute_force
+          - listitem [ref=f5e238]:
+            - link "Spam Prevention" [ref=f5e239] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_spam
+          - listitem [ref=f5e240]:
+            - link "Scanner" [ref=f5e241] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_filescan
+          - listitem [ref=f5e242]:
+            - link "Tools" [ref=f5e243] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_tools
+          - listitem [ref=f5e244]:
+            - link "Two Factor Auth" [ref=f5e245] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_two_factor_auth_user
+          - listitem [ref=f5e246]:
+            - link "Premium Upgrade" [ref=f5e247] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec&tab=premium-upgrade
+      - listitem [ref=f5e248]:
+        - link "LiteSpeed Cache" [ref=f5e249] [cursor=pointer]:
+          - /url: admin.php?page=litespeed
+          - generic [aria-hidden] [ref=f5e250]: 
+        - list [ref=f5e252]:
+          - listitem [ref=f5e253]:
+            - link "Dashboard" [ref=f5e254] [cursor=pointer]:
+              - /url: admin.php?page=litespeed
+          - listitem [ref=f5e255]:
+            - link "Presets" [ref=f5e256] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-presets
+          - listitem [ref=f5e257]:
+            - link "General" [ref=f5e258] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-general
+          - listitem [ref=f5e259]:
+            - link "Cache" [ref=f5e260] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-cache
+          - listitem [ref=f5e261]:
+            - link "CDN" [ref=f5e262] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-cdn
+          - listitem [ref=f5e263]:
+            - link "Image Optimization" [ref=f5e264] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-img_optm
+          - listitem [ref=f5e265]:
+            - link "Page Optimization" [ref=f5e266] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-page_optm
+          - listitem [ref=f5e267]:
+            - link "Database" [ref=f5e268] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-db_optm
+          - listitem [ref=f5e269]:
+            - link "Crawler" [ref=f5e270] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-crawler
+          - listitem [ref=f5e271]:
+            - link "Toolbox" [ref=f5e272] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-toolbox
+      - listitem [ref=f5e273]:
+        - link "Chaty" [ref=f5e274] [cursor=pointer]:
+          - /url: admin.php?page=chaty-app
+        - list [ref=f5e277]:
+          - listitem [ref=f5e278]:
+            - link "+ Create New Widget" [ref=f5e279] [cursor=pointer]:
+              - /url: admin.php?page=chaty-app&widget=0&step=0
+          - listitem [ref=f5e280]:
+            - link "Chatway Live Chat" [ref=f5e281] [cursor=pointer]:
+              - /url: admin.php?page=chaty-live-chat
+          - listitem [ref=f5e282]:
+            - link "Widget Analytics" [ref=f5e283] [cursor=pointer]:
+              - /url: admin.php?page=widget-analytics
+          - listitem [ref=f5e284]:
+            - link "Recommended Plugins" [ref=f5e285] [cursor=pointer]:
+              - /url: admin.php?page=recommended-chaty-plugins
+          - listitem [ref=f5e286]:
+            - link "Upgrade to Pro" [ref=f5e287] [cursor=pointer]:
+              - /url: admin.php?page=chaty-app-upgrade
+      - listitem [ref=f5e291]:
+        - button "Collapse Main menu" [expanded] [ref=f5e292] [cursor=pointer]:
+          - generic [ref=f5e294]: Collapse Menu
+  - generic [ref=f5e295]:
+    - generic [ref=f5e296]:
+      - navigation "Toolbar":
+        - menu:
+          - group [ref=f5e297]:
+            - menuitem "About WordPress" [ref=f5e298] [cursor=pointer]
+          - group [ref=f5e301]:
+            - menuitem "Boloup Go" [ref=f5e302] [cursor=pointer]
+          - group [ref=f5e303]:
+            - menuitem "7 updates available" [ref=f5e304] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f5e306]: "7"
+          - group [ref=f5e308]:
+            - menuitem "Ctrl+K Open command palette" [ref=f5e309] [cursor=pointer]:
+              - generic [ref=f5e311]:
+                - text: Ctrl+K
+                - generic [ref=f5e312]: Open command palette
+          - group [ref=f5e313]:
+            - menuitem "0 Comments in moderation" [ref=f5e314] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f5e316]: "0"
+          - group [ref=f5e318]:
+            - menuitem "New" [ref=f5e319] [cursor=pointer]
+          - group [ref=f5e322]:
+            - menuitem "" [ref=f5e323] [cursor=pointer]:
+              - generic "LiteSpeed Cache Purge All - LSCache" [ref=f5e324]: 
+          - group [ref=f5e325]:
+            - menuitem "SEO 1 notification" [ref=f5e326] [cursor=pointer]:
+              - generic [ref=f5e327]: SEO
+              - generic [ref=f5e329]:
+                - text: "1"
+                - generic [ref=f5e330]: 1 notification
+            - text: Premium Premium
+          - group [ref=f5e331]:
+            - menuitem "Hostinger" [ref=f5e332]
+          - group [ref=f5e335]:
+            - menuitem "Edit Home Page" [ref=f5e336] [cursor=pointer]
+        - menu [ref=f5e337]:
+          - group [ref=f5e338]:
+            - menuitem "Howdy, webdev" [ref=f5e339] [cursor=pointer]
+    - navigation [ref=f5e341]:
+      - generic [ref=f5e342]:
+        - generic [ref=f5e343]:
+          - heading "Editor" [level=6] [ref=f5e348]
+          - button [ref=f5e349] [cursor=pointer]
+        - button [ref=f5e352] [cursor=pointer]
+      - list [ref=f5e356]:
+        - listitem [ref=f5e357]:
+          - button [ref=f5e358] [cursor=pointer]:
+            - paragraph [ref=f5e363]: Quick Start
+        - listitem [ref=f5e364]:
+          - button [ref=f5e365] [cursor=pointer]:
+            - paragraph [ref=f5e370]: Settings
+        - listitem [ref=f5e371]:
+          - button [ref=f5e372] [cursor=pointer]:
+            - paragraph [ref=f5e377]: Elementor MCP
+        - listitem [ref=f5e378]:
+          - button [ref=f5e379] [cursor=pointer]:
+            - paragraph [ref=f5e384]: Tools
+        - listitem [ref=f5e385]:
+          - button [ref=f5e386] [cursor=pointer]:
+            - paragraph [ref=f5e391]: Templates
+        - list [ref=f5e397]:
+          - listitem [ref=f5e398]:
+            - link [ref=f5e399] [cursor=pointer]:
+              - /url: https://boloupgo.live/wp-admin/edit.php?post_type=elementor_library&tabs_group=library
+              - paragraph [ref=f5e401]: Saved Templates
+          - listitem [ref=f5e402]:
+            - link [ref=f5e403] [cursor=pointer]:
+              - /url: https://boloupgo.live/wp-admin/admin.php?page=elementor-app&ver=4.3.5&return_to=/wp-admin/edit.php?post_type=elementor_snippet#/site-editor
+              - paragraph [ref=f5e405]: Theme Builder
+          - listitem [ref=f5e406]:
+            - link [ref=f5e407] [cursor=pointer]:
+              - /url: https://boloupgo.live/wp-admin/admin.php?page=elementor-app&ver=4.3.5&return_to=/wp-admin/edit.php?post_type=elementor_snippet&source=wp_db_templates_menu#/kit-library
+              - paragraph [ref=f5e409]: Website Templates
+          - listitem [ref=f5e410]:
+            - link [ref=f5e411] [cursor=pointer]:
+              - /url: https://boloupgo.live/wp-admin/edit.php?post_type=e-floating-buttons
+              - paragraph [ref=f5e413]: Floating Elements
+          - listitem [ref=f5e414]:
+            - link [ref=f5e415] [cursor=pointer]:
+              - /url: https://boloupgo.live/wp-admin/edit.php?post_type=elementor_library&tabs_group=popup&elementor_library_type=popup
+              - paragraph [ref=f5e417]: Popups
+        - listitem [ref=f5e418]:
+          - button [ref=f5e419] [cursor=pointer]:
+            - paragraph [ref=f5e424]: Submissions
+        - listitem [ref=f5e425]:
+          - button [ref=f5e426] [cursor=pointer]:
+            - paragraph [ref=f5e434]: Role Manager
+        - listitem [ref=f5e435]:
+          - button [ref=f5e436] [cursor=pointer]:
+            - paragraph [ref=f5e441]: Custom Elements
+        - list [ref=f5e447]:
+          - listitem [ref=f5e448]:
+            - link [ref=f5e449] [cursor=pointer]:
+              - /url: https://boloupgo.live/wp-admin/edit.php?post_type=elementor_font
+              - paragraph [ref=f5e451]: Fonts
+          - listitem [ref=f5e452]:
+            - link [ref=f5e453] [cursor=pointer]:
+              - /url: https://boloupgo.live/wp-admin/edit.php?post_type=elementor_icons
+              - paragraph [ref=f5e455]: Icons
+          - listitem [ref=f5e456]:
+            - link [ref=f5e457] [cursor=pointer]:
+              - /url: https://boloupgo.live/wp-admin/edit.php?post_type=elementor_snippet
+              - paragraph [ref=f5e459]: Code
+        - listitem [ref=f5e460]:
+          - button [ref=f5e461] [cursor=pointer]:
+            - paragraph [ref=f5e468]: System
+        - list [ref=f5e474]:
+          - listitem [ref=f5e475]:
+            - link [ref=f5e476] [cursor=pointer]:
+              - /url: https://boloupgo.live/wp-admin/admin.php?page=elementor-system-info
+              - paragraph [ref=f5e478]: System Info
+          - listitem [ref=f5e479]:
+            - link [ref=f5e480] [cursor=pointer]:
+              - /url: https://boloupgo.live/wp-admin/admin.php?page=elementor-element-manager
+              - paragraph [ref=f5e482]: Element Manager
+          - listitem [ref=f5e483]:
+            - link [ref=f5e484] [cursor=pointer]:
+              - /url: https://boloupgo.live/wp-admin/admin.php?page=elementor-license
+              - paragraph [ref=f5e486]: License
+      - separator [ref=f5e487]
+    - banner [ref=f5e488]:
+      - generic [ref=f5e490]:
+        - generic [ref=f5e491]: website builder
+        - generic [ref=f5e495]:
+          - button [ref=f5e498] [cursor=pointer]
+          - link [ref=f5e502] [cursor=pointer]:
+            - /url: https://go.elementor.com/one-help-center-editor/
+          - separator [ref=f5e507]
+          - button "My account" [ref=f5e508] [cursor=pointer]
+    - main [ref=f5e512]:
+      - generic [ref=f5e513]:
+        - button "Screen Options" [ref=f5e516] [cursor=pointer]
+        - generic [ref=f5e517]:
+          - heading "Custom Code" [level=1] [ref=f5e518]
+          - link "New code" [ref=f5e519] [cursor=pointer]:
+            - /url: https://boloupgo.live/wp-admin/post-new.php?post_type=elementor_snippet
+          - heading "Filter posts list" [level=2] [ref=f5e520]
+          - list [ref=f5e521]:
+            - listitem [ref=f5e522]:
+              - link "All (1)" [ref=f5e523] [cursor=pointer]:
+                - /url: edit.php?post_type=elementor_snippet
+              - text: "|"
+            - listitem [ref=f5e524]:
+              - link "Published (1)" [ref=f5e525] [cursor=pointer]:
+                - /url: edit.php?post_status=publish&post_type=elementor_snippet
+          - generic [ref=f5e526]:
+            - paragraph [ref=f5e527]:
+              - generic [ref=f5e528]: "Search Posts:"
+              - searchbox "Search Posts:" [ref=f5e529]
+              - button "Search Posts" [ref=f5e530] [cursor=pointer]
+            - generic [ref=f5e531]:
+              - generic [ref=f5e532]:
+                - generic [ref=f5e533]: Select bulk action
+                - combobox "Select bulk action" [ref=f5e534] [cursor=pointer]:
+                  - option "Bulk actions" [selected]
+                  - option "Bulk edit"
+                  - option "Move to Trash"
+                - button "Apply" [ref=f5e535] [cursor=pointer]
+              - generic [ref=f5e536]:
+                - generic [ref=f5e537]: Filter by date
+                - combobox "Filter by date" [ref=f5e538] [cursor=pointer]:
+                  - option "All dates" [selected]
+                  - option "November 2026"
+                - button "Filter" [ref=f5e539] [cursor=pointer]
+              - generic [ref=f5e540]: 1 item
+            - heading "Posts list" [level=2] [ref=f5e542]
+            - table [ref=f5e543]:
+              - caption [ref=f5e544]: Table ordered by Date. Descending.
+              - rowgroup [ref=f5e545]:
+                - row [ref=f5e546]:
+                  - cell "Select All" [ref=f5e547]:
+                    - checkbox "Select All" [ref=f5e548] [cursor=pointer]
+                  - columnheader [ref=f5e551]:
+                    - link "Title Sort ascending." [ref=f5e552] [cursor=pointer]:
+                      - /url: https://boloupgo.live/wp-admin/edit.php?post_type=elementor_snippet&orderby=title&order=asc
+                      - generic [ref=f5e553]: Title
+                      - generic [ref=f5e557]: Sort ascending.
+                  - columnheader "Author" [ref=f5e558]
+                  - columnheader "Instances" [ref=f5e559]
+                  - columnheader "Location" [ref=f5e560]
+                  - columnheader "Priority" [ref=f5e561]
+                  - columnheader [ref=f5e562]:
+                    - link "Date" [ref=f5e563] [cursor=pointer]:
+                      - /url: https://boloupgo.live/wp-admin/edit.php?post_type=elementor_snippet&orderby=date&order=asc
+              - rowgroup [ref=f5e568]:
+                - row [ref=f5e569]:
+                  - cell "Select BoloUp Go Sitewide Styles" [ref=f5e570]:
+                    - checkbox "Select BoloUp Go Sitewide Styles" [ref=f5e571] [cursor=pointer]
+                  - rowheader "BoloUp Go Sitewide Styles" [ref=f5e574]:
+                    - strong [ref=f5e575]:
+                      - link "BoloUp Go Sitewide Styles" [ref=f5e576] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/post.php?post=25&action=edit
+                    - generic [ref=f5e577]:
+                      - generic [ref=f5e578]:
+                        - link "Edit “BoloUp Go Sitewide Styles”" [ref=f5e579] [cursor=pointer]:
+                          - /url: https://boloupgo.live/wp-admin/post.php?post=25&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f5e580]:
+                        - button "Quick edit “BoloUp Go Sitewide Styles” inline" [ref=f5e581] [cursor=pointer]: Quick Edit
+                        - text: "|"
+                      - link "Move “BoloUp Go Sitewide Styles” to the Trash" [ref=f5e583] [cursor=pointer]:
+                        - /url: https://boloupgo.live/wp-admin/post.php?post=25&action=trash&_wpnonce=193dcbea12
+                        - text: Trash
+                  - cell [ref=f5e584]:
+                    - link "webdev" [ref=f5e585] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_snippet&author=2
+                  - cell "Entire site" [ref=f5e586]
+                  - cell "Head" [ref=f5e587]
+                  - cell "1" [ref=f5e588]
+                  - cell "Published 2026/11/03 at 3:46 pm" [ref=f5e589]: Published2026/11/03 at 3:46 pm
+              - rowgroup [ref=f5e590]:
+                - row [ref=f5e591]:
+                  - cell "Select All" [ref=f5e592]:
+                    - checkbox "Select All" [ref=f5e593] [cursor=pointer]
+                  - columnheader [ref=f5e596]:
+                    - link "Title Sort ascending." [ref=f5e597] [cursor=pointer]:
+                      - /url: https://boloupgo.live/wp-admin/edit.php?post_type=elementor_snippet&orderby=title&order=asc
+                      - generic [ref=f5e598]: Title
+                      - generic [ref=f5e602]: Sort ascending.
+                  - columnheader "Author" [ref=f5e603]
+                  - columnheader "Instances" [ref=f5e604]
+                  - columnheader "Location" [ref=f5e605]
+                  - columnheader "Priority" [ref=f5e606]
+                  - columnheader [ref=f5e607]:
+                    - link "Date" [ref=f5e608] [cursor=pointer]:
+                      - /url: https://boloupgo.live/wp-admin/edit.php?post_type=elementor_snippet&orderby=date&order=asc
+            - generic [ref=f5e613]:
+              - generic [ref=f5e614]:
+                - generic [ref=f5e615]: Select bulk action
+                - combobox "Select bulk action" [ref=f5e616] [cursor=pointer]:
+                  - option "Bulk actions" [selected]
+                  - option "Bulk edit"
+                  - option "Move to Trash"
+                - button "Apply" [ref=f5e617] [cursor=pointer]
+              - generic [ref=f5e618]: 1 item
+        - contentinfo [ref=f5e620]:
+          - paragraph [ref=f5e621]:
+            - text: Enjoyed
+            - strong [ref=f5e622]: Elementor
+            - text: "? Please leave us a"
+            - link "★★★★★" [ref=f5e623] [cursor=pointer]:
+              - /url: https://go.elementor.com/admin-review/
+            - text: rating. We really appreciate your support!
+          - paragraph [ref=f5e624]: Version 7.1.4
+  - button "Agent" [ref=f5e628] [cursor=pointer]

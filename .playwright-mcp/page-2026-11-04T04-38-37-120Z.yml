@@ -1,0 +1,50 @@
+- generic [active] [ref=f12e1]:
+  - generic [ref=f12e2]: Loading
+  - heading "Edit \"BoloUp Go Host – Live, Get Gifts, Grow & Earn\" with Elementor" [level=1] [ref=f12e11]
+  - banner [ref=f12e13]:
+    - generic [ref=f12e15]:
+      - generic [ref=f12e16]:
+        - button "Elementor Logo" [ref=f12e18] [cursor=pointer]:
+          - img "Elementor Logo" [ref=f12e19]
+        - generic [ref=f12e26]:
+          - button "Add Element" [ref=f12e28] [cursor=pointer]
+          - button "Angie" [ref=f12e32] [cursor=pointer]
+          - button "History" [ref=f12e37] [cursor=pointer]
+          - button "Design System" [ref=f12e41] [cursor=pointer]
+          - button "Post Settings" [ref=f12e45] [cursor=pointer]
+      - generic [ref=f12e51]:
+        - separator [ref=f12e52]
+        - button "BoloUp Go Host - Live, Get Gifts, Grow & Earn" [ref=f12e53] [cursor=pointer]
+        - separator [ref=f12e59]
+        - tablist "Switch Device" [ref=f12e62]:
+          - tab "Desktop" [selected] [ref=f12e63] [cursor=pointer]
+          - tab "Tablet Portrait (up to 1024px)" [ref=f12e66] [cursor=pointer]
+          - tab "Mobile Portrait (up to 767px)" [ref=f12e69] [cursor=pointer]
+        - separator [ref=f12e73]
+      - generic [ref=f12e74]:
+        - generic [ref=f12e75]:
+          - button "What's New" [ref=f12e77] [cursor=pointer]:
+            - generic [ref=f12e78]: "8"
+          - button "Finder" [ref=f12e83] [cursor=pointer]
+          - button "Structure" [ref=f12e87] [cursor=pointer]
+          - button "Preview Changes" [ref=f12e91] [cursor=pointer]
+        - group [ref=f12e94]:
+          - button "Publish" [disabled]
+          - button "Save Options" [ref=f12e96] [cursor=pointer]
+  - generic [ref=f12e99]:
+    - complementary [ref=f12e100]:
+      - generic [ref=f12e101]:
+        - generic [ref=f12e102]: 
+        - generic [ref=f12e105]:
+          - text: 
+          - heading [level=2]
+          - text:  
+        - main [ref=f12e106]
+        - generic "Hide Panel (Ctrl + P)" [ref=f12e109]:
+          - generic [aria-hidden] [ref=f12e110] [cursor=pointer]: 
+    - main "Preview" [ref=f12e113]:
+      - generic [ref=f12e114]:
+        - generic [aria-hidden] [ref=f12e116]: 
+        - iframe [ref=f12e117]:
+          - generic [ref=f13e1]: desktop
+  - text: 

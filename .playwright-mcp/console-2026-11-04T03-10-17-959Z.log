@@ -1,0 +1,6 @@
+[    9175ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://boloupgo.live/wp-json/elementor/v1/global-classes?context=preview:0
+[    9190ms] AxiosError
+[   13575ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://boloupgo.live/wp-admin/admin-ajax.php:0
+[   19980ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://boloupgo.live/wp-content/uploads/2026/11/boloupgo-hero.png:0
+[   24473ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://boloupgo.live/wp-admin/admin-ajax.php:0
+[   28873ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://boloupgo.live/wp-content/uploads/2026/11/boloupgo-hero.png:0

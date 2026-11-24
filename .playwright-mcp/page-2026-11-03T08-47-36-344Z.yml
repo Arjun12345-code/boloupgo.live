@@ -1,0 +1,474 @@
+- generic [ref=f32e2]:
+  - navigation "Main menu":
+    - link "Skip to main content" [ref=f32e3] [cursor=pointer]:
+      - /url: "#wpbody-content"
+    - link "Skip to toolbar" [ref=f32e4] [cursor=pointer]:
+      - /url: "#wp-toolbar"
+    - list [ref=f32e7]:
+      - listitem [ref=f32e8]:
+        - link "Hostinger" [ref=f32e9] [cursor=pointer]:
+          - /url: admin.php?page=hostinger
+        - list [ref=f32e12]:
+          - listitem [ref=f32e13]:
+            - link "Hub" [ref=f32e14] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-get-onboarding
+          - listitem [ref=f32e15]:
+            - link "Tools" [ref=f32e16] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-tools
+          - listitem [ref=f32e17]:
+            - link "Reach" [ref=f32e18] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-reach
+          - listitem [ref=f32e19]:
+            - link "AI Content Creator" [ref=f32e20] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-ai-assistant
+      - listitem [ref=f32e21]:
+        - link "Dashboard" [ref=f32e22] [cursor=pointer]:
+          - /url: index.php
+          - generic [aria-hidden] [ref=f32e23]: 
+        - list [ref=f32e25]:
+          - listitem [ref=f32e26]:
+            - link "Home" [ref=f32e27] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f32e28]:
+            - link "Updates 5" [ref=f32e29] [cursor=pointer]:
+              - /url: update-core.php
+              - text: Updates
+              - generic [ref=f32e30]: "5"
+      - listitem [ref=f32e31]:
+        - link "Site Kit" [ref=f32e32] [cursor=pointer]:
+          - /url: admin.php?page=googlesitekit-splash
+        - list [ref=f32e35]:
+          - listitem [ref=f32e36]:
+            - link "Dashboard" [ref=f32e37] [cursor=pointer]:
+              - /url: admin.php?page=googlesitekit-splash
+      - listitem [ref=f32e38]:
+        - link "Elementor" [ref=f32e39] [cursor=pointer]:
+          - /url: admin.php?page=elementor-home
+        - list [ref=f32e42]:
+          - listitem [ref=f32e43]:
+            - link "Home" [ref=f32e44] [cursor=pointer]:
+              - /url: admin.php?page=elementor-home
+          - listitem [ref=f32e45]:
+            - link "Editor" [ref=f32e46] [cursor=pointer]:
+              - /url: admin.php?page=elementor
+          - listitem [ref=f32e47]:
+            - link "Theme Builder" [ref=f32e48] [cursor=pointer]:
+              - /url: https://boloupgo.live/wp-admin/admin.php?page=elementor-app&ver=4.3.5&return_to=/wp-admin/options-reading.php#/site-editor
+          - listitem [ref=f32e49]:
+            - link "Submissions" [ref=f32e50] [cursor=pointer]:
+              - /url: admin.php?page=e-form-submissions
+          - listitem [ref=f32e51]:
+            - link "Elementor MCP" [ref=f32e52] [cursor=pointer]:
+              - /url: admin.php?page=elementor-mcp
+          - listitem [ref=f32e53]:
+            - link "License" [ref=f32e54] [cursor=pointer]:
+              - /url: admin.php?page=elementor-license
+      - listitem [aria-hidden] [ref=f32e55]
+      - listitem [ref=f32e57]:
+        - link "Posts" [ref=f32e58] [cursor=pointer]:
+          - /url: edit.php
+          - generic [aria-hidden] [ref=f32e59]: 
+        - list [ref=f32e61]:
+          - listitem [ref=f32e62]:
+            - link "All Posts" [ref=f32e63] [cursor=pointer]:
+              - /url: edit.php
+          - listitem [ref=f32e64]:
+            - link "Add Post" [ref=f32e65] [cursor=pointer]:
+              - /url: post-new.php
+          - listitem [ref=f32e66]:
+            - link "Categories" [ref=f32e67] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=category
+          - listitem [ref=f32e68]:
+            - link "Tags" [ref=f32e69] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=post_tag
+      - listitem [ref=f32e70]:
+        - link "Media" [ref=f32e71] [cursor=pointer]:
+          - /url: upload.php
+          - generic [aria-hidden] [ref=f32e72]: 
+        - list [ref=f32e74]:
+          - listitem [ref=f32e75]:
+            - link "Library" [ref=f32e76] [cursor=pointer]:
+              - /url: upload.php
+          - listitem [ref=f32e77]:
+            - link "Add Media File" [ref=f32e78] [cursor=pointer]:
+              - /url: media-new.php
+      - listitem [ref=f32e79]:
+        - link "Pages" [ref=f32e80] [cursor=pointer]:
+          - /url: edit.php?post_type=page
+          - generic [aria-hidden] [ref=f32e81]: 
+        - list [ref=f32e83]:
+          - listitem [ref=f32e84]:
+            - link "All Pages" [ref=f32e85] [cursor=pointer]:
+              - /url: edit.php?post_type=page
+          - listitem [ref=f32e86]:
+            - link "Add Page" [ref=f32e87] [cursor=pointer]:
+              - /url: post-new.php?post_type=page
+      - listitem [ref=f32e88]:
+        - link "Comments" [ref=f32e89] [cursor=pointer]:
+          - /url: edit-comments.php
+          - generic [aria-hidden] [ref=f32e90]: 
+      - text:  
+      - listitem [aria-hidden] [ref=f32e92]
+      - listitem [ref=f32e94]:
+        - link "Hello" [ref=f32e95] [cursor=pointer]:
+          - /url: admin.php?page=hello-elementor
+          - generic [aria-hidden] [ref=f32e96]: 
+      - listitem [ref=f32e98]:
+        - link "Appearance" [ref=f32e99] [cursor=pointer]:
+          - /url: themes.php
+          - generic [aria-hidden] [ref=f32e100]: 
+        - list [ref=f32e102]:
+          - listitem [ref=f32e103]:
+            - link "Themes" [ref=f32e104] [cursor=pointer]:
+              - /url: themes.php
+          - listitem [ref=f32e105]:
+            - link "Design" [ref=f32e106] [cursor=pointer]:
+              - /url: site-editor.php
+          - listitem [ref=f32e107]:
+            - link "Customize" [ref=f32e108] [cursor=pointer]:
+              - /url: customize.php?return=%2Fwp-admin%2Foptions-reading.php
+          - listitem [ref=f32e109]:
+            - link "Fonts" [ref=f32e110] [cursor=pointer]:
+              - /url: font-library.php
+          - listitem [ref=f32e111]:
+            - link "Menus" [ref=f32e112] [cursor=pointer]:
+              - /url: nav-menus.php
+          - listitem [ref=f32e113]:
+            - link "Theme File Editor" [ref=f32e114] [cursor=pointer]:
+              - /url: theme-editor.php
+      - listitem [ref=f32e115]:
+        - link "Plugins 4" [ref=f32e116] [cursor=pointer]:
+          - /url: plugins.php
+          - generic [aria-hidden] [ref=f32e117]: 
+          - generic [ref=f32e118]:
+            - text: Plugins
+            - generic [ref=f32e119]: "4"
+        - list [ref=f32e120]:
+          - listitem [ref=f32e121]:
+            - link "Installed Plugins" [ref=f32e122] [cursor=pointer]:
+              - /url: plugins.php
+          - listitem [ref=f32e123]:
+            - link "Add Plugin" [ref=f32e124] [cursor=pointer]:
+              - /url: plugin-install.php
+          - listitem [ref=f32e125]:
+            - link "Plugin File Editor" [ref=f32e126] [cursor=pointer]:
+              - /url: plugin-editor.php
+      - listitem [ref=f32e127]:
+        - link "Users" [ref=f32e128] [cursor=pointer]:
+          - /url: users.php
+          - generic [aria-hidden] [ref=f32e129]: 
+        - list [ref=f32e131]:
+          - listitem [ref=f32e132]:
+            - link "All Users" [ref=f32e133] [cursor=pointer]:
+              - /url: users.php
+          - listitem [ref=f32e134]:
+            - link "Add User" [ref=f32e135] [cursor=pointer]:
+              - /url: user-new.php
+          - listitem [ref=f32e136]:
+            - link "Profile" [ref=f32e137] [cursor=pointer]:
+              - /url: profile.php
+      - listitem [ref=f32e138]:
+        - link "Tools" [ref=f32e139] [cursor=pointer]:
+          - /url: tools.php
+          - generic [aria-hidden] [ref=f32e140]: 
+        - list [ref=f32e142]:
+          - listitem [ref=f32e143]:
+            - link "Available Tools" [ref=f32e144] [cursor=pointer]:
+              - /url: tools.php
+          - listitem [ref=f32e145]:
+            - link "Import" [ref=f32e146] [cursor=pointer]:
+              - /url: import.php
+          - listitem [ref=f32e147]:
+            - link "Export" [ref=f32e148] [cursor=pointer]:
+              - /url: export.php
+          - listitem [ref=f32e149]:
+            - link "Site Health" [ref=f32e150] [cursor=pointer]:
+              - /url: site-health.php
+          - listitem [ref=f32e151]:
+            - link "Export Personal Data" [ref=f32e152] [cursor=pointer]:
+              - /url: export-personal-data.php
+          - listitem [ref=f32e153]:
+            - link "Erase Personal Data" [ref=f32e154] [cursor=pointer]:
+              - /url: erase-personal-data.php
+          - listitem [ref=f32e155]:
+            - link "Scheduled Actions" [ref=f32e156] [cursor=pointer]:
+              - /url: tools.php?page=action-scheduler
+          - listitem [ref=f32e157]:
+            - link "Yoast Redirects" [ref=f32e158] [cursor=pointer]:
+              - /url: tools.php?page=wpseo_redirects_tools
+      - listitem [ref=f32e159]:
+        - link "Settings" [ref=f32e160] [cursor=pointer]:
+          - /url: options-general.php
+          - generic [aria-hidden] [ref=f32e161]: 
+        - list [ref=f32e163]:
+          - listitem [ref=f32e164]:
+            - link "General" [ref=f32e165] [cursor=pointer]:
+              - /url: options-general.php
+          - listitem [ref=f32e166]:
+            - link "Connectors" [ref=f32e167] [cursor=pointer]:
+              - /url: options-connectors.php
+          - listitem [ref=f32e168]:
+            - link "Writing" [ref=f32e169] [cursor=pointer]:
+              - /url: options-writing.php
+          - listitem [ref=f32e170]:
+            - link "Reading" [ref=f32e171] [cursor=pointer]:
+              - /url: options-reading.php
+          - listitem [ref=f32e172]:
+            - link "Discussion" [ref=f32e173] [cursor=pointer]:
+              - /url: options-discussion.php
+          - listitem [ref=f32e174]:
+            - link "Media" [ref=f32e175] [cursor=pointer]:
+              - /url: options-media.php
+          - listitem [ref=f32e176]:
+            - link "Permalinks" [ref=f32e177] [cursor=pointer]:
+              - /url: options-permalink.php
+          - listitem [ref=f32e178]:
+            - link "Privacy" [ref=f32e179] [cursor=pointer]:
+              - /url: options-privacy.php
+      - listitem [aria-hidden] [ref=f32e180]
+      - listitem [ref=f32e182]:
+        - link "Yoast SEO 1 notification" [ref=f32e183] [cursor=pointer]:
+          - /url: admin.php?page=wpseo_dashboard
+          - generic [ref=f32e185]:
+            - text: Yoast SEO
+            - generic [ref=f32e186]:
+              - text: "1"
+              - generic [ref=f32e187]: 1 notification
+        - list [ref=f32e188]:
+          - listitem [ref=f32e189]:
+            - link "General" [ref=f32e190] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_dashboard
+          - listitem [ref=f32e191]:
+            - link "Settings" [ref=f32e192] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_settings
+          - listitem [ref=f32e193]:
+            - link "Integrations" [ref=f32e194] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_integrations
+          - listitem [ref=f32e195]:
+            - link "Tools" [ref=f32e196] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_tools
+          - listitem [ref=f32e197]:
+            - link "Academy" [ref=f32e198] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_academy
+          - listitem [ref=f32e199]:
+            - link "Plans" [ref=f32e200] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_licenses
+          - listitem [ref=f32e201]:
+            - link "Workouts Premium" [ref=f32e202] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_workouts
+              - text: Workouts
+              - generic [ref=f32e203]: Premium
+          - listitem [ref=f32e204]:
+            - link "Redirects Premium" [ref=f32e205] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_redirects
+              - text: Redirects
+              - generic [ref=f32e206]: Premium
+          - listitem [ref=f32e207]:
+            - link "Support" [ref=f32e208] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_support
+          - listitem [ref=f32e209]:
+            - link "Upgrade" [ref=f32e210] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_upgrade_sidebar
+          - listitem [ref=f32e213]:
+            - link "AI Brand Insights" [ref=f32e214] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_brand_insights
+      - listitem [ref=f32e218]:
+        - link "AIOS" [ref=f32e219] [cursor=pointer]:
+          - /url: admin.php?page=aiowpsec
+        - list [ref=f32e222]:
+          - listitem [ref=f32e223]:
+            - link "Dashboard" [ref=f32e224] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec
+          - listitem [ref=f32e225]:
+            - link "Settings" [ref=f32e226] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_settings
+          - listitem [ref=f32e227]:
+            - link "User Security" [ref=f32e228] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_usersec
+          - listitem [ref=f32e229]:
+            - link "Database Security" [ref=f32e230] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_database
+          - listitem [ref=f32e231]:
+            - link "File Security" [ref=f32e232] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_filesystem
+          - listitem [ref=f32e233]:
+            - link "Firewall" [ref=f32e234] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_firewall
+          - listitem [ref=f32e235]:
+            - link "Brute Force" [ref=f32e236] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_brute_force
+          - listitem [ref=f32e237]:
+            - link "Spam Prevention" [ref=f32e238] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_spam
+          - listitem [ref=f32e239]:
+            - link "Scanner" [ref=f32e240] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_filescan
+          - listitem [ref=f32e241]:
+            - link "Tools" [ref=f32e242] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_tools
+          - listitem [ref=f32e243]:
+            - link "Two Factor Auth" [ref=f32e244] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_two_factor_auth_user
+          - listitem [ref=f32e245]:
+            - link "Premium Upgrade" [ref=f32e246] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec&tab=premium-upgrade
+      - listitem [ref=f32e247]:
+        - link "LiteSpeed Cache" [ref=f32e248] [cursor=pointer]:
+          - /url: admin.php?page=litespeed
+          - generic [aria-hidden] [ref=f32e249]: 
+        - list [ref=f32e251]:
+          - listitem [ref=f32e252]:
+            - link "Dashboard" [ref=f32e253] [cursor=pointer]:
+              - /url: admin.php?page=litespeed
+          - listitem [ref=f32e254]:
+            - link "Presets" [ref=f32e255] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-presets
+          - listitem [ref=f32e256]:
+            - link "General" [ref=f32e257] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-general
+          - listitem [ref=f32e258]:
+            - link "Cache" [ref=f32e259] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-cache
+          - listitem [ref=f32e260]:
+            - link "CDN" [ref=f32e261] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-cdn
+          - listitem [ref=f32e262]:
+            - link "Image Optimization" [ref=f32e263] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-img_optm
+          - listitem [ref=f32e264]:
+            - link "Page Optimization" [ref=f32e265] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-page_optm
+          - listitem [ref=f32e266]:
+            - link "Database" [ref=f32e267] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-db_optm
+          - listitem [ref=f32e268]:
+            - link "Crawler" [ref=f32e269] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-crawler
+          - listitem [ref=f32e270]:
+            - link "Toolbox" [ref=f32e271] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-toolbox
+      - listitem [ref=f32e272]:
+        - link "Chaty" [ref=f32e273] [cursor=pointer]:
+          - /url: admin.php?page=chaty-app
+        - list [ref=f32e276]:
+          - listitem [ref=f32e277]:
+            - link "+ Create New Widget" [ref=f32e278] [cursor=pointer]:
+              - /url: admin.php?page=chaty-app&widget=0&step=0
+          - listitem [ref=f32e279]:
+            - link "Chatway Live Chat" [ref=f32e280] [cursor=pointer]:
+              - /url: admin.php?page=chaty-live-chat
+          - listitem [ref=f32e281]:
+            - link "Widget Analytics" [ref=f32e282] [cursor=pointer]:
+              - /url: admin.php?page=widget-analytics
+          - listitem [ref=f32e283]:
+            - link "Recommended Plugins" [ref=f32e284] [cursor=pointer]:
+              - /url: admin.php?page=recommended-chaty-plugins
+          - listitem [ref=f32e285]:
+            - link "Upgrade to Pro" [ref=f32e286] [cursor=pointer]:
+              - /url: admin.php?page=chaty-app-upgrade
+      - listitem [ref=f32e290]:
+        - button "Collapse Main menu" [expanded] [ref=f32e291] [cursor=pointer]:
+          - generic [ref=f32e293]: Collapse Menu
+  - generic [ref=f32e294]:
+    - generic [ref=f32e295]:
+      - navigation "Toolbar":
+        - menu:
+          - group [ref=f32e296]:
+            - menuitem "About WordPress" [ref=f32e297] [cursor=pointer]
+          - group [ref=f32e300]:
+            - menuitem "Boloup Go" [ref=f32e301] [cursor=pointer]
+          - group [ref=f32e302]:
+            - menuitem "5 updates available" [ref=f32e303] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f32e305]: "5"
+          - group [ref=f32e307]:
+            - menuitem "Ctrl+K Open command palette" [ref=f32e308] [cursor=pointer]:
+              - generic [ref=f32e310]:
+                - text: Ctrl+K
+                - generic [ref=f32e311]: Open command palette
+          - group [ref=f32e312]:
+            - menuitem "0 Comments in moderation" [ref=f32e313] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f32e315]: "0"
+          - group [ref=f32e317]:
+            - menuitem "New" [ref=f32e318] [cursor=pointer]
+          - group [ref=f32e321]:
+            - menuitem "" [ref=f32e322] [cursor=pointer]:
+              - generic "LiteSpeed Cache Purge All - LSCache" [ref=f32e323]: 
+          - group [ref=f32e324]:
+            - menuitem "SEO 1 notification" [ref=f32e325] [cursor=pointer]:
+              - generic [ref=f32e326]: SEO
+              - generic [ref=f32e328]:
+                - text: "1"
+                - generic [ref=f32e329]: 1 notification
+            - text: Premium Premium
+          - group [ref=f32e330]:
+            - menuitem "Hostinger" [ref=f32e331]
+        - menu [ref=f32e334]:
+          - group [ref=f32e335]:
+            - menuitem "Howdy, webdev" [ref=f32e336] [cursor=pointer]
+    - main [ref=f32e337]:
+      - generic [ref=f32e338]:
+        - button "Help" [ref=f32e341] [cursor=pointer]
+        - generic [ref=f32e342]:
+          - heading "Reading Settings" [level=1] [ref=f32e343]
+          - generic [ref=f32e344]:
+            - text: Your homepage displays
+            - group "Your homepage displays" [ref=f32e345]:
+              - paragraph [ref=f32e348]:
+                - generic [ref=f32e349]:
+                  - radio "Your latest posts" [checked] [ref=f32e350] [cursor=pointer]
+                  - text: Your latest posts
+              - paragraph [ref=f32e351]:
+                - generic [ref=f32e352]:
+                  - radio "A static page (select below)" [ref=f32e353] [cursor=pointer]
+                  - text: A
+                  - link "static page" [ref=f32e354] [cursor=pointer]:
+                    - /url: edit.php?post_type=page
+                  - text: (select below)
+              - list [ref=f32e355]:
+                - listitem [ref=f32e356]:
+                  - generic [ref=f32e357]:
+                    - text: "Homepage:"
+                    - combobox "Homepage:" [disabled] [ref=f32e358]:
+                      - option "— Select —" [selected]
+                      - option "BoloUp Go Host - Live, Get Gifts, Grow & Earn"
+                - listitem [ref=f32e359]:
+                  - generic [ref=f32e360]:
+                    - text: "Posts page:"
+                    - combobox "Posts page:" [disabled] [ref=f32e361]:
+                      - option "— Select —" [selected]
+                      - option "BoloUp Go Host - Live, Get Gifts, Grow & Earn"
+            - text: Number of recent posts shown on archive pages
+            - spinbutton "Number of recent posts shown on archive pages" [ref=f32e362]: "10"
+            - text: Number of recent items shown in syndication feeds
+            - spinbutton "Number of recent items shown in syndication feeds" [ref=f32e363]: "10"
+            - text: For each post in a feed, include
+            - group "For each post in a feed, include" [ref=f32e364]:
+              - paragraph [ref=f32e367]:
+                - generic [ref=f32e368]:
+                  - radio "Full text" [checked] [ref=f32e369] [cursor=pointer]
+                  - text: Full text
+                - generic [ref=f32e370]:
+                  - radio "Excerpt" [ref=f32e371] [cursor=pointer]
+                  - text: Excerpt
+              - paragraph [ref=f32e372]:
+                - text: Your theme determines how content is displayed in browsers.
+                - link "Learn more about feeds" [ref=f32e373] [cursor=pointer]:
+                  - /url: https://developer.wordpress.org/advanced-administration/wordpress/feeds/
+                - text: .
+            - text: Search engine visibility
+            - group "Search engine visibility" [ref=f32e374]:
+              - generic [ref=f32e377]:
+                - checkbox "Discourage search engines from indexing this site" [ref=f32e378] [cursor=pointer]
+                - text: Discourage search engines from indexing this site
+              - paragraph [ref=f32e379]: It is up to search engines to honor this request.
+            - paragraph [ref=f32e380]:
+              - button "Save Changes" [ref=f32e381] [cursor=pointer]
+  - contentinfo [ref=f32e382]:
+    - paragraph [ref=f32e383]:
+      - generic [ref=f32e384]:
+        - text: Thank you for creating with
+        - link "WordPress" [ref=f32e385] [cursor=pointer]:
+          - /url: https://wordpress.org/
+        - text: .
+    - paragraph [ref=f32e386]: Version 7.1.4
+  - button "Agent" [ref=f32e390] [cursor=pointer]

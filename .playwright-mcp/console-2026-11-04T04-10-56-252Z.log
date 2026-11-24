@@ -1,0 +1,12 @@
+[    1398ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://boloupgo.live/wp-admin/load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate&ver=7.1.4:4
+[    2358ms] [WARNING] wp.compose.pure is deprecated since version 7.1. Please use Use `memo` or `PureComponent` instead instead. @ https://boloupgo.live/wp-includes/js/dist/deprecated.min.js?ver=fe587bac92b7d0ef760e:2
+[    3861ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://boloupgo.live/style.css:0
+[    3887ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://boloupgo.live/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[    4287ms] [LOG] Elementor preview loaded @ https://boloupgo.live/wp-content/plugins/hostinger-reach/frontend/dist/elementor-editor-scroll.js?ver=1792655863:0
+[   69123ms] [WARNING] Set template via  failed, setting on model directly: TypeError: Cannot read properties of undefined (reading 'run')
+    at eval (eval at evaluate (:370:30), <anonymous>:7:15)
+    at UtilityScript.evaluate (<anonymous>:372:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44) @ :11
+[  145339ms] [ERROR] Request replaced @ https://boloupgo.live/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=4.3.5:2
+[  145387ms] [ERROR] Request replaced @ https://boloupgo.live/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=4.3.5:2
+[  145425ms] Request replaced

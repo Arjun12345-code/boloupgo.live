@@ -1,0 +1,403 @@
+- generic [active] [ref=f36e1]:
+  - generic [ref=f36e2]: Loading
+  - heading "Edit \"BoloUp Go Host – Live, Get Gifts, Grow & Earn\" with Elementor" [level=1] [ref=f36e11]
+  - banner [ref=f36e13]:
+    - generic [ref=f36e15]:
+      - generic [ref=f36e16]:
+        - button "Elementor Logo" [ref=f36e18] [cursor=pointer]:
+          - img "Elementor Logo" [ref=f36e19]
+        - generic [ref=f36e26]:
+          - button "Add Element" [ref=f36e28] [cursor=pointer]
+          - button "Angie" [ref=f36e32] [cursor=pointer]
+          - button "History" [ref=f36e37] [cursor=pointer]
+          - button "Design System" [ref=f36e41] [cursor=pointer]
+          - button "Post Settings" [ref=f36e45] [cursor=pointer]
+      - generic [ref=f36e51]:
+        - separator [ref=f36e52]
+        - button "BoloUp Go Host - Live, Get Gifts, Grow & Earn" [ref=f36e53] [cursor=pointer]
+        - separator [ref=f36e59]
+        - tablist "Switch Device" [ref=f36e62]:
+          - tab "Desktop" [selected] [ref=f36e63] [cursor=pointer]
+          - tab "Tablet Portrait (up to 1024px)" [ref=f36e66] [cursor=pointer]
+          - tab "Mobile Portrait (up to 767px)" [ref=f36e69] [cursor=pointer]
+        - separator [ref=f36e73]
+      - generic [ref=f36e74]:
+        - generic [ref=f36e75]:
+          - button "What's New" [ref=f36e77] [cursor=pointer]:
+            - generic [ref=f36e78]: "8"
+          - button "Finder" [ref=f36e83] [cursor=pointer]
+          - button "Structure" [ref=f36e87] [cursor=pointer]
+          - button "Preview Changes" [ref=f36e91] [cursor=pointer]
+        - group [ref=f36e94]:
+          - button "Publish" [disabled]
+          - button "Save Options" [ref=f36e96] [cursor=pointer]
+  - generic [ref=f36e99]:
+    - complementary [ref=f36e100]:
+      - generic [ref=f36e101]:
+        - text: 
+        - generic [ref=f36e103]:
+          - text: 
+          - heading "Elements" [level=2] [ref=f36e104]
+          - text:  
+        - main [ref=f36e105]:
+          - generic [ref=f36e106]:
+            - generic [ref=f36e107]:
+              - button "Widgets" [ref=f36e108] [cursor=pointer]
+              - button "Components" [ref=f36e109] [cursor=pointer]
+              - button "Globals" [ref=f36e110] [cursor=pointer]
+              - button "Yoast SEO" [ref=f36e111] [cursor=pointer]
+            - search [ref=f36e113]:
+              - generic [ref=f36e114]: "Search Widget:"
+              - searchbox "Search Widget:" [ref=f36e115]
+              - generic [aria-hidden] [ref=f36e116]: 
+            - generic [ref=f36e119]:
+              - text: 
+              - generic [ref=f36e120]:
+                - button "Atomic Elements New" [ref=f36e121] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f36e123]: 
+                  - generic [ref=f36e124]: Atomic Elements
+                  - generic "New" [ref=f36e125]:
+                    - generic [aria-hidden] [ref=f36e126]: 
+                - generic [ref=f36e127]:
+                  - button " Div block" [ref=f36e129]:
+                    - generic [ref=f36e130]: 
+                    - generic [aria-hidden] [ref=f36e132]: 
+                    - generic [ref=f36e133]: Div block
+                  - button " Flexbox" [ref=f36e136]:
+                    - generic [ref=f36e137]: 
+                    - generic [aria-hidden] [ref=f36e139]: 
+                    - generic [ref=f36e140]: Flexbox
+                  - button " Grid" [ref=f36e143]:
+                    - generic [ref=f36e144]: 
+                    - generic [aria-hidden] [ref=f36e146]: 
+                    - generic [ref=f36e147]: Grid
+                  - button " Tabs" [ref=f36e150]:
+                    - generic [ref=f36e151]: 
+                    - generic [aria-hidden] [ref=f36e153]: 
+                    - generic [ref=f36e154]: Tabs
+                  - button "New Accordion" [ref=f36e157]:
+                    - generic "New"
+                    - generic [aria-hidden] [ref=f36e159]: 
+                    - generic [ref=f36e160]: Accordion
+                  - button " Loop" [ref=f36e163]:
+                    - generic [ref=f36e164]: 
+                    - generic [aria-hidden] [ref=f36e166]: 
+                    - generic [ref=f36e167]: Loop
+                  - button " Heading" [ref=f36e170]:
+                    - generic [ref=f36e171]: 
+                    - generic [aria-hidden] [ref=f36e173]: 
+                    - generic [ref=f36e174]: Heading
+                  - button " Image" [ref=f36e177]:
+                    - generic [ref=f36e178]: 
+                    - generic [aria-hidden] [ref=f36e180]: 
+                    - generic [ref=f36e181]: Image
+                  - button " Paragraph" [ref=f36e184]:
+                    - generic [ref=f36e185]: 
+                    - generic [aria-hidden] [ref=f36e187]: 
+                    - generic [ref=f36e188]: Paragraph
+                  - button " SVG" [ref=f36e191]:
+                    - generic [ref=f36e192]: 
+                    - generic [aria-hidden] [ref=f36e194]: 
+                    - generic [ref=f36e195]: SVG
+                  - button " Button" [ref=f36e198]:
+                    - generic [ref=f36e199]: 
+                    - generic [aria-hidden] [ref=f36e201]: 
+                    - generic [ref=f36e202]: Button
+                  - button " YouTube" [ref=f36e205]:
+                    - generic [ref=f36e206]: 
+                    - generic [aria-hidden] [ref=f36e208]: 
+                    - generic [ref=f36e209]: YouTube
+                  - button " Divider" [ref=f36e212]:
+                    - generic [ref=f36e213]: 
+                    - generic [aria-hidden] [ref=f36e215]: 
+                    - generic [ref=f36e216]: Divider
+                  - button " Video" [ref=f36e219]:
+                    - generic [ref=f36e220]: 
+                    - generic [aria-hidden] [ref=f36e222]: 
+                    - generic [ref=f36e223]: Video
+                  - button "New Background Video" [ref=f36e226]:
+                    - generic "New"
+                    - generic [aria-hidden] [ref=f36e228]: 
+                    - generic [ref=f36e229]: Background Video
+              - generic [ref=f36e231]:
+                - button "Atomic Form" [ref=f36e232] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f36e234]: 
+                - generic [ref=f36e236]:
+                  - button " Atomic form" [ref=f36e238]:
+                    - generic [ref=f36e239]: 
+                    - generic [aria-hidden] [ref=f36e241]: 
+                    - generic [ref=f36e242]: Atomic form
+                  - button " Input" [ref=f36e245]:
+                    - generic [ref=f36e246]: 
+                    - generic [aria-hidden] [ref=f36e248]: 
+                    - generic [ref=f36e249]: Input
+                  - button " Label" [ref=f36e252]:
+                    - generic [ref=f36e253]: 
+                    - generic [aria-hidden] [ref=f36e255]: 
+                    - generic [ref=f36e256]: Label
+                  - button " Text area" [ref=f36e259]:
+                    - generic [ref=f36e260]: 
+                    - generic [aria-hidden] [ref=f36e262]: 
+                    - generic [ref=f36e263]: Text area
+                  - button " Submit button" [ref=f36e266]:
+                    - generic [ref=f36e267]: 
+                    - generic [aria-hidden] [ref=f36e269]: 
+                    - generic [ref=f36e270]: Submit button
+                  - button " Checkbox" [ref=f36e273]:
+                    - generic [ref=f36e274]: 
+                    - generic [aria-hidden] [ref=f36e276]: 
+                    - generic [ref=f36e277]: Checkbox
+                  - button " Radio button" [ref=f36e280]:
+                    - generic [ref=f36e281]: 
+                    - generic [aria-hidden] [ref=f36e283]: 
+                    - generic [ref=f36e284]: Radio button
+                  - button " Date picker" [ref=f36e287]:
+                    - generic [ref=f36e288]: 
+                    - generic [aria-hidden] [ref=f36e290]: 
+                    - generic [ref=f36e291]: Date picker
+                  - button " Time picker" [ref=f36e294]:
+                    - generic [ref=f36e295]: 
+                    - generic [aria-hidden] [ref=f36e297]: 
+                    - generic [ref=f36e298]: Time picker
+                  - button " Select" [ref=f36e301]:
+                    - generic [ref=f36e302]: 
+                    - generic [aria-hidden] [ref=f36e304]: 
+                    - generic [ref=f36e305]: Select
+                  - button " File Upload" [ref=f36e308]:
+                    - generic [ref=f36e309]: 
+                    - generic [aria-hidden] [ref=f36e311]: 
+                    - generic [ref=f36e312]: File Upload
+              - generic [ref=f36e314]:
+                - button "Custom Widget Try for free" [ref=f36e315] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f36e317]: 
+                  - generic [ref=f36e318]: Custom Widget
+                  - button "Try for free" [ref=f36e319]
+                - paragraph [ref=f36e322]: Create custom widgets by describing what you need.
+              - generic [ref=f36e323]:
+                - button "Layout" [ref=f36e324] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f36e326]: 
+                - generic [ref=f36e328]:
+                  - button "Container" [ref=f36e330]:
+                    - generic [aria-hidden] [ref=f36e332]: 
+                  - button "Grid" [ref=f36e336]:
+                    - generic [aria-hidden] [ref=f36e338]: 
+              - generic [ref=f36e341]:
+                - button "Basic" [ref=f36e342] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f36e344]: 
+                - generic [ref=f36e346]:
+                  - button "Heading" [ref=f36e348]:
+                    - generic [aria-hidden] [ref=f36e350]: 
+                  - button "Image" [ref=f36e354]:
+                    - generic [aria-hidden] [ref=f36e356]: 
+                  - button "Text Editor" [ref=f36e360]:
+                    - generic [aria-hidden] [ref=f36e362]: 
+                  - button "Video" [ref=f36e366]:
+                    - generic [aria-hidden] [ref=f36e368]: 
+                  - button "Button" [ref=f36e372]:
+                    - generic [aria-hidden] [ref=f36e374]: 
+                  - button "Divider" [ref=f36e378]:
+                    - generic [aria-hidden] [ref=f36e380]: 
+                  - button "Spacer" [ref=f36e384]:
+                    - generic [aria-hidden] [ref=f36e386]: 
+                  - button "Google Maps" [ref=f36e390]:
+                    - generic [aria-hidden] [ref=f36e392]: 
+                  - button "Icon" [ref=f36e396]:
+                    - generic [aria-hidden] [ref=f36e398]: 
+                  - button "Hostinger Reach" [ref=f36e402]:
+                    - generic [aria-hidden] [ref=f36e404]: 
+              - generic [ref=f36e407]:
+                - button "Pro" [ref=f36e408] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f36e410]: 
+                - generic [ref=f36e412]:
+                  - button "Loop Grid" [ref=f36e414]:
+                    - generic [aria-hidden] [ref=f36e416]: 
+                  - button "Loop Carousel" [ref=f36e420]:
+                    - generic [aria-hidden] [ref=f36e422]: 
+                  - button "Off-Canvas" [ref=f36e426]:
+                    - generic [aria-hidden] [ref=f36e428]: 
+                  - button "Posts" [ref=f36e432]:
+                    - generic [aria-hidden] [ref=f36e434]: 
+                  - button "Portfolio" [ref=f36e438]:
+                    - generic [aria-hidden] [ref=f36e440]: 
+                  - button "Gallery" [ref=f36e444]:
+                    - generic [aria-hidden] [ref=f36e446]: 
+                  - button "Form" [ref=f36e450]:
+                    - generic [aria-hidden] [ref=f36e452]: 
+                  - button "Login" [ref=f36e456]:
+                    - generic [aria-hidden] [ref=f36e458]: 
+                  - button "Slides" [ref=f36e462]:
+                    - generic [aria-hidden] [ref=f36e464]: 
+                  - button "WordPress Menu" [ref=f36e468]:
+                    - generic [aria-hidden] [ref=f36e470]: 
+                  - button "Animated Headline" [ref=f36e474]:
+                    - generic [aria-hidden] [ref=f36e476]: 
+                  - button "Hotspot" [ref=f36e480]:
+                    - generic [aria-hidden] [ref=f36e482]: 
+                  - button "Price List" [ref=f36e486]:
+                    - generic [aria-hidden] [ref=f36e488]: 
+                  - button "Price Table" [ref=f36e492]:
+                    - generic [aria-hidden] [ref=f36e494]: 
+                  - button "Flip Box" [ref=f36e498]:
+                    - generic [aria-hidden] [ref=f36e500]: 
+                  - button "Call to Action" [ref=f36e504]:
+                    - generic [aria-hidden] [ref=f36e506]: 
+                  - button "Media Carousel" [ref=f36e510]:
+                    - generic [aria-hidden] [ref=f36e512]: 
+                  - button "Testimonial Carousel" [ref=f36e516]:
+                    - generic [aria-hidden] [ref=f36e518]: 
+                  - button "Reviews" [ref=f36e522]:
+                    - generic [aria-hidden] [ref=f36e524]: 
+                  - button "Table of Contents" [ref=f36e528]:
+                    - generic [aria-hidden] [ref=f36e530]: 
+                  - button "Countdown" [ref=f36e534]:
+                    - generic [aria-hidden] [ref=f36e536]: 
+                  - button "Share Buttons" [ref=f36e540]:
+                    - generic [aria-hidden] [ref=f36e542]: 
+                  - button "Blockquote" [ref=f36e546]:
+                    - generic [aria-hidden] [ref=f36e548]: 
+                  - button "Facebook Embed" [ref=f36e552]:
+                    - generic [aria-hidden] [ref=f36e554]: 
+                  - button "Facebook Page" [ref=f36e558]:
+                    - generic [aria-hidden] [ref=f36e560]: 
+                  - button "Template" [ref=f36e564]:
+                    - generic [aria-hidden] [ref=f36e566]: 
+                  - button "Lottie" [ref=f36e570]:
+                    - generic [aria-hidden] [ref=f36e572]: 
+                  - button "Code Highlight" [ref=f36e576]:
+                    - generic [aria-hidden] [ref=f36e578]: 
+                  - button "Video Playlist" [ref=f36e582]:
+                    - generic [aria-hidden] [ref=f36e584]: 
+                  - button "PayPal Button" [ref=f36e588]:
+                    - generic [aria-hidden] [ref=f36e590]: 
+                  - button "Stripe Button" [ref=f36e594]:
+                    - generic [aria-hidden] [ref=f36e596]: 
+                  - button "Progress Tracker" [ref=f36e600]:
+                    - generic [aria-hidden] [ref=f36e602]: 
+                  - button "Menu" [ref=f36e606]:
+                    - generic [aria-hidden] [ref=f36e608]: 
+                  - button "Carousel" [ref=f36e612]:
+                    - generic [aria-hidden] [ref=f36e614]: 
+                  - button "Taxonomy Filter" [ref=f36e618]:
+                    - generic [aria-hidden] [ref=f36e620]: 
+                  - button "Search" [ref=f36e624]:
+                    - generic [aria-hidden] [ref=f36e626]: 
+              - text: 
+              - generic [ref=f36e629]:
+                - button "General" [ref=f36e630] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f36e632]: 
+                - generic [ref=f36e634]:
+                  - button "Tabs" [ref=f36e636]:
+                    - generic [aria-hidden] [ref=f36e638]: 
+                  - button "Accordion" [ref=f36e642]:
+                    - generic [aria-hidden] [ref=f36e644]: 
+                  - button "Image Box" [ref=f36e648]:
+                    - generic [aria-hidden] [ref=f36e650]: 
+                  - button "Icon Box" [ref=f36e654]:
+                    - generic [aria-hidden] [ref=f36e656]: 
+                  - button "Image Carousel" [ref=f36e660]:
+                    - generic [aria-hidden] [ref=f36e662]: 
+                  - button "Basic Gallery" [ref=f36e666]:
+                    - generic [aria-hidden] [ref=f36e668]: 
+                  - button "Icon List" [ref=f36e672]:
+                    - generic [aria-hidden] [ref=f36e674]: 
+                  - button "Counter" [ref=f36e678]:
+                    - generic [aria-hidden] [ref=f36e680]: 
+                  - button "Progress Bar" [ref=f36e684]:
+                    - generic [aria-hidden] [ref=f36e686]: 
+                  - button "Testimonial" [ref=f36e690]:
+                    - generic [aria-hidden] [ref=f36e692]: 
+                  - button "Social Icons" [ref=f36e696]:
+                    - generic [aria-hidden] [ref=f36e698]: 
+                  - button "Alert" [ref=f36e702]:
+                    - generic [aria-hidden] [ref=f36e704]: 
+                  - button "SoundCloud" [ref=f36e708]:
+                    - generic [aria-hidden] [ref=f36e710]: 
+                  - button "Shortcode" [ref=f36e714]:
+                    - generic [aria-hidden] [ref=f36e716]: 
+                  - button "HTML" [ref=f36e720]:
+                    - generic [aria-hidden] [ref=f36e722]: 
+                  - button "Menu Anchor" [ref=f36e726]:
+                    - generic [aria-hidden] [ref=f36e728]: 
+                  - button "Sidebar" [ref=f36e732]:
+                    - generic [aria-hidden] [ref=f36e734]: 
+                  - button "Read More" [ref=f36e738]:
+                    - generic [aria-hidden] [ref=f36e740]: 
+                  - button "Rating" [ref=f36e744]:
+                    - generic [aria-hidden] [ref=f36e746]: 
+                  - button "Text Path" [ref=f36e750]:
+                    - generic [aria-hidden] [ref=f36e752]: 
+              - generic [ref=f36e755]:
+                - button "Link In Bio" [ref=f36e756] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f36e758]: 
+                - generic [ref=f36e760]:
+                  - button "Minimalist" [ref=f36e762]:
+                    - generic [aria-hidden] [ref=f36e764]: 
+                  - button "Classic" [ref=f36e768]:
+                    - generic [aria-hidden] [ref=f36e770]: 
+                  - button "Showcase" [ref=f36e774]:
+                    - generic [aria-hidden] [ref=f36e776]: 
+                  - button "Links" [ref=f36e780]:
+                    - generic [aria-hidden] [ref=f36e782]: 
+                  - button "Services" [ref=f36e786]:
+                    - generic [aria-hidden] [ref=f36e788]: 
+                  - button "Portfolio Bio" [ref=f36e792]:
+                    - generic [aria-hidden] [ref=f36e794]: 
+                  - button "Business Card" [ref=f36e798]:
+                    - generic [aria-hidden] [ref=f36e800]: 
+              - generic [ref=f36e803]:
+                - button "Site" [ref=f36e804] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f36e806]: 
+                - text:       
+              - generic [ref=f36e808]:
+                - button "Single" [ref=f36e809] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f36e811]: 
+                - text:         
+              - text: 
+        - generic "Hide Panel (Ctrl + P)" [ref=f36e815]:
+          - generic [aria-hidden] [ref=f36e816] [cursor=pointer]: 
+    - main "Preview" [ref=f36e819]:
+      - generic [ref=f36e820]:
+        - generic [aria-hidden] [ref=f36e822]: 
+        - iframe [ref=f36e823]:
+          - generic [ref=f37e1]:
+            - link "Skip to content" [ref=f37e2] [cursor=pointer]:
+              - /url: "#content"
+            - banner [ref=f37e3]:
+              - link "Boloup Go" [ref=f37e7] [cursor=pointer]:
+                - /url: https://boloupgo.live/
+            - main [ref=f37e8]:
+              - heading "BoloUp Go Host – Live, Get Gifts, Grow & Earn" [level=1] [ref=f37e10]
+              - region "Add new layout element" [ref=f37e14]:
+                - generic [ref=f37e15]:
+                  - text:  
+                  - generic [ref=f37e16]:
+                    - button "Add New Container" [ref=f37e17] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=f37e18]: 
+                    - button "Add Template" [ref=f37e19] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=f37e20]: 
+                    - button "Build with AI" [ref=f37e21] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=f37e29]: 
+                    - generic [ref=f37e30]: Drag widget here
+            - contentinfo [ref=f37e31]:
+              - generic [ref=f37e32]:
+                - generic:
+                  - paragraph
+                - paragraph [ref=f37e34]: All rights reserved
+            - generic [ref=f37e35]: desktop
+    - complementary [ref=f36e824]:
+      - generic [ref=f36e825]:
+        - generic [ref=f36e826]:
+          - button "Expand all elements" [ref=f36e827] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f36e828]: 
+          - heading "Structure" [level=2] [ref=f36e829]
+          - button "Close structure" [ref=f36e830] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f36e831]: 
+        - generic [ref=f36e835]:
+          - img "Elementor"
+          - generic [ref=f36e836]: Easy Navigation is Here!
+          - generic [ref=f36e837]: Once you fill your page with content, this window will give you an overview display of all the page elements. This way, you can easily move around any section, column, or widget.
+        - generic [ref=f36e839]:
+          - generic [aria-hidden] [ref=f36e840]: 
+          - generic [ref=f36e841]: Resize structure
+  - button "Agent" [ref=f36e853] [cursor=pointer]
+  - text: 
